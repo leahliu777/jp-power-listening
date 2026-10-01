@@ -9,15 +9,16 @@ import csv, json, sys, datetime, os
 
 
 def load_csv(path):
-    """Parse trends CSV: header row 'Time|Date|Day,kw1: (Japan),...' rows '2026-09-23T14,44'"""
+    """Parse trends CSV: 可含 'カテゴリ: ...' 元数据行；表头 '時間|Time|Date|Day,kw1: (日本),...' 数据 '2026-09-23T14,44'"""
     import re
     kws, rows = [], {}
     with open(path, encoding="utf-8") as f:
         lines = [l.rstrip("\n") for l in f if l.strip()]
-    hdr_idx = next((i for i, l in enumerate(lines) if l.split(",")[0].strip() in ("Time", "Date", "Day")), None)
+    # 跳过元数据行（カテゴリ:/Category: 等），定位表头
+    hdr_idx = next((i for i, l in enumerate(lines)
+                    if l.split(",")[0].strip() in ("時間", "Time", "Date", "Day")), None)
     if hdr_idx is None:
-        # 兜底：任何含冒号列的逗号分隔行都视为表头
-        hdr_idx = next(i for i, l in enumerate(lines) if ":" in l)
+        raise ValueError(f"cannot find header row in {path}: first lines={lines[:3]!r}")
     hdr = lines[hdr_idx]
     kws = [c.split(":")[0].strip() for c in hdr.split(",")[1:]]
     for l in lines[hdr_idx + 1:]:
