@@ -45,11 +45,29 @@ CLICK_PERIOD_JS = """() => {
 }"""
 
 CLICK_DOWNLOAD_JS = """() => {
-  const bs = [...document.querySelectorAll('button')];
-  const b = bs.find(x => (x.textContent || '').trim() === 'file_download');
+  let b = [...document.querySelectorAll('button')].find(x => (x.textContent || '').trim() === 'file_download');
   if (b) { b.click(); return 'ok'; }
+  b = [...document.querySelectorAll('button,[role=button],a')].find(x =>
+    /download/i.test((x.getAttribute('aria-label')||'') + '|' + (x.getAttribute('title')||'')));
+  if (b) { b.click(); return 'aria-ok'; }
   return 'missing';
 }"""
+
+
+def click_download_with_retry(page, name):
+    """轮询下载按钮（页面切换后重新挂载），找不到则重载 7 天视图再试"""
+    for attempt in range(2):
+        for _ in range(20):
+            r = page.evaluate(CLICK_DOWNLOAD_JS)
+            if r != "missing":
+                return r
+            page.wait_for_timeout(3000)
+        if attempt == 0:
+            print(f"[{name}] download button not found, reloading 7d view")
+            page.reload(wait_until="domcontentloaded")
+            page.wait_for_timeout(12000)
+            page.evaluate(DISMISS_JS, ["OK, got it", "Dismiss", "同意", "Accept all"])
+    return "missing"
 
 
 def dump_state(page, name, reason):
@@ -144,10 +162,11 @@ def download_group(page, name, cfg):
         raise RuntimeError(f"{name}: 7-day URL not applied, url={page.url}")
     page.wait_for_timeout(10000)  # 小时序列加载
     page.evaluate(DISMISS_JS, ["Dismiss", "OK, got it"])
-    with page.expect_download(timeout=60000) as dl_info:
-        r3 = page.evaluate(CLICK_DOWNLOAD_JS)
-        if r3 != "ok":
-            raise RuntimeError(f"{name}: download button missing ({r3})")
+    with page.expect_download(timeout=150000) as dl_info:
+        r3 = click_download_with_retry(page, name)
+    if r3 == "missing":
+        dump_state(page, name, "download button missing after retry")
+        raise RuntimeError(f"{name}: download button missing")
     dl = dl_info.value
     target = DATA / f"trends_{name}_{DATE}.csv"
     dl.save_as(str(target))
