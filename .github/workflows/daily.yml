@@ -1,0 +1,58 @@
+name: jp-power-listening-daily
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 每天 10:00 北京时间（UTC+8）
+  workflow_dispatch: {}    # 支持手动触发测试
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jp-power-listening
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      TZ: Asia/Shanghai
+      DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+      DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+      BRIEF_BASE_URL: ${{ secrets.BRIEF_BASE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Playwright
+        run: |
+          pip install -q playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Download Google Trends CSV
+        run: python scripts/trends_download.py
+
+      - name: Aggregate trends
+        run: |
+          D=$(date +%Y%m%d)
+          python scripts/aggregate_trends.py data/trends_brands_${D}.csv data/trends_categories_${D}.csv > output/trends_${D}.json
+
+      - name: Fetch news
+        run: python scripts/news_fetch.py $(date +%Y%m%d)
+
+      - name: Build brief HTML
+        run: python scripts/make_brief.py $(date +%Y%m%d)
+
+      - name: Push to DingTalk
+        run: python scripts/dingtalk_push.py $(date +%Y%m%d)
+
+      - name: Publish brief to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output/html
+          publish_branch: gh-pages
+          keep_files: true

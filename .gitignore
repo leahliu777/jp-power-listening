@@ -1,0 +1,10 @@
+# 数据与产物不入库（简报 HTML 由 workflow 发布到 gh-pages）
+data/
+output/trends_*.json
+output/news_*.json
+output/summary-*.json
+output/charts_*/
+output/html/
+__pycache__/
+*.pyc
+.DS_Store
