@@ -38,6 +38,7 @@ jobs:
       - name: Aggregate trends
         run: |
           D=$(date +%Y%m%d)
+          mkdir -p output
           python scripts/aggregate_trends.py data/trends_brands_${D}.csv data/trends_categories_${D}.csv > output/trends_${D}.json
 
       - name: Fetch news
