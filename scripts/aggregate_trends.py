@@ -9,27 +9,30 @@ import csv, json, sys, datetime, os
 
 
 def load_csv(path):
-    """Parse trends CSV: header row 'Time,kw1: (Japan),...' rows '2026-09-23T14,44'"""
+    """Parse trends CSV: header row 'Time|Date|Day,kw1: (Japan),...' rows '2026-09-23T14,44'"""
+    import re
     kws, rows = [], {}
     with open(path, encoding="utf-8") as f:
         lines = [l.rstrip("\n") for l in f if l.strip()]
-    hdr_idx = next(i for i, l in enumerate(lines) if l.startswith("Time,"))
+    hdr_idx = next((i for i, l in enumerate(lines) if l.split(",")[0].strip() in ("Time", "Date", "Day")), None)
+    if hdr_idx is None:
+        # 兜底：任何含冒号列的逗号分隔行都视为表头
+        hdr_idx = next(i for i, l in enumerate(lines) if ":" in l)
     hdr = lines[hdr_idx]
     kws = [c.split(":")[0].strip() for c in hdr.split(",")[1:]]
     for l in lines[hdr_idx + 1:]:
         parts = l.split(",")
         if len(parts) < 2:
             continue
-        ts, vals = parts[0], parts[1:]
-        date_hour = ts.replace("T", " ")[:13]
-        try:
-            day = date_hour.split(" ")[0]
-            hour = int(date_hour.split(" ")[1].split(":")[0])
-        except Exception:
+        ts = parts[0].strip()
+        m = re.match(r"(\d{4}-\d{2}-\d{2})(?:T(\d{2}))?", ts)
+        if not m:
             continue
+        day = m.group(1)
+        hour = int(m.group(2) or 0)
         rows.setdefault(day, {})
         for i, k in enumerate(kws):
-            v = int(vals[i]) if i < len(vals) and vals[i].strip().lstrip("-").isdigit() else 0
+            v = int(parts[i + 1]) if i + 1 < len(parts) and parts[i + 1].strip().lstrip("-").isdigit() else 0
             rows[day].setdefault(k, 0)
             rows[day][k] += v
     return kws, rows

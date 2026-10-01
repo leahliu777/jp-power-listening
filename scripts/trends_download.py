@@ -173,6 +173,8 @@ def download_group(page, name, cfg):
     # 校验
     text = target.read_text(encoding="utf-8")
     lines = [l for l in text.splitlines() if l.strip()]
+    print(f"[{name}] header={lines[0][:120]!r}")
+    print(f"[{name}] first_data={lines[1][:120]!r}")
     rows = [l for l in lines if l.startswith("202")]
     ok_kw = all(k in text for k in cfg["expect_kw"])
     if not ok_kw or len(rows) < 150:
