@@ -34,22 +34,8 @@ DISMISS_JS = """(texts) => {
   return 'none';
 }"""
 
-CLICK_PERIOD_JS = """() => {
-  const bs = [...document.querySelectorAll('button, [role=button]')];
-  const b = bs.find(x => ['期間','Time','時間'].some(k => (x.textContent || '').replace(/\\s+/g, ' ').includes(k)));
-  if (b) { b.click(); return 'ok'; }
-  return 'missing';
-}"""
-
-CLICK_7D_JS = """() => {
-  const all = [...document.querySelectorAll('md-item, [role=menuitem], li, md-option')];
-  let el = all.find(e => ['過去 7 日間','Past 7 days','過去 7 天'].some(t => (e.textContent || '').trim() === t));
-  if (el) { el.click(); return 'ok'; }
-  el = [...document.querySelectorAll('*')].find(e => e.children.length === 0 &&
-        ['過去 7 日間','Past 7 days','過去 7 天'].some(t => (e.textContent || '').trim() === t) && e.offsetParent !== null);
-  if (el) { el.click(); return 'leaf-ok'; }
-  return 'missing';
-}"""
+RANGE_LEAF_RE = "過去 (12|6|3|1) か月間|Past (12|6|3|1) months|過去 12 個月|過去 3 個月"
+_7D_TEXTS = ["過去 7 日間", "Past 7 days", "過去 7 天"]
 
 CLICK_DOWNLOAD_JS = """() => {
   const bs = [...document.querySelectorAll('button')];
@@ -72,23 +58,74 @@ def dump_state(page, name, reason):
         print(f"[DIAG {name}] failed: {e}")
 
 
+def has_7d_option(page):
+    """菜单中是否出现可见的「過去 7 日間」选项"""
+    try:
+        return page.evaluate(
+            """(texts) => [...document.querySelectorAll('md-item,[role=menuitem],[role=option],li,md-option,div,span,button')]
+              .filter(e => e.children.length === 0 && texts.includes((e.textContent||'').trim()) && e.offsetParent !== null).length""",
+            _7D_TEXTS,
+        )
+    except Exception:
+        return 0
+
+
+def click_7d_option(page):
+    """点击菜单中的「過去 7 日間」选项"""
+    return page.evaluate(
+        """(texts) => {
+  const all = [...document.querySelectorAll('md-item,[role=menuitem],[role=option],li,md-option,div,span,button')];
+  let el = all.find(e => texts.includes((e.textContent || '').trim()));
+  if (el) { el.click(); return 'ok'; }
+  el = [...document.querySelectorAll('*')].find(e => e.children.length === 0 &&
+        texts.some(t => (e.textContent || '').trim() === t) && e.offsetParent !== null);
+  if (el) { el.click(); return 'leaf-ok'; }
+  return 'missing';
+}""",
+        _7D_TEXTS,
+    )
+
+
+def switch_to_7d(page, name, cfg):
+    """多策略切换 7 天窗口：
+    1) 旧 UI：点「期間/Time/時間」按钮打开菜单
+    2) 新 UI：点范围文本（過去 12 か月間…）叶子并逐层向上点击，直到菜单出现
+    3) 兜底：URL 直接追加 date=now%207-d 重载
+    """
+    # 策略1: 旧 UI 按钮
+    page.evaluate(CLICK_PERIOD_JS)
+    page.wait_for_timeout(1200)
+    if has_7d_option(page):
+        return click_7d_option(page)
+    # 策略2: 新 UI 逐层点击范围文本
+    for i in range(1, 4):
+        page.evaluate(
+            f"""() => {{
+  const re = /{RANGE_LEAF_RE}/;
+  let el = [...document.querySelectorAll('*')].find(e =>
+    e.children.length === 0 && re.test((e.textContent||'').trim()) && e.offsetParent !== null);
+  if (!el) return 'none';
+  for (let d = 0; d < {i}; d++) {{ el = el.parentElement; if (!el) break; }}
+  if (el) {{ el.click(); return 'clicked:' + el.tagName; }}
+  return 'none';
+}}"""
+        )
+        page.wait_for_timeout(1000)
+        if has_7d_option(page):
+            return click_7d_option(page)
+    # 策略3: 兜底 URL 重载
+    page.goto(cfg["url"] + "&date=now%207-d", wait_until="domcontentloaded", timeout=60000)
+    page.wait_for_timeout(8000)
+    return None
+
+
 def download_group(page, name, cfg):
     page.goto(cfg["url"], wait_until="domcontentloaded", timeout=90000)
     page.wait_for_timeout(15000)  # 等待 widget 完整渲染
     page.evaluate(DISMISS_JS, ["OK, got it", "Dismiss", "同意", "Accept all"])
-    r = page.evaluate(CLICK_PERIOD_JS)
+    r = switch_to_7d(page, name, cfg)
     if r == "missing":
-        page.reload(wait_until="domcontentloaded")
-        page.wait_for_timeout(12000)
-        page.evaluate(DISMISS_JS, ["OK, got it", "Dismiss", "同意", "Accept all"])
-        r = page.evaluate(CLICK_PERIOD_JS)
-    if r == "missing":
-        dump_state(page, name, "period button missing")
-        raise RuntimeError(f"{name}: 期間/Time button missing")
-    page.wait_for_timeout(2500)
-    r2 = page.evaluate(CLICK_7D_JS)
-    if r2 == "missing":
-        dump_state(page, name, "7d option missing")
+        dump_state(page, name, "7d option click failed")
         raise RuntimeError(f"{name}: 過去 7 日間 option missing")
     # 等待 URL 变为 date=now 7-d
     for _ in range(20):
