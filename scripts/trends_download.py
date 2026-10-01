@@ -37,6 +37,13 @@ DISMISS_JS = """(texts) => {
 RANGE_LEAF_RE = "過去 (12|6|3|1) か月間|Past (12|6|3|1) months|過去 12 個月|過去 3 個月"
 _7D_TEXTS = ["過去 7 日間", "Past 7 days", "過去 7 天"]
 
+CLICK_PERIOD_JS = """() => {
+  const bs = [...document.querySelectorAll('button, [role=button]')];
+  const b = bs.find(x => ['期間','Time','時間'].some(k => (x.textContent || '').replace(/\\s+/g, ' ').includes(k)));
+  if (b) { b.click(); return 'ok'; }
+  return 'missing';
+}"""
+
 CLICK_DOWNLOAD_JS = """() => {
   const bs = [...document.querySelectorAll('button')];
   const b = bs.find(x => (x.textContent || '').trim() === 'file_download');
