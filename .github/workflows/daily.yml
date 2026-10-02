@@ -1,7 +1,8 @@
 name: jp-power-listening-daily
 on:
   schedule:
-    - cron: '0 2 * * *'   # 每天 10:00 北京时间（UTC+8）
+    - cron: '0 2 * * *'    # 每天 10:00 北京时间（UTC+8）
+    - cron: '30 2 * * *'   # 10:30 冗余兜底（GitHub 免费版 cron 调度可能延迟，双保险）
   workflow_dispatch: {}    # 支持手动触发测试
 
 permissions:
@@ -23,34 +24,52 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check today already published (idempotency)
+        id: idem
+        run: |
+          if curl -sf "${BRIEF_BASE_URL}/brief-$(date +%Y%m%d).html" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "Today brief already published, skipping business steps."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.idem.outputs.exists != 'true'
         with:
           python-version: '3.12'
 
       - name: Install Playwright
+        if: steps.idem.outputs.exists != 'true'
         run: |
           pip install -q playwright
           python -m playwright install --with-deps chromium
 
       - name: Download Google Trends CSV
+        if: steps.idem.outputs.exists != 'true'
         run: python scripts/trends_download.py
 
       - name: Aggregate trends
+        if: steps.idem.outputs.exists != 'true'
         run: |
           D=$(date +%Y%m%d)
           mkdir -p output
           python scripts/aggregate_trends.py data/trends_brands_${D}.csv data/trends_categories_${D}.csv > output/trends_${D}.json
 
       - name: Fetch news
+        if: steps.idem.outputs.exists != 'true'
         run: python scripts/news_fetch.py $(date +%Y%m%d)
 
       - name: Build brief HTML
+        if: steps.idem.outputs.exists != 'true'
         run: python scripts/make_brief.py $(date +%Y%m%d)
 
       - name: Push to DingTalk
+        if: steps.idem.outputs.exists != 'true'
         run: python scripts/dingtalk_push.py $(date +%Y%m%d)
 
       - name: Publish brief to gh-pages
+        if: steps.idem.outputs.exists != 'true'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
