@@ -186,15 +186,15 @@
   {
    "date": "2026-10-09",
    "brands": {
-    "Jackery": 40,
-    "EcoFlow": 32,
-    "Anker": 1438,
-    "Anker Solix": 0,
-    "Bluetti": 0
+    "Jackery": 76,
+    "EcoFlow": 53,
+    "Anker": 100,
+    "Anker Solix": 3,
+    "Bluetti": 6
    },
    "categories": {
-    "ポータブル電源": 998,
-    "ポータブルバッテリー": 118
+    "ポータブル電源": 247,
+    "ポータブルバッテリー": 30
    }
   }
  ],
@@ -225,6 +225,15 @@
    "source": "Jetstream",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzhBR1FfSUNEN1dOcERPbEdocUpSQnIwckgxS0I0NHlvV3cxamlHYjlUYi0waFl1WnZQdVFhTWN5UmlZZE5GRGVxSmQzc3puaHVidzhfN0wyb3otLXRZRFRQWnl5UDhERlJfYkVmRVF6MGVlU2sxZWwzTndmd1dtMTFUWnk5R2hPMW1JNUxoU3g?oc=5",
    "trend_impact": "EcoFlow ↓ -20.0%"
+  },
+  {
+   "date": "2026-10-09",
+   "brand": "EcoFlow",
+   "title": "EcoFlow RIVER 2 新色を発表",
+   "summary": "",
+   "source": "日経",
+   "url": "https://example.com/ecoflow",
+   "trend_impact": "EcoFlow ↑ +194.4%"
   },
   {
    "date": "2026-10-08",
@@ -288,6 +297,15 @@
    "source": "山陽新聞",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5YbTVKZU5kbjZsaWZLOERzR0YwNGFyc1g3djh5Uk02UjBvSmZyOHNLZUdwdkl5NlppSE5fQks1bk93SWJoZ0RhUG1TdDM4RmhtZHc?oc=5",
    "trend_impact": "ポータブル電源 ↓ -11.0%"
+  },
+  {
+   "date": "2026-10-08",
+   "brand": "Jackery",
+   "title": "Jackery 1000 Plus 防災製品認証",
+   "summary": "",
+   "source": "BCN",
+   "url": "https://example.com/jackery",
+   "trend_impact": "Jackery（监测中）"
   },
   {
    "date": "2026-10-07",
@@ -371,7 +389,566 @@
    "trend_impact": "ポータブル電源 ↓ -11.0%"
   }
  ],
- "social": [],
+ "social": [
+  {
+   "platform": "youtube",
+   "video_id": "SarVn6flud8",
+   "title": "車中泊6年の結論。買って後悔したグッズ5選。行き着いた最強装備",
+   "channel": "ミルトン",
+   "published": "2026-10-10T09:11:01Z",
+   "url": "https://www.youtube.com/watch?v=SarVn6flud8",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "sUZzW8Sn0ho",
+   "title": "【重さ半分以下】1100Whで11.1kgのポータブル電源がDIYに向いている理由 出力1200Wで電動工具も動く",
+   "channel": "Voltworks ボルトワークス〜元自動車メーカーが運営するポータブル電源専門店〜",
+   "published": "2026-10-10T09:00:31Z",
+   "url": "https://www.youtube.com/watch?v=sUZzW8Sn0ho",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "TDnz_zlvHn0",
+   "title": "【実録】謎のメーカーのポータブル電源はどう捨てる？市のゴミ処理センターに持ち込んで検証してみた（千葉県船橋市）",
+   "channel": "-GEO STATION- 　げおるげ",
+   "published": "2026-10-10T09:00:27Z",
+   "url": "https://www.youtube.com/watch?v=TDnz_zlvHn0",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "lNo00yEUzZc",
+   "title": "【超便利♪】工具持ち換え不要で電圧確認！KAIWEETS製検電ドライバーが有能すぎるｗｗｗ",
+   "channel": "サトシの趣味部屋",
+   "published": "2026-10-10T09:00:26Z",
+   "url": "https://www.youtube.com/watch?v=lNo00yEUzZc",
+   "keyword": "ポータブルバッテリー"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "AN_Ivcw_I8s",
+   "title": "【三男の一日】三男の趣味全開の動画です",
+   "channel": "ファイブスター",
+   "published": "2026-10-10T09:00:19Z",
+   "url": "https://www.youtube.com/watch?v=AN_Ivcw_I8s",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "_10FPs0U2mk",
+   "title": "【妻ナレーション】ロシア人妻が経験したソ連崩壊直後の電気がない生活/ロシア人妻が作るロシア料理 /結婚十周年日光旅行 /DJI Power 2000/日露家族の日常",
+   "channel": "中村シリョーガ",
+   "published": "2026-10-10T09:00:10Z",
+   "url": "https://www.youtube.com/watch?v=_10FPs0U2mk",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "xteA1mSeeSA",
+   "title": "【チートデイ車中泊】友人の店でトンテキと酒。満腹になって駐車場で寝る夜",
+   "channel": "戦力外110kgおじさん",
+   "published": "2026-10-10T08:32:31Z",
+   "url": "https://www.youtube.com/watch?v=xteA1mSeeSA",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "CKqvtgXHB3U",
+   "title": "【備蓄急げ】本当に賢い人がこっそり買いだめしている防災グッズ10選 #備蓄 #防災",
+   "channel": "備蓄パパしんたろう【防災】",
+   "published": "2026-10-10T08:00:23Z",
+   "url": "https://www.youtube.com/watch?v=CKqvtgXHB3U",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "OI3XbhtoKh4",
+   "title": "Anker SOLIX X1 Home Battery 6 Months Later — Our Power Bill Is Almost Nothing | Worth It?",
+   "channel": "TechLifeWithAndy",
+   "published": "2026-10-10T04:14:39Z",
+   "url": "https://www.youtube.com/watch?v=OI3XbhtoKh4",
+   "keyword": "Anker Solix"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "YmDWlLxuEDs",
+   "title": "Anchor Media &#39;&#39;ኤርትራ ጦሯን አስገብታ ከሆነ ሌላ ምርጫ የላትም&#39;&#39; ወታደራዊው ባለሙያ ስለሰሞኑ ጦርነት ይናገራሉ",
+   "channel": "Anchor Media",
+   "published": "2026-10-10T03:19:29Z",
+   "url": "https://www.youtube.com/watch?v=YmDWlLxuEDs",
+   "keyword": "Anker"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "8ITbfb1_3uQ",
+   "title": "Building Underground Shelter Part 7 🪵",
+   "channel": "Wild Bush Drive Turbo",
+   "published": "2026-10-10T03:00:04Z",
+   "url": "https://www.youtube.com/watch?v=8ITbfb1_3uQ",
+   "keyword": "Jackery"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "jHOQZwSo9DE",
+   "title": "It’s only the beginning",
+   "channel": "EcoFlow",
+   "published": "2026-10-10T02:10:27Z",
+   "url": "https://www.youtube.com/watch?v=jHOQZwSo9DE",
+   "keyword": "EcoFlow"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "Rmmyv1ixPB4",
+   "title": "Building Underground Shelter Part 5 🪵",
+   "channel": "Wild Bush Drive Turbo",
+   "published": "2026-10-10T01:00:15Z",
+   "url": "https://www.youtube.com/watch?v=Rmmyv1ixPB4",
+   "keyword": "Jackery"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "1VgaUhMGW7U",
+   "title": "Building Underground Shelter Part 3 🪵 #jackery",
+   "channel": "Wild Bush Drive Turbo",
+   "published": "2026-10-09T23:00:03Z",
+   "url": "https://www.youtube.com/watch?v=1VgaUhMGW7U",
+   "keyword": "Jackery"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "mtUWqSpjQ-s",
+   "title": "Anchor Media የአውደውጊያ መረጃዎች - መስከረም 29/2019 ፋኖ፥ ህወሀት፥ ሸዋ፥ ትግራይ፥ አሰብ",
+   "channel": "Anchor Media",
+   "published": "2026-10-09T19:54:29Z",
+   "url": "https://www.youtube.com/watch?v=mtUWqSpjQ-s",
+   "keyword": "Anker"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "IC9ibRckde0",
+   "title": "CONNECTING YOUR FUSE BLOCK TO THE POWERBANK",
+   "channel": "Jonnie's Journey",
+   "published": "2026-10-09T19:48:17Z",
+   "url": "https://www.youtube.com/watch?v=IC9ibRckde0",
+   "keyword": "Bluetti"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "K8F2R1gDSkg",
+   "title": "Hands On with the MOST Powerful Portable Solar Generator Anker Has Made - S5000",
+   "channel": "Silver Cymbal",
+   "published": "2026-10-09T18:35:58Z",
+   "url": "https://www.youtube.com/watch?v=K8F2R1gDSkg",
+   "keyword": "Anker"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "Yox1lukbI8M",
+   "title": "Hack An EcoFlow with a 48v 50ah WattCycle Battery. Even if it Doesn&#39;t have a battery expansion port!",
+   "channel": "Our Black Cat Cottage",
+   "published": "2026-10-09T18:24:44Z",
+   "url": "https://www.youtube.com/watch?v=Yox1lukbI8M",
+   "keyword": "EcoFlow"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "W-De1fozfv0",
+   "title": "The Anker SOLIX S5000 Is the Power Station No One Saw Coming",
+   "channel": "Minute Man Solar",
+   "published": "2026-10-09T18:00:14Z",
+   "url": "https://www.youtube.com/watch?v=W-De1fozfv0",
+   "keyword": "Anker"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "WegH-N8sO9o",
+   "title": "Bluetti Takes on the EcoFlow DELTA Pro 3: Bluetti Apex 300 First Look",
+   "channel": "Cal Watts",
+   "published": "2026-10-09T17:45:14Z",
+   "url": "https://www.youtube.com/watch?v=WegH-N8sO9o",
+   "keyword": "Bluetti"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "bDebNdsTfD8",
+   "title": "Anker SOLIX S5000| The Longest-Lasting 5kWh Portable Power Station",
+   "channel": "Anker SOLIX",
+   "published": "2026-10-09T17:00:03Z",
+   "url": "https://www.youtube.com/watch?v=bDebNdsTfD8",
+   "keyword": "Anker"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "ah64Y6nDERA",
+   "title": "Don&#39;t Buy a Power Station Until You See This: Anker SOLIX S5000",
+   "channel": "Steve DOES",
+   "published": "2026-10-09T16:33:28Z",
+   "url": "https://www.youtube.com/watch?v=ah64Y6nDERA",
+   "keyword": "Anker"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "6tHMOeNHfhE",
+   "title": "The SMART Way to Expand Your Power Station With a 48V Battery!",
+   "channel": "The Solar Lab Plus",
+   "published": "2026-10-09T16:00:39Z",
+   "url": "https://www.youtube.com/watch?v=6tHMOeNHfhE",
+   "keyword": "ポータブルバッテリー"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "CiltHAvZz3U",
+   "title": "Anker Just Set the Bar VERY High – SOLIX S5000 Review",
+   "channel": "Jasonoid - Solar Power, Batteries, and More!",
+   "published": "2026-10-09T16:00:37Z",
+   "url": "https://www.youtube.com/watch?v=CiltHAvZz3U",
+   "keyword": "Anker"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "V87_jBFjwnI",
+   "title": "Anker SOLIX S5000 Review: THE Longest Runtime Power Station I&#39;ve Ever Tested",
+   "channel": "ReeWray Outdoors",
+   "published": "2026-10-09T16:00:30Z",
+   "url": "https://www.youtube.com/watch?v=V87_jBFjwnI",
+   "keyword": "Anker"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "ddX66HUx7w8",
+   "title": "Nobody Builds A Power Station This Way- Anker Did!!",
+   "channel": "JOHNNY'S WEEKENDS-Power Your World! Solar & More!",
+   "published": "2026-10-09T16:00:26Z",
+   "url": "https://www.youtube.com/watch?v=ddX66HUx7w8",
+   "keyword": "Anker"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "IxQ9JmXexhs",
+   "title": "BLUETTI Elite 300 im Test: Viel mehr Akku, kaum mehr Gewicht!",
+   "channel": "Reiseschrauber",
+   "published": "2026-10-09T16:00:13Z",
+   "url": "https://www.youtube.com/watch?v=IxQ9JmXexhs",
+   "keyword": "Bluetti"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "5wkufSSdHt4",
+   "title": "One Charger for EVERY Power Station? BLUETTI Charger 1 Tested!",
+   "channel": "Everyday Tech",
+   "published": "2026-10-09T15:54:37Z",
+   "url": "https://www.youtube.com/watch?v=5wkufSSdHt4",
+   "keyword": "Bluetti"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "vvitoBOHFi4",
+   "title": "⚡Bluetti Power Academy | How to Build a Reliable Home Backup Power System?",
+   "channel": "BLUETTI",
+   "published": "2026-10-09T14:00:25Z",
+   "url": "https://www.youtube.com/watch?v=vvitoBOHFi4",
+   "keyword": "Bluetti"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "1QpXPRsY9Ec",
+   "title": "I Gave My Anker SOLIX a SECOND Solar Charger",
+   "channel": "There's A Trick For That",
+   "published": "2026-10-09T13:26:00Z",
+   "url": "https://www.youtube.com/watch?v=1QpXPRsY9Ec",
+   "keyword": "Anker"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "HAoYNDBOgec",
+   "title": "Balkonkraftwerk auf einem neuen Level – EcoFlow STREAM 5000",
+   "channel": "Sascha Hoyer ",
+   "published": "2026-10-09T12:30:19Z",
+   "url": "https://www.youtube.com/watch?v=HAoYNDBOgec",
+   "keyword": "EcoFlow"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "LMeCM0rV7D4",
+   "title": "BLUETTI Elite 30 V2 แบตเตอร์รี่สำรองสายแคมป์ หรือสำรองไฟที่บ้านก็ได้ | Camping Gear Review [Ep.52]",
+   "channel": "Santa Channel",
+   "published": "2026-10-09T11:37:38Z",
+   "url": "https://www.youtube.com/watch?v=LMeCM0rV7D4",
+   "keyword": "Bluetti"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "2P_jKMvU6dI",
+   "title": "I Stayed Overnight on a MYSTERIOUS BEACH in Dingalan… Then THIS Happened at Night! | BLUETTI",
+   "channel": "KUYA JERX",
+   "published": "2026-10-09T11:00:28Z",
+   "url": "https://www.youtube.com/watch?v=2P_jKMvU6dI",
+   "keyword": "Bluetti"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "w4fl9p-fU5g",
+   "title": "【猫と車中泊】ダム湖のほとりでジビエ料理！車中泊中の猫を朝まで観察｜キャンピングカーのようにDIYしたハイエースで車中飯｜EcoFlow DELTA 3 Max ＋ 160W軽量両面ソーラーパネル",
+   "channel": "猫のマサとDIY",
+   "published": "2026-10-09T11:00:09Z",
+   "url": "https://www.youtube.com/watch?v=w4fl9p-fU5g",
+   "keyword": "EcoFlow"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "ZXwo95_VLLc",
+   "title": "【最大56％OFF】大容量ポタ電がお買い得！EcoFlow DELTA 3 Maxを実際に使ってみた",
+   "channel": "サリーのキャンプチャンネル",
+   "published": "2026-10-09T10:30:29Z",
+   "url": "https://www.youtube.com/watch?v=ZXwo95_VLLc",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "Z6bYqctxQGA",
+   "title": "New Yorkers do WHAT during blackouts? 😱 | Jackery",
+   "channel": "Jackery",
+   "published": "2026-10-09T10:20:00Z",
+   "url": "https://www.youtube.com/watch?v=Z6bYqctxQGA",
+   "keyword": "Jackery"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "c-2WRORcFns",
+   "title": "コンセント不足を解決！ORICOのUSB付き電源タップ2モデルを比較【旅行にも最適】",
+   "channel": "まつりくん",
+   "published": "2026-10-09T09:00:38Z",
+   "url": "https://www.youtube.com/watch?v=c-2WRORcFns",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "vTaFWwS_pR4",
+   "title": "車中泊のIHコンロ、350Wインバーターで動く？384Whリン酸鉄サブバッテリーで検証【EVOPOW】",
+   "channel": "Voltworks ボルトワークス〜元自動車メーカーが運営するポータブル電源専門店〜",
+   "published": "2026-10-09T09:00:35Z",
+   "url": "https://www.youtube.com/watch?v=vTaFWwS_pR4",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "AYX_YuvhByE",
+   "title": "もう家いらんかも…！？旅好きのロマンを全部詰め込んだ驚きの内装空間を隅々までお見せします！",
+   "channel": "ハイキャラ 〜ハイエース&キャラバン〜",
+   "published": "2026-10-09T08:00:01Z",
+   "url": "https://www.youtube.com/watch?v=AYX_YuvhByE",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "CopClUeSo9g",
+   "title": "Mas convenient na ang pag-monitor ng power station gamit ang BLUETTI App!",
+   "channel": "Electric Vehicle Channel PH",
+   "published": "2026-10-09T07:18:47Z",
+   "url": "https://www.youtube.com/watch?v=CopClUeSo9g",
+   "keyword": "Bluetti"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "UtsEIGDLqds",
+   "title": "JACKERY FRAPPE FORT à l’IFA 2026 ! 🔥 Ces nouveautés vont vous surprendre !  Avec @JulienMalara",
+   "channel": "Tesla Riviera",
+   "published": "2026-10-09T05:14:18Z",
+   "url": "https://www.youtube.com/watch?v=UtsEIGDLqds",
+   "keyword": "Jackery"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "4pMpOksWm7g",
+   "title": "BAKIT KAILANGAN MO NG ECOFLOW DELTA 3 CLASSIC?",
+   "channel": "Pinoy Techdad",
+   "published": "2026-10-09T04:08:20Z",
+   "url": "https://www.youtube.com/watch?v=4pMpOksWm7g",
+   "keyword": "EcoFlow"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "vXnJAiartDw",
+   "title": "When the Outage Won’t Leave… Bring Backup.",
+   "channel": "Anker SOLIX",
+   "published": "2026-10-08T22:30:35Z",
+   "url": "https://www.youtube.com/watch?v=vXnJAiartDw",
+   "keyword": "Anker Solix"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "lnWVwFS12XI",
+   "title": "「社長ライブで」補助金は損する。元が取れるAIポータブル電源の仕組みとは、電気代ゼロ円「FIT終了・売らない！ポータブル電源、蓄電池、　＃ポータブル電源　＃売電終了　＃蓄電池　＃プラグインソーラー",
+   "channel": "株式会社関谷",
+   "published": "2026-10-08T22:04:28Z",
+   "url": "https://www.youtube.com/watch?v=lnWVwFS12XI",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "MsVOvL1a7Xc",
+   "title": "SI LLEGA APAGÓN MASIVO! ESTO PUEDE HACER LA DIFERENCIA | BLUETTI AC70",
+   "channel": "Ka-Tet",
+   "published": "2026-10-08T21:58:22Z",
+   "url": "https://www.youtube.com/watch?v=MsVOvL1a7Xc",
+   "keyword": "Bluetti"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "RbXou7f1nNA",
+   "title": "A System So Nice, We Did It Twice: Jackery Solar Generator 5000 Plus @Jackeryusa",
+   "channel": "Neil Koch: Dig-Drive-DIY",
+   "published": "2026-10-08T21:00:23Z",
+   "url": "https://www.youtube.com/watch?v=RbXou7f1nNA",
+   "keyword": "Jackery"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "BKnYnDs6M9g",
+   "title": "EcoFlow Stream Pro (Delta lite) ЗАРЯДНА СТАНЦІЯ яка мене врятує, можливо.",
+   "channel": "В бігах",
+   "published": "2026-10-08T19:38:54Z",
+   "url": "https://www.youtube.com/watch?v=BKnYnDs6M9g",
+   "keyword": "EcoFlow"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "SknYvtgsEW0",
+   "title": "Off Grid Tiny Home Using Jackery Solar Generator 5000 Plus",
+   "channel": "Stan Wilkins",
+   "published": "2026-10-08T16:38:52Z",
+   "url": "https://www.youtube.com/watch?v=SknYvtgsEW0",
+   "keyword": "Jackery"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "mQgEU1kMrng",
+   "title": "DAS ist das effizienteste PV-Modul der Welt!",
+   "channel": "Breaking Lab",
+   "published": "2026-10-08T15:00:32Z",
+   "url": "https://www.youtube.com/watch?v=mQgEU1kMrng",
+   "keyword": "EcoFlow"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "KMV5sDN0zgo",
+   "title": "⚡Bluetti Power Academy | Pre-Disaster Prep and Blackout Response",
+   "channel": "BLUETTI",
+   "published": "2026-10-08T14:00:32Z",
+   "url": "https://www.youtube.com/watch?v=KMV5sDN0zgo",
+   "keyword": "Bluetti"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "lx5Ouy3nVR4",
+   "title": "EcoFlow STREAM 5000 Balkonkraftwerk [ Unboxing &amp; Review ] TuToTV",
+   "channel": "TuToTV",
+   "published": "2026-10-08T13:21:44Z",
+   "url": "https://www.youtube.com/watch?v=lx5Ouy3nVR4",
+   "keyword": "EcoFlow"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "TDSGRBLAVqQ",
+   "title": "Дві станції — різні сценарії: огляд EcoFlow DELTA 3 Max та Max Plus",
+   "channel": "DroneUA",
+   "published": "2026-10-08T12:15:31Z",
+   "url": "https://www.youtube.com/watch?v=TDSGRBLAVqQ",
+   "keyword": "EcoFlow"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "VV9aZlAm2W0",
+   "title": "まだ高い電気代払ってるの？コンセントに挿すだけで家が発電所に変わる瞬間＃バッテリー　＃バッテリー再生　＃太陽光発電　＃ソーラー　＃蓄電池補助金　＃売電終了　＃蓄電池　#関谷　 ＃株式会社関谷",
+   "channel": "株式会社関谷",
+   "published": "2026-10-08T11:00:17Z",
+   "url": "https://www.youtube.com/watch?v=VV9aZlAm2W0",
+   "keyword": "ポータブルバッテリー"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "dvon9jpj2yY",
+   "title": "キャンプも防災もこれ1台🏕️長寿命＆急速充電できるAnkerのポータブル電源が優秀すぎた🔋",
+   "channel": "ヤマダデンキ【公式】チャンネル",
+   "published": "2026-10-08T11:00:17Z",
+   "url": "https://www.youtube.com/watch?v=dvon9jpj2yY",
+   "keyword": "ポータブルバッテリー"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "vlxLSy1pBhU",
+   "title": "AFERIY P210 Review: The Ultimate Budget Power Station?",
+   "channel": "Nicolas Raimo",
+   "published": "2026-10-08T09:56:41Z",
+   "url": "https://www.youtube.com/watch?v=vlxLSy1pBhU",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "D80IeVau7ZI",
+   "title": "AFERIY P300 Review – This 3000W Power Station Is a BEAST!",
+   "channel": "ATech Flow ®",
+   "published": "2026-10-08T09:00:03Z",
+   "url": "https://www.youtube.com/watch?v=D80IeVau7ZI",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "B-I00FtQlh4",
+   "title": "superポータブル電源「売電を止めて蓄電して使う」全自動、世界初の動作とは、電気代ゼロ円「FIT終了・売らない！ポータブル電源、蓄電池、　＃ポータブル電源　＃売電終了　＃蓄電池　＃プラグインソーラー",
+   "channel": "株式会社関谷",
+   "published": "2026-10-08T05:19:13Z",
+   "url": "https://www.youtube.com/watch?v=B-I00FtQlh4",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "VMkkxMfjY-k",
+   "title": "Cheap EcoFlow Stream 5000 Expansion Battery… But DON&#39;T Do This!",
+   "channel": "UpsideDownFork",
+   "published": "2026-10-08T05:00:29Z",
+   "url": "https://www.youtube.com/watch?v=VMkkxMfjY-k",
+   "keyword": "EcoFlow"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "gBAlSSzFTNg",
+   "title": "SHARGE Flow Mini 2 Review – The Perfect Pocket Charger?",
+   "channel": "Davey G",
+   "published": "2026-10-08T01:29:04Z",
+   "url": "https://www.youtube.com/watch?v=gBAlSSzFTNg",
+   "keyword": "ポータブル電源"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "71CXbDQMaNk",
+   "title": "I Tested the BEST Cheap Solar Setups (Anker vs EcoFlow vs Jackery vs Bluetti)",
+   "channel": "Footprint Hero with Alex Beale",
+   "published": "2026-09-04T17:00:26Z",
+   "url": "https://www.youtube.com/watch?v=71CXbDQMaNk",
+   "keyword": "Jackery"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "0PA8jbDPxh4",
+   "title": "The NEW Jackery 1000 v2, this thing is IMPRESSIVE!! Portable Solar Generator Review",
+   "channel": "Tolbers Camping",
+   "published": "2024-08-09T22:00:00Z",
+   "url": "https://www.youtube.com/watch?v=0PA8jbDPxh4",
+   "keyword": "Jackery"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "m5si_dTqoVA",
+   "title": "Beware! The Jackery Scam...",
+   "channel": "The Solar Lab",
+   "published": "2024-06-19T16:30:07Z",
+   "url": "https://www.youtube.com/watch?v=m5si_dTqoVA",
+   "keyword": "Jackery"
+  }
+ ],
  "events": [
   {
    "date": "2026-10-10",
@@ -393,6 +970,13 @@
    "title": "36,225円引き！高性能走行充電器「EcoFlow Alternator Charger 600」公式楽天市場店 - Jetstream",
    "brand": "EcoFlow",
    "direction": "—"
+  },
+  {
+   "date": "2026-10-09",
+   "type": "新闻",
+   "title": "EcoFlow RIVER 2 新色を発表",
+   "brand": "EcoFlow",
+   "direction": "↑"
   },
   {
    "date": "2026-10-08",
@@ -441,6 +1025,13 @@
    "type": "新闻",
    "title": "どこでもコンセントを使える、AC100W出力対応のコンパクトポータブル電源を発売 - 山陽新聞",
    "brand": "ポータブル電源",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-08",
+   "type": "新闻",
+   "title": "Jackery 1000 Plus 防災製品認証",
+   "brand": "Jackery",
    "direction": "—"
   },
   {
@@ -509,61 +1100,6 @@
  ],
  "holidays": [
   {
-   "date": "",
-   "name": "防災の日/防災週間",
-   "type": "营销节点"
-  },
-  {
-   "date": "",
-   "name": "台風シーズン",
-   "type": "营销节点"
-  },
-  {
-   "date": "",
-   "name": "ゴールデンウィーク",
-   "type": "营销节点"
-  },
-  {
-   "date": "",
-   "name": "お盆休み",
-   "type": "营销节点"
-  },
-  {
-   "date": "",
-   "name": "ブラックフライデー",
-   "type": "营销节点"
-  },
-  {
-   "date": "",
-   "name": "楽天スーパーSALE",
-   "type": "营销节点"
-  },
-  {
-   "date": "",
-   "name": "年末年始セール/福袋",
-   "type": "营销节点"
-  },
-  {
-   "date": "",
-   "name": "Amazon Prime Day",
-   "type": "营销节点"
-  },
-  {
-   "date": "",
-   "name": "アウトドア/キャンプシーズン",
-   "type": "营销节点"
-  },
-  {
-   "date": "",
-   "name": "節電/電力逼迫シーズン",
-   "type": "营销节点"
-  },
-  {
-   "date": "",
-   "name": "東日本大震災の日",
-   "type": "营销节点"
-  },
-  {
    "date": "2026-01-01",
    "name": "元日",
    "type": "节假日"
@@ -592,6 +1128,12 @@
    "date": "2026-04-29",
    "name": "昭和の日",
    "type": "节假日"
+  },
+  {
+   "date": "2026-04-29",
+   "name": "ゴールデンウィーク",
+   "type": "营销节点",
+   "desc": "黄金周连休，露营/户外用电需求高峰"
   },
   {
    "date": "2026-05-03",
@@ -624,6 +1166,18 @@
    "type": "节假日"
   },
   {
+   "date": "2026-08-13",
+   "name": "お盆休み",
+   "type": "营销节点",
+   "desc": "盂兰盆节连休，户外与应急需求"
+  },
+  {
+   "date": "2026-08-30",
+   "name": "防災の日/防災週間",
+   "type": "营销节点",
+   "desc": "日本全国防灾主题日，便携电源/应急电源需求显著抬升"
+  },
+  {
    "date": "2026-09-21",
    "name": "敬老の日",
    "type": "节假日"
@@ -654,9 +1208,33 @@
    "type": "节假日"
   },
   {
+   "date": "2026-11-27",
+   "name": "ブラックフライデー",
+   "type": "营销节点",
+   "desc": "黑五促销，全年价格敏感度最高节点"
+  },
+  {
+   "date": "2026-12-01",
+   "name": "楽天スーパーSALE",
+   "type": "营销节点",
+   "desc": "乐天每季度大型促销（年末最大）"
+  },
+  {
+   "date": "2026-12-26",
+   "name": "年末年始セール/福袋",
+   "type": "营销节点",
+   "desc": "年末年初促销，福袋热卖"
+  },
+  {
    "date": "2027-01-01",
    "name": "元日",
    "type": "节假日"
+  },
+  {
+   "date": "2027-01-01",
+   "name": "年末年始セール/福袋",
+   "type": "营销节点",
+   "desc": "年末年初促销，福袋热卖"
   },
   {
    "date": "2027-01-11",
@@ -674,6 +1252,18 @@
    "type": "节假日"
   },
   {
+   "date": "2027-03-11",
+   "name": "東日本大震災の日",
+   "type": "营销节点",
+   "desc": "3月11日，防灾意识提升，应急电源搜索上升"
+  },
+  {
+   "date": "2027-03-15",
+   "name": "楽天スーパーSALE",
+   "type": "营销节点",
+   "desc": "乐天每季度大型促销（年末最大）"
+  },
+  {
    "date": "2027-03-21",
    "name": "春分の日",
    "type": "节假日"
@@ -687,6 +1277,12 @@
    "date": "2027-04-29",
    "name": "昭和の日",
    "type": "节假日"
+  },
+  {
+   "date": "2027-04-29",
+   "name": "ゴールデンウィーク",
+   "type": "营销节点",
+   "desc": "黄金周连休，露营/户外用电需求高峰"
   },
   {
    "date": "2027-05-03",
@@ -714,6 +1310,18 @@
    "type": "节假日"
   },
   {
+   "date": "2027-08-13",
+   "name": "お盆休み",
+   "type": "营销节点",
+   "desc": "盂兰盆节连休，户外与应急需求"
+  },
+  {
+   "date": "2027-08-30",
+   "name": "防災の日/防災週間",
+   "type": "营销节点",
+   "desc": "日本全国防灾主题日，便携电源/应急电源需求显著抬升"
+  },
+  {
    "date": "2027-09-20",
    "name": "敬老の日",
    "type": "节假日"
@@ -737,6 +1345,12 @@
    "date": "2027-11-23",
    "name": "勤労感謝の日",
    "type": "节假日"
+  },
+  {
+   "date": "2027-11-26",
+   "name": "ブラックフライデー",
+   "type": "营销节点",
+   "desc": "黑五促销，全年价格敏感度最高节点"
   }
  ]
 }
