@@ -1,0 +1,560 @@
+{
+ "as_of": "2026-10-10",
+ "trends": [
+  {
+   "date": "2026-10-09",
+   "brands": {
+    "Jackery": 40,
+    "EcoFlow": 32,
+    "Anker": 1438,
+    "Anker Solix": 0,
+    "Bluetti": 0
+   },
+   "categories": {
+    "ポータブル電源": 998,
+    "ポータブルバッテリー": 118
+   }
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-10-10",
+   "brand": "Anker Solix",
+   "title": "Anker､「Amazonプライム感謝祭」で290製品以上を最大53％オフセール。ポータブル電源やイヤホンなど多数 - CoRRiENTE",
+   "summary": "",
+   "source": "CoRRiENTE",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11SzFNUzVROHhuUjA3T3h2RGpVcC1Md0NNWWZTWDdxcmJBejNwemptc2JFc2tsajBXdHJWOWVtX2xyQUdNcnQ1Tl9peEttUkZraGlUTWFlLU10UUhGOVRXNFhGNzBxZkV50gFuQVVfeXFMTTRjV1AtNHJNdWhzUlB2YVdXeXhNYXJGaF9zbm1iUjkwbVphUFlTZFNYUzNOLTdlOWZNSW0tTFNaMUxKN2NTTzhwQ0JzSU9sbWdFekdHdW5NM2tSTV9NMUd3QllZeklZRElxRm1uTGc?oc=5",
+   "trend_impact": "Anker ↓ -14.1%"
+  },
+  {
+   "date": "2026-10-09",
+   "brand": "EcoFlow",
+   "title": "45%引き！走行充電器「EcoFlow Alternator Charger 600」Amazonタイムセール - Jetstream",
+   "summary": "",
+   "source": "Jetstream",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTnVMa3JLMER1eUNyT0tza2dYWkVCQXV0MGhKeWVEMVZicDJ0WURwWUlySENHWVRfZ3RZYy1haEdxWHdWSDVlMk9Mc2Z0OE1YeElPZXZBTDRWUXNQQUM1cHNSRXZ5cUtnU0xvZ09GdGJVUktYR2VYdmYwaDlxVDFHRDcyZUg5d2xoNE5fM0lsLXdIV0NV?oc=5",
+   "trend_impact": "EcoFlow ↓ -20.0%"
+  },
+  {
+   "date": "2026-10-09",
+   "brand": "EcoFlow",
+   "title": "36,225円引き！高性能走行充電器「EcoFlow Alternator Charger 600」公式楽天市場店 - Jetstream",
+   "summary": "",
+   "source": "Jetstream",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzhBR1FfSUNEN1dOcERPbEdocUpSQnIwckgxS0I0NHlvV3cxamlHYjlUYi0waFl1WnZQdVFhTWN5UmlZZE5GRGVxSmQzc3puaHVidzhfN0wyb3otLXRZRFRQWnl5UDhERlJfYkVmRVF6MGVlU2sxZWwzTndmd1dtMTFUWnk5R2hPMW1JNUxoU3g?oc=5",
+   "trend_impact": "EcoFlow ↓ -20.0%"
+  },
+  {
+   "date": "2026-10-08",
+   "brand": "Jackery",
+   "title": "40%引き！100Wソーラー「Jackery SolarSaga 100 Prime」Jackery Japan楽天市場店 - Jetstream",
+   "summary": "",
+   "source": "Jetstream",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ1IwdFZxTUtkdG1PbWdqTlJKLTQtZFRNOVA4YjVYeUlCNGF2MDNLWmFNbWtmQ3o0dE1pMUUtYmZUakd1TmhTR3hzMTJZdndZeTFzenNvbnhtRjdYU0JYXzNSSmdXNkFJNlkyeXZhZ0hJMXJFOW9Cal9LRjlhWm9CeWYzM29SUFZHMW1pbw?oc=5",
+   "trend_impact": "Jackery ↓ -21.6%"
+  },
+  {
+   "date": "2026-10-08",
+   "brand": "Jackery",
+   "title": "Jackery、北海道滝川市・公益財団法人そらぷちキッズキャンプにポータブル電源・ソーラーパネルを寄贈 - 産経ニュース",
+   "summary": "",
+   "source": "産経ニュース",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBHTXpZSDhGODRfN1g1aDVVanZWci1QeEd2Q2o4NkMwd1BvVXdNYlh2VFZYbTdXVWY5T2VCMnZ4STRZWEhkQVVZdm9uN1pfQ3RwTXR0WGtLYUpBVk56ZkhfelBxSkR1aFkxV1B1Sms4M0YzcHI2ZzhKVDltMA?oc=5",
+   "trend_impact": "Jackery ↓ -21.6%"
+  },
+  {
+   "date": "2026-10-08",
+   "brand": "Jackery",
+   "title": "Jackery、北海道滝川市・公益財団法人そらぷちキッズキャンプにポータブル電源・ソーラーパネルを寄贈 - Infoseek",
+   "summary": "",
+   "source": "Infoseek",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hd1JBdFNUTlpuSHFlSEE4ZEJXLW5KR3ZqbVd1c3M3SXhDYVE4ZTVIcHhHRElZMWxmeW9UU01ZOXdtQlRZX2tReXJZdmd4ZXZfR1E1aDR2T3lfQ216dDhTZ0dCRk5LQ2kzd01FcWx0OXpTQQ?oc=5",
+   "trend_impact": "Jackery ↓ -21.6%"
+  },
+  {
+   "date": "2026-10-08",
+   "brand": "Jackery",
+   "title": "【Amazonベストセラー1位】Jackery「ポータブル電源」はハイパワーながら驚きの軽量・コンパクト化を実現したモデル【10月8日】 - All About ニュース",
+   "summary": "",
+   "source": "All About ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XamM0VEU0NDF3LXlLRkwtUlpheTQtalhnOEdmVWI1YW16OXJSS1NNZ2xFY001UC1LanplQm5XcXVZRFpsY3NRMFp5VjZnZ1duYkxyeVg4NlZHQQ?oc=5",
+   "trend_impact": "Jackery ↓ -21.6%"
+  },
+  {
+   "date": "2026-10-08",
+   "brand": "EcoFlow",
+   "title": "発電する帽子。ソーラーパネル付きハット「EcoFlow Power Hat」の実力検証してみた - Gizmodo",
+   "summary": "",
+   "source": "Gizmodo",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QSzVCd3dpSFA3YVM3TFNHSzl1dGxwNk9MS1ZyV2Vna3hPUFR1WkpKZHhRTmh2RkxhOTIzZG9XTEs5YXBZdnNseFFlM0M3VVJQU0JGNlRpSkRLaVIwWVNFTnE1c2Nkd1RGakx6cw?oc=5",
+   "trend_impact": "EcoFlow ↓ -20.0%"
+  },
+  {
+   "date": "2026-10-08",
+   "brand": "Anker Solix",
+   "title": "【最大53%オフ】Anker製品がAmazonプライム感謝祭でセール！10月13日から - 週刊モバイル.com",
+   "summary": "",
+   "source": "週刊モバイル.com",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1BSXZBQTJrUGNyTk5pQVhEZFVqdFV6Y1laWDFKTWlfMTVpVzJTejJMdTVvaTZfSWk5WC1QWG9Lb3F5STFYclRzQmhOTEw2ZHZiRTFZY1lRem9fWnhCcFVPR1VTeEI3dUtjVWxaaTZCV0VYdw?oc=5",
+   "trend_impact": "Anker ↓ -14.1%"
+  },
+  {
+   "date": "2026-10-08",
+   "brand": "ポータブル電源",
+   "title": "どこでもコンセントを使える、AC100W出力対応のコンパクトポータブル電源を発売 - 山陽新聞",
+   "summary": "",
+   "source": "山陽新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5YbTVKZU5kbjZsaWZLOERzR0YwNGFyc1g3djh5Uk02UjBvSmZyOHNLZUdwdkl5NlppSE5fQks1bk93SWJoZ0RhUG1TdDM4RmhtZHc?oc=5",
+   "trend_impact": "ポータブル電源 ↓ -11.0%"
+  },
+  {
+   "date": "2026-10-07",
+   "brand": "Jackery",
+   "title": "防災に役立つJackery製ポータブル電源が最大46%オフ！楽天お買い物マラソン - ｄメニューニュース",
+   "summary": "",
+   "source": "ｄメニューニュース",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNXlYbTFsUUF4TGFMdTRPRkdmTjJfSUVRT0t4UXNONzdibGpBZDk1Ti1Va1UtYWpVMW5SSFBTWmNKSE5rcTlXSzI3cVl3RVhZcmd1NDFBWEEwNlJsWXM4VWxmOXZwZmhjU3dJM09MUjZjOVpWa3VrVG5yc204cmh2Nnh4QkNObVZE0gGOAUFVX3lxTE1IdzE3LUJZS2kycmtVbFhJQ1h6UlVNN2M2eF9jUFViMk1wcFBiaU5aQ1haU1JIY0dLR0d5dV9Pd3A3WGlGaW9lQkluV0ttZ3JJcnJ6M3pUTWtQWEdPNU96bUlhc2N0QXdSekxnUVE3WG9EemdOUldnSW5xamZjcUtGYXRteGkyLVZCWGJYMUE?oc=5",
+   "trend_impact": "Jackery ↓ -21.6%"
+  },
+  {
+   "date": "2026-10-07",
+   "brand": "Jackery",
+   "title": "【Amazonベストセラー1位】Jackery「ポータブル電源」は最速60分の急速充電で電子レンジや電気ケトルなど家電も対応【10月7日】 - All About ニュース",
+   "summary": "",
+   "source": "All About ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaczU1Zzh6UGVoLWhVZXdySVprMTM2UDFBSUpENDFoQlY0Z1hhZzZhZFBZczJJbHMxaktRNTc3MUJaUkVZR1dCQmtKM1Z6cFU3Q0ZBY2VKV2JxZw?oc=5",
+   "trend_impact": "Jackery ↓ -21.6%"
+  },
+  {
+   "date": "2026-10-07",
+   "brand": "Jackery",
+   "title": "防災に役立つJackery製ポータブル電源が最大46%オフ！楽天お買い物マラソン - 千葉テレビ放送株式会社",
+   "summary": "",
+   "source": "千葉テレビ放送株式会社",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZSHB0czZleWQ2dFRBZ2RQMlNSOXlfUmc5QXlrUlBJM29MZnlkQy1NRkRYLXlyazdQcnpjM3FCT2kxM2RHcS02S1UteHRSc0J1bkdSamliYVQzYS1MM05Z?oc=5",
+   "trend_impact": "Jackery ↓ -21.6%"
+  },
+  {
+   "date": "2026-10-07",
+   "brand": "Anker Solix",
+   "title": "モバイルバッテリーやプロジェクターなどAnker製品が最大55%OFF！楽天お買い物マラソン - AKIBA PC Hotline!",
+   "summary": "",
+   "source": "AKIBA PC Hotline!",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRkZ2YXBmdkxtRkF2dGhuMW5VQ3Q3U3pUTDgyOTBvUVEzWFpsdFJrZVctczExMXZ3ekFkdndtOVVuREdPa0JEV2hZZVpiWG9VdDZEVjZLN216d3ZLNW5MeHhhQWFIUGN4NFBpYWtleHEwMER3Q3dpNHlkZnZQZjMzdw?oc=5",
+   "trend_impact": "Anker ↓ -14.1%"
+  },
+  {
+   "date": "2026-10-07",
+   "brand": "ポータブル電源",
+   "title": "防災に役立つJackery製ポータブル電源が最大46%オフ！楽天お買い物マラソン - AKIBA PC Hotline!",
+   "summary": "",
+   "source": "AKIBA PC Hotline!",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjJjM2VsNEt3VUxyZ25RZkx3VHExRkJkbEpMUUJfQU5HdWtHWjBmVzdMTlJpUzNBQTRWSXNMQXpfWFZIUVFMV2JsdTJyTm51NkxtWl9YUTJpZVh5YkNTblZHdmVnTVlMdzl2OXd2NUR6akV3ZE84MllzWVYyVmhfbw?oc=5",
+   "trend_impact": "ポータブル電源 ↓ -11.0%"
+  },
+  {
+   "date": "2026-10-07",
+   "brand": "便携电源 日本",
+   "title": "日本品牌推出紧凑型双盘位 NAS，存储容量高达 48 TB，支持 2.5GbE - Notebookcheck CN",
+   "summary": "",
+   "source": "Notebookcheck CN",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5pdHBTeVZqSUM5SmQwRnI1YTdHVVM2djRjWU92OFd2RDJac05nTTNvWE1OQU1aUXZYc2pobDNMNUd1YXpHbFd6Z2puRENGMnZGZFBBeGV2S0ktVG9SZkdBUHV0aVhCMXRqcVQwVXFXaUxNZw?oc=5",
+   "trend_impact": "便携电源 日本（监测中）"
+  },
+  {
+   "date": "2026-10-06",
+   "brand": "Anker Solix",
+   "title": "Anker、給電やデータ伝送の状況が見えるディスプレイ内蔵の10in1 USBハブ発売 ポモドーロタイマー機能も搭載 - INTERNET Watch",
+   "summary": "",
+   "source": "INTERNET Watch",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTa2tDUFotS1Q3Zm9nUW9yRDl2d1B0MEIyV1Q5YjBNNlFNU1hiaE9GOFpSRHB5TTJESEZCalNvUVo1OG9nNUdOOUlsbC1Yd2RJN3Z1dU9DSGJRQ3ZmNmh6bTVYS2h5YzFXNU8w?oc=5",
+   "trend_impact": "Anker ↓ -14.1%"
+  },
+  {
+   "date": "2026-10-06",
+   "brand": "Anker Solix",
+   "title": "Anker、給電やデータ伝送の状況が見えるディスプレイ内蔵の10in1 USBハブ発売（INTERNET Watch） - Yahoo!ニュース",
+   "summary": "",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TcjFMVWgyR3BIajZmdGtQX2pLR1Q5TWFkRWk0RDBjUXVqVkxwMmVTdllJakVNWlh2N1JfaUo2MG9ZMTF1aWFpYlJncXhCbGs5LWhKRFEtTk1FYUhCYURyem8tRG5YMmQwTzR5YkYxVWdPcDFCVFZpYmxpUFktaTA?oc=5",
+   "trend_impact": "Anker ↓ -14.1%"
+  },
+  {
+   "date": "2026-10-06",
+   "brand": "ポータブル電源",
+   "title": "【 工藤静香 】 災害救助犬チームへ「ポータブル電源」を寄付 ライブグッズ売上の一部で支援「しーちゃんらしい社会貢献」「少しでも携われて幸せ」 - TBS NEWS DIG",
+   "summary": "",
+   "source": "TBS NEWS DIG",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4ydnhWTXJtc0JQWGVyWms5QmlIX2FNRU0xSGYxNC1UZXNhcE93ZjFwTUJLM1JwVVdzN0N6NmRMck9YT0ZKbFFSbjNsRVJTQThlSDdHc3pYaU1vMkNUSGRv?oc=5",
+   "trend_impact": "ポータブル電源 ↓ -11.0%"
+  }
+ ],
+ "social": [],
+ "events": [
+  {
+   "date": "2026-10-10",
+   "type": "新闻",
+   "title": "Anker､「Amazonプライム感謝祭」で290製品以上を最大53％オフセール。ポータブル電源やイヤホンなど多数 - CoRRiENTE",
+   "brand": "Anker Solix",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-09",
+   "type": "新闻",
+   "title": "45%引き！走行充電器「EcoFlow Alternator Charger 600」Amazonタイムセール - Jetstream",
+   "brand": "EcoFlow",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-09",
+   "type": "新闻",
+   "title": "36,225円引き！高性能走行充電器「EcoFlow Alternator Charger 600」公式楽天市場店 - Jetstream",
+   "brand": "EcoFlow",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-08",
+   "type": "新闻",
+   "title": "40%引き！100Wソーラー「Jackery SolarSaga 100 Prime」Jackery Japan楽天市場店 - Jetstream",
+   "brand": "Jackery",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-08",
+   "type": "新闻",
+   "title": "Jackery、北海道滝川市・公益財団法人そらぷちキッズキャンプにポータブル電源・ソーラーパネルを寄贈 - 産経ニュース",
+   "brand": "Jackery",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-08",
+   "type": "新闻",
+   "title": "Jackery、北海道滝川市・公益財団法人そらぷちキッズキャンプにポータブル電源・ソーラーパネルを寄贈 - Infoseek",
+   "brand": "Jackery",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-08",
+   "type": "新闻",
+   "title": "【Amazonベストセラー1位】Jackery「ポータブル電源」はハイパワーながら驚きの軽量・コンパクト化を実現したモデル【10月8日】 - All About ニュース",
+   "brand": "Jackery",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-08",
+   "type": "新闻",
+   "title": "発電する帽子。ソーラーパネル付きハット「EcoFlow Power Hat」の実力検証してみた - Gizmodo",
+   "brand": "EcoFlow",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-08",
+   "type": "新闻",
+   "title": "【最大53%オフ】Anker製品がAmazonプライム感謝祭でセール！10月13日から - 週刊モバイル.com",
+   "brand": "Anker Solix",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-08",
+   "type": "新闻",
+   "title": "どこでもコンセントを使える、AC100W出力対応のコンパクトポータブル電源を発売 - 山陽新聞",
+   "brand": "ポータブル電源",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-07",
+   "type": "新闻",
+   "title": "防災に役立つJackery製ポータブル電源が最大46%オフ！楽天お買い物マラソン - ｄメニューニュース",
+   "brand": "Jackery",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-07",
+   "type": "新闻",
+   "title": "【Amazonベストセラー1位】Jackery「ポータブル電源」は最速60分の急速充電で電子レンジや電気ケトルなど家電も対応【10月7日】 - All About ニュース",
+   "brand": "Jackery",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-07",
+   "type": "新闻",
+   "title": "防災に役立つJackery製ポータブル電源が最大46%オフ！楽天お買い物マラソン - 千葉テレビ放送株式会社",
+   "brand": "Jackery",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-07",
+   "type": "新闻",
+   "title": "モバイルバッテリーやプロジェクターなどAnker製品が最大55%OFF！楽天お買い物マラソン - AKIBA PC Hotline!",
+   "brand": "Anker Solix",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-07",
+   "type": "新闻",
+   "title": "防災に役立つJackery製ポータブル電源が最大46%オフ！楽天お買い物マラソン - AKIBA PC Hotline!",
+   "brand": "ポータブル電源",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-07",
+   "type": "新闻",
+   "title": "日本品牌推出紧凑型双盘位 NAS，存储容量高达 48 TB，支持 2.5GbE - Notebookcheck CN",
+   "brand": "便携电源 日本",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-06",
+   "type": "新闻",
+   "title": "Anker、給電やデータ伝送の状況が見えるディスプレイ内蔵の10in1 USBハブ発売 ポモドーロタイマー機能も搭載 - INTERNET Watch",
+   "brand": "Anker Solix",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-06",
+   "type": "新闻",
+   "title": "Anker、給電やデータ伝送の状況が見えるディスプレイ内蔵の10in1 USBハブ発売（INTERNET Watch） - Yahoo!ニュース",
+   "brand": "Anker Solix",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-06",
+   "type": "新闻",
+   "title": "【 工藤静香 】 災害救助犬チームへ「ポータブル電源」を寄付 ライブグッズ売上の一部で支援「しーちゃんらしい社会貢献」「少しでも携われて幸せ」 - TBS NEWS DIG",
+   "brand": "ポータブル電源",
+   "direction": "—"
+  }
+ ],
+ "holidays": [
+  {
+   "date": "",
+   "name": "防災の日/防災週間",
+   "type": "营销节点"
+  },
+  {
+   "date": "",
+   "name": "台風シーズン",
+   "type": "营销节点"
+  },
+  {
+   "date": "",
+   "name": "ゴールデンウィーク",
+   "type": "营销节点"
+  },
+  {
+   "date": "",
+   "name": "お盆休み",
+   "type": "营销节点"
+  },
+  {
+   "date": "",
+   "name": "ブラックフライデー",
+   "type": "营销节点"
+  },
+  {
+   "date": "",
+   "name": "楽天スーパーSALE",
+   "type": "营销节点"
+  },
+  {
+   "date": "",
+   "name": "年末年始セール/福袋",
+   "type": "营销节点"
+  },
+  {
+   "date": "",
+   "name": "Amazon Prime Day",
+   "type": "营销节点"
+  },
+  {
+   "date": "",
+   "name": "アウトドア/キャンプシーズン",
+   "type": "营销节点"
+  },
+  {
+   "date": "",
+   "name": "節電/電力逼迫シーズン",
+   "type": "营销节点"
+  },
+  {
+   "date": "",
+   "name": "東日本大震災の日",
+   "type": "营销节点"
+  },
+  {
+   "date": "2026-01-01",
+   "name": "元日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-01-12",
+   "name": "成人の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-02-11",
+   "name": "建国記念の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-02-23",
+   "name": "天皇誕生日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-03-20",
+   "name": "春分の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-04-29",
+   "name": "昭和の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-05-03",
+   "name": "憲法記念日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-05-04",
+   "name": "みどりの日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-05-05",
+   "name": "こどもの日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-05-06",
+   "name": "振替休日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-07-20",
+   "name": "海の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-08-11",
+   "name": "山の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-09-21",
+   "name": "敬老の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-09-22",
+   "name": "国民の休日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-09-23",
+   "name": "秋分の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-10-12",
+   "name": "スポーツの日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-11-03",
+   "name": "文化の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2026-11-23",
+   "name": "勤労感謝の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-01-01",
+   "name": "元日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-01-11",
+   "name": "成人の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-02-11",
+   "name": "建国記念の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-02-23",
+   "name": "天皇誕生日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-03-21",
+   "name": "春分の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-03-22",
+   "name": "振替休日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-04-29",
+   "name": "昭和の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-05-03",
+   "name": "憲法記念日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-05-04",
+   "name": "みどりの日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-05-05",
+   "name": "こどもの日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-07-19",
+   "name": "海の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-08-11",
+   "name": "山の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-09-20",
+   "name": "敬老の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-09-23",
+   "name": "秋分の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-10-11",
+   "name": "スポーツの日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-11-03",
+   "name": "文化の日",
+   "type": "节假日"
+  },
+  {
+   "date": "2027-11-23",
+   "name": "勤労感謝の日",
+   "type": "节假日"
+  }
+ ]
+}
