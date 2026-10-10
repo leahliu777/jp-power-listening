@@ -916,7 +916,7 @@
    "brand": "Jackery",
    "maker": "Jackery Japan",
    "product": "Jackery ポータブル電源 2000 New",
-   "price": "",
+   "price": "109,890",
    "trend": ""
   },
   {
@@ -924,7 +924,7 @@
    "brand": "Jackery",
    "maker": "Jackery Japan",
    "product": "Jackery ポータブル電源 1000 New",
-   "price": "",
+   "price": "69,484",
    "trend": ""
   },
   {
@@ -932,7 +932,7 @@
    "brand": "Anker",
    "maker": "ANKER",
    "product": "Solix C1000 Gen 2 Portable Power Station",
-   "price": "",
+   "price": "72,800",
    "trend": ""
   },
   {
@@ -940,7 +940,7 @@
    "brand": "Anker",
    "maker": "ANKER",
    "product": "Solix S2000 Portable Power Station AS220511 [ダークグレー]",
-   "price": "",
+   "price": "174,610",
    "trend": ""
   },
   {
@@ -948,7 +948,7 @@
    "brand": "EcoFlow",
    "maker": "EcoFlow Technology",
    "product": "EcoFlow DELTA 3 Plus",
-   "price": "",
+   "price": "74,800",
    "trend": ""
   },
   {
@@ -956,7 +956,7 @@
    "brand": "EcoFlow",
    "maker": "EcoFlow Technology",
    "product": "EcoFlow DELTA 3 Max Plus",
-   "price": "",
+   "price": "154,988",
    "trend": ""
   },
   {
@@ -964,7 +964,111 @@
    "brand": "EcoFlow",
    "maker": "EcoFlow Technology",
    "product": "EcoFlow DELTA 3 Max",
-   "price": "",
+   "price": "99,450",
+   "trend": ""
+  },
+  {
+   "rank": 8,
+   "brand": "BLUETTI",
+   "maker": "BLUETTI",
+   "product": "AC70 [グレー]",
+   "price": "39,600",
+   "trend": ""
+  },
+  {
+   "rank": 9,
+   "brand": "Anker",
+   "maker": "ANKER",
+   "product": "Solix C300 Portable Power Station",
+   "price": "34,990",
+   "trend": ""
+  },
+  {
+   "rank": 10,
+   "brand": "其他",
+   "maker": "DJI",
+   "product": "DJI Power 1000 Mini Plus",
+   "price": "50,734",
+   "trend": ""
+  },
+  {
+   "rank": 10,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 2",
+   "price": "52,800",
+   "trend": ""
+  },
+  {
+   "rank": 10,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 2 Max",
+   "price": "94,017",
+   "trend": ""
+  },
+  {
+   "rank": 10,
+   "brand": "Anker",
+   "maker": "ANKER",
+   "product": "Solix C1000 Portable Power Station",
+   "price": "63,470",
+   "trend": ""
+  },
+  {
+   "rank": 10,
+   "brand": "Anker",
+   "maker": "ANKER",
+   "product": "Solix C2000 Gen 2 Plus Portable Power Station A1785521 [ホワイト]",
+   "price": "121,000",
+   "trend": ""
+  },
+  {
+   "rank": 15,
+   "brand": "其他",
+   "maker": "DJI",
+   "product": "DJI Power 1000 V2 DYM1000V2L",
+   "price": "59,980",
+   "trend": ""
+  },
+  {
+   "rank": 16,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 3 2000 Air",
+   "price": "73,624",
+   "trend": ""
+  },
+  {
+   "rank": 17,
+   "brand": "BLUETTI",
+   "maker": "BLUETTI",
+   "product": "AC200L [スチールグレー]",
+   "price": "89,955",
+   "trend": ""
+  },
+  {
+   "rank": 18,
+   "brand": "Jackery",
+   "maker": "Jackery Japan",
+   "product": "Jackery ポータブル電源 1500 New",
+   "price": "92,876",
+   "trend": ""
+  },
+  {
+   "rank": 19,
+   "brand": "Anker",
+   "maker": "ANKER",
+   "product": "Solix C2000 Gen 2 Portable Power Station",
+   "price": "139,800",
+   "trend": ""
+  },
+  {
+   "rank": 20,
+   "brand": "Jackery",
+   "maker": "Jackery Japan",
+   "product": "Jackery ポータブル電源 600 New JE-600A",
+   "price": "58,100",
    "trend": ""
   }
  ],
@@ -977,7 +1081,7 @@
      "brand": "Jackery",
      "maker": "Jackery Japan",
      "product": "Jackery ポータブル電源 2000 New",
-     "price": "",
+     "price": "109,890",
      "trend": ""
     },
     {
@@ -985,7 +1089,7 @@
      "brand": "Jackery",
      "maker": "Jackery Japan",
      "product": "Jackery ポータブル電源 1000 New",
-     "price": "",
+     "price": "69,484",
      "trend": ""
     },
     {
@@ -993,7 +1097,7 @@
      "brand": "Anker",
      "maker": "ANKER",
      "product": "Solix C1000 Gen 2 Portable Power Station",
-     "price": "",
+     "price": "72,800",
      "trend": ""
     },
     {
@@ -1001,7 +1105,7 @@
      "brand": "Anker",
      "maker": "ANKER",
      "product": "Solix S2000 Portable Power Station AS220511 [ダークグレー]",
-     "price": "",
+     "price": "174,610",
      "trend": ""
     },
     {
@@ -1009,7 +1113,7 @@
      "brand": "EcoFlow",
      "maker": "EcoFlow Technology",
      "product": "EcoFlow DELTA 3 Plus",
-     "price": "",
+     "price": "74,800",
      "trend": ""
     },
     {
@@ -1017,7 +1121,7 @@
      "brand": "EcoFlow",
      "maker": "EcoFlow Technology",
      "product": "EcoFlow DELTA 3 Max Plus",
-     "price": "",
+     "price": "154,988",
      "trend": ""
     },
     {
@@ -1025,7 +1129,111 @@
      "brand": "EcoFlow",
      "maker": "EcoFlow Technology",
      "product": "EcoFlow DELTA 3 Max",
-     "price": "",
+     "price": "99,450",
+     "trend": ""
+    },
+    {
+     "rank": 8,
+     "brand": "BLUETTI",
+     "maker": "BLUETTI",
+     "product": "AC70 [グレー]",
+     "price": "39,600",
+     "trend": ""
+    },
+    {
+     "rank": 9,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C300 Portable Power Station",
+     "price": "34,990",
+     "trend": ""
+    },
+    {
+     "rank": 10,
+     "brand": "其他",
+     "maker": "DJI",
+     "product": "DJI Power 1000 Mini Plus",
+     "price": "50,734",
+     "trend": ""
+    },
+    {
+     "rank": 10,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 2",
+     "price": "52,800",
+     "trend": ""
+    },
+    {
+     "rank": 10,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 2 Max",
+     "price": "94,017",
+     "trend": ""
+    },
+    {
+     "rank": 10,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C1000 Portable Power Station",
+     "price": "63,470",
+     "trend": ""
+    },
+    {
+     "rank": 10,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C2000 Gen 2 Plus Portable Power Station A1785521 [ホワイト]",
+     "price": "121,000",
+     "trend": ""
+    },
+    {
+     "rank": 15,
+     "brand": "其他",
+     "maker": "DJI",
+     "product": "DJI Power 1000 V2 DYM1000V2L",
+     "price": "59,980",
+     "trend": ""
+    },
+    {
+     "rank": 16,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 2000 Air",
+     "price": "73,624",
+     "trend": ""
+    },
+    {
+     "rank": 17,
+     "brand": "BLUETTI",
+     "maker": "BLUETTI",
+     "product": "AC200L [スチールグレー]",
+     "price": "89,955",
+     "trend": ""
+    },
+    {
+     "rank": 18,
+     "brand": "Jackery",
+     "maker": "Jackery Japan",
+     "product": "Jackery ポータブル電源 1500 New",
+     "price": "92,876",
+     "trend": ""
+    },
+    {
+     "rank": 19,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C2000 Gen 2 Portable Power Station",
+     "price": "139,800",
+     "trend": ""
+    },
+    {
+     "rank": 20,
+     "brand": "Jackery",
+     "maker": "Jackery Japan",
+     "product": "Jackery ポータブル電源 600 New JE-600A",
+     "price": "58,100",
      "trend": ""
     }
    ]
