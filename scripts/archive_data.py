@@ -113,7 +113,8 @@ def main():
         for h in lst:
             holidays.append({"date": h["date"], "name": h["name"], "type": "节假日"})
     for n in holidays_raw.get("nodes", []):
-        holidays.append({"date": n.get("date", ""), "name": n.get("name", ""), "type": "营销节点"})
+        for dt in n.get("dates", []):
+            holidays.append({"date": dt, "name": n.get("name", ""), "type": "营销节点", "desc": n.get("desc", "")})
     holidays.sort(key=lambda x: x["date"])
 
     # 4) 拉旧 index.json merge
