@@ -909,5 +909,233 @@
    "type": "营销节点",
    "desc": "黑五促销，全年价格敏感度最高节点"
   }
+ ],
+ "kakaku": [
+  {
+   "rank": 1,
+   "brand": "Jackery",
+   "maker": "Jackery Japan",
+   "product": "Jackery ポータブル電源 2000 New",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 2,
+   "brand": "Jackery",
+   "maker": "Jackery Japan",
+   "product": "Jackery ポータブル電源 1000 New",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 3,
+   "brand": "Anker",
+   "maker": "ANKER",
+   "product": "Solix C1000 Gen 2 Portable Power Station",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 4,
+   "brand": "Anker",
+   "maker": "ANKER",
+   "product": "Solix S2000 Portable Power Station AS220511 [ダークグレー]",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 5,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 3 Plus",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 6,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 3 Max Plus",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 7,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 3 Max",
+   "price": "",
+   "trend": ""
+  }
+ ],
+ "kakaku_history": [
+  {
+   "date": "2026-10-10",
+   "items": [
+    {
+     "rank": 1,
+     "brand": "Jackery",
+     "maker": "Jackery Japan",
+     "product": "Jackery ポータブル電源 2000 New",
+     "price": "",
+     "trend": ""
+    },
+    {
+     "rank": 2,
+     "brand": "Jackery",
+     "maker": "Jackery Japan",
+     "product": "Jackery ポータブル電源 1000 New",
+     "price": "",
+     "trend": ""
+    },
+    {
+     "rank": 3,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C1000 Gen 2 Portable Power Station",
+     "price": "",
+     "trend": ""
+    },
+    {
+     "rank": 4,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix S2000 Portable Power Station AS220511 [ダークグレー]",
+     "price": "",
+     "trend": ""
+    },
+    {
+     "rank": 5,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 Plus",
+     "price": "",
+     "trend": ""
+    },
+    {
+     "rank": 6,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 Max Plus",
+     "price": "",
+     "trend": ""
+    },
+    {
+     "rank": 7,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 Max",
+     "price": "",
+     "trend": ""
+    }
+   ]
+  }
+ ],
+ "weather": [
+  {
+   "category": "台风・灾害",
+   "title": "台風28号・29号 29号(コグマ)が強い勢力に 連休明けは本州でも高波注意 - ウェザーニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KV3E0MTFuVDA5bGN3TEF6YVdWOEI4OUJHaG5zd2FlUEN2akxySmlEYUl1ck",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KV3E0MTFuVDA5bGN3TEF6YVdWOEI4OUJHaG5zd2FlUEN2akxySmlEYUl1ck9tckpCYkh2Y2VUTWE5aHNpdVdkU2JIa0VqUjhTdXE4Mw?oc=5",
+   "date": "Thu, 08 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "台風28号と29号 本州に近づかなくても沿岸はうねりに注意 - ウェザーニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLLWxmWkFFYmd5NWVmQVpQWDExSWtkcEpyXzJrbmhiNzk2TFYxdTZzVm5kUW",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLLWxmWkFFYmd5NWVmQVpQWDExSWtkcEpyXzJrbmhiNzk2TFYxdTZzVm5kUWVwWG1mVi1VdkZiRTMwZi1OT1pBay1EYUxjYnpRN1ZLOQ?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "ダブル台風28号と29号　日本の東を進むも沿岸部は高波に注意(気象予報士 牧　良幸 2026年10月10日) - tenki.jp",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5tdmhHN2tPaUw4Z3J4TkZoRkluYnZ6UGFBTGw0UkRwWFNPdEwyaWo0MkIyOG",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5tdmhHN2tPaUw4Z3J4TkZoRkluYnZ6UGFBTGw0UkRwWFNPdEwyaWo0MkIyOGx0TGkyMWFvMVZxSTF0ZzE1Ymc3NTRqcFlCcVZwN1lWRXBFSk1takhCQXFfWkRQRV96OVXSAWxBVV95cUxOdlBlVTdpVFRCQ0J4WnhHODFwRzFUX0RyeGFQOEl4YXZmVHpzQ2pPcERINXBSaDV6QTRXX2dZdFRVMC0tYktXdXNlVzBCZW1zRnlPY0RuSGx3R0lkUVU1cnpwdWhnVlBKR0VPMXk?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "【台風のたまご】新たな「熱帯低気圧」があす（11日）朝にも発生か...進路、日本への影響は？今後の台風情報に注意…21日までの雨風シミュレーションでは「あやしい渦」が【気象庁10日天気図】 | 岡山・香川のニュース | 天気 | RSK山陽放送 - TBS NEWS DIG",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DcXRiS2NMa1ZIZkJXeFRYYlJGTDNtR0RjZGtFN2phdlk4dGFzV3FsN1FvcD",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DcXRiS2NMa1ZIZkJXeFRYYlJGTDNtR0RjZGtFN2phdlk4dGFzV3FsN1FvcDZuS0FBbG81M2xROUlST2xDTFBRVUgxTnUxanhGNVlKa21KWW8ydw?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "【台風のたまご】新たな「熱帯低気圧」があす（11日）朝にも発生か...進路、日本への影響は?今後の台風情報に注意…21日までの雨風シミュレーションでは「あやしい渦」が【気象庁10日天気図】（RSK山陽放送） - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5LanZQczE5VjRiVW5VcXozOTBIbzlwOUpmZ1l6TTR0UVlJZTN5VElCQzVtNy",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LanZQczE5VjRiVW5VcXozOTBIbzlwOUpmZ1l6TTR0UVlJZTN5VElCQzVtNy1pWVMwVzZPR2VVQjBDTkM0bUx6ckRmbE81eGVSQ3lqeDlQdmpZOHdKdzJpNFdaRTdjZTNiS01nZTgtclRrM2Fnb25PUmFrSVBjQ2s?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "中米パナマでＭ７・７の地震、ホテル倒壊も…海上輸送の要衝パナマ運河の運航には影響なし - 読売新聞",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FNW44YklJTGhQclhGWnpVMGJzQU1BQ29kUFNnYmJZNDNIOGlFV1BLVHNYa2",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FNW44YklJTGhQclhGWnpVMGJzQU1BQ29kUFNnYmJZNDNIOGlFV1BLVHNYa2dBS3l1UVBkaV9ET19VM3cyVjlyZ0J4dWFNdEc3N0NtdWRWUFVvTlZUaUFTQTZR?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "パナマでM7・7の地震、建物や道路に損傷被害 運河の橋が揺れる場面も - CNN.jp",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE55WmR5a1hnUlZPcXg0MDFubkFfUTJld0F2dy1CX0JTZkxuQ0NIMnprdURWVl",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55WmR5a1hnUlZPcXg0MDFubkFfUTJld0F2dy1CX0JTZkxuQ0NIMnprdURWVlBnbF9wRWRzYTI5WVNKcV9ZZlU5bXoyQmN3MExtVE0w?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "中米パナマでM7.7の地震 教会などに被害 数人軽傷 日本への津波被害なし - テレ朝NEWS",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE0wcTQ3Szc4WHNXX1JoR0hBZ1ota1cyOW53Y3NRT1lSQVVvQ2xfUUVFQzlYVF",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wcTQ3Szc4WHNXX1JoR0hBZ1ota1cyOW53Y3NRT1lSQVVvQ2xfUUVFQzlYVFlOMVdRdHMyVVlaN2s4QUNjbmNlbURSa2hJNXBuQ0hkeVlYWGR0MkZQQ1R3NW4zazFqU0ZxelByR2J3SExtZHZGeXBILVBB?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "パナマでＭ７．７の地震 建物損壊、けが人複数：時事ドットコム - 時事ドットコム",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hX2k3aXRKN01tckYwbkJtVHYzc05JTGpINEd6QWdoQUtXUXR1d0RZTUZKTm",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hX2k3aXRKN01tckYwbkJtVHYzc05JTGpINEd6QWdoQUtXUXR1d0RZTUZKTmNWWUowdm5MRlRTRjVVdG9wYWRIcVNaaFRhMUxmZ2FTdE81bVAxb2h3djNsZjFFQQ?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "パナマでM7.7地震 建物倒壊などの被害 大勢の人が屋外に避難する様子も パナマ運河の通航には影響出ず - 日テレNEWS NNN",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxON0J3cFRoZUpvNElyQUdjWERDTkdoMW53QjIzOGtWWXBrVWdraDhSUHl2UU",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON0J3cFRoZUpvNElyQUdjWERDTkdoMW53QjIzOGtWWXBrVWdraDhSUHl2UU53a0J6MTItanBOWUtXOWtDQVlYbzZSQkdlcnFTV2lBUkRDaFNPNFBjWlhZcXZFUDE3dUk3OHFjRzZtSFdZNGdlaUVXbTFPWHEzUTZZYzUwUFg?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "台風28号と29号 本州から離れて進むも沿岸はうねりに注意 - ウェザーニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9sOXFpV0lVekJkUlBBVVFrNXBKOXVKUFgyQ2FwSXZ2Wm5WVnVRRnhtSG9paj",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9sOXFpV0lVekJkUlBBVVFrNXBKOXVKUFgyQ2FwSXZ2Wm5WVnVRRnhtSG9pajlmUk4zMkNXWm1vQ3dGV3dxYi1sbVp2RHZMeGZqWVN2WA?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "台風２８号は間もなく寿命尽き、台風２９号は最盛期に（杉江勇次） - エキスパート - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVUM1TnlxMHZhV0pfbS10SzlDZkY3RmYxV3RTVjZnSko0ZlRlVVphbDdKQm",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVUM1TnlxMHZhV0pfbS10SzlDZkY3RmYxV3RTVjZnSko0ZlRlVVphbDdKQml1cjFpS1psWjVPSXFEQjh0RWZtTHFNRXlzcmlaREZWQUZXV3h1MW5iM2FuZnZSX2NzTkptV29zVnlyd3AxalIyN2V5M3A3M3JnNE1pTjBMcjFtZFlp?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "建物倒壊など大きな被害 パナマでM7.7の地震 日本沿岸では若干の海面変動が起きる可能性あるものの被害の心配なし - TBS NEWS DIG",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9ES0tQQnpLdWpqdnB2QTI5bGtUMm4tTTlGR2tnZllFd3BDdHhLUDRJZzFJOV",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ES0tQQnpLdWpqdnB2QTI5bGtUMm4tTTlGR2tnZllFd3BDdHhLUDRJZzFJOVB6QXgxamRNdVZUelFFNXFyUE40cmtTUVJDbnFTbGc1NTdMLTU5RGE1UlE2alA3OUlFOTlYaUtMd0c0d2xqNVFB?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "パナマでM7.7の大地震 建物が倒壊するなどの被害 - TBS NEWS DIG",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qMmZpR1dTRXhJaFYzd2JvejBRZlBrMV9paUVDOVJzbHJuX1NtUjBLbXkzdD",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qMmZpR1dTRXhJaFYzd2JvejBRZlBrMV9paUVDOVJzbHJuX1NtUjBLbXkzdDdENDlXWnN6U0xIMV9CeEZXUXF6S0c3SmVDdjVHeFJ6c1ZYVQ?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "中南米パナマで相次ぐ強力地震 M7.7直後にM6.6の余震で建物崩壊（AP通信） - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBvQmU4dlJNUWtVSEZMNmFWOU4wLUR2VjFtVUVlcHdWNURkUDhKSkhUYkpGX1",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvQmU4dlJNUWtVSEZMNmFWOU4wLUR2VjFtVUVlcHdWNURkUDhKSkhUYkpGX1BONXg2UVdhajhpX0FhUnR4em0wUTFVamxyUXN6Q1VrdlF0dlZSajBxOWRLdVlOZnpTRUdXWDJDeGxwU1ZWRE5scW1NdVVzODJjNzA?oc=5",
+   "date": "Sat, 10 Oct 2026"
+  }
  ]
 }
