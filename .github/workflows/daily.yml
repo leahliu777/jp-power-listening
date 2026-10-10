@@ -60,6 +60,12 @@ jobs:
         if: steps.idem.outputs.exists != 'true'
         run: python scripts/news_fetch.py $(date +%Y%m%d)
 
+      - name: Fetch YouTube social
+        if: steps.idem.outputs.exists != 'true'
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/youtube_fetch.py $(date +%Y%m%d)
+
       - name: Build brief HTML
         if: steps.idem.outputs.exists != 'true'
         run: python scripts/make_brief.py $(date +%Y%m%d)

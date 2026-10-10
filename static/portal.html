@@ -161,6 +161,19 @@ async function load() {
     return;
   }
   renderOverview();
+  renderSocial();
+}
+
+function renderSocial() {
+  const yt = (DATA.social||[]).filter(s=>s.platform==='youtube').slice(0,20);
+  const x = (DATA.social||[]).filter(s=>s.platform==='x').slice(0,20);
+  document.getElementById('ytlist').innerHTML = yt.length ? yt.map(v=>
+    `<div class="news-item"><div class="title"><a href="${v.url}" target="_blank" style="color:#1f2329;text-decoration:none">▶ ${v.title}</a></div>
+     <div class="meta">${(v.published||'').slice(0,10)} · ${v.channel} <span class="tag">${v.keyword||''}</span></div></div>`).join('')
+    : '<p class="note">今日暂无 YouTube 新视频（或采集未运行）。</p>';
+  document.getElementById('xlist').innerHTML = x.length ? x.map(v=>
+    `<div class="news-item"><div class="title"><a href="${v.url}" target="_blank">${v.title}</a></div><div class="meta">${v.published} · ${v.channel}</div></div>`).join('')
+    : '<p class="note">X 平台暂未接入（API 成本高），后续视需要开通。</p>';
 }
 
 function latestTrend() { return DATA.trends[DATA.trends.length - 1] || {}; }

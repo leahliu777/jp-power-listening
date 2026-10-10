@@ -117,8 +117,32 @@ def main():
             holidays.append({"date": dt, "name": n.get("name", ""), "type": "营销节点", "desc": n.get("desc", "")})
     holidays.sort(key=lambda x: x["date"])
 
-    # 4) 拉旧 index.json merge
+    # 5) 拉旧 index.json merge
     old = fetch_url(f"{BASE_URL}/data/index.json") or {}
+
+    # 4) YouTube 社媒 → social 字段（platform 分组）
+    youtube = load_json(OUT / f"youtube_{DATE}.json", {"items": []})
+    social_out = []
+    old_social_keys = set()
+    for s in old.get("social", []):
+        social_out.append(s)
+        old_social_keys.add((s.get("platform"), s.get("video_id") or s.get("url")))
+    for v in youtube.get("items", []):
+        key = ("youtube", v.get("video_id"))
+        if key in old_social_keys:
+            continue
+        social_out.append({
+            "platform": "youtube",
+            "video_id": v.get("video_id"),
+            "title": v.get("title", ""),
+            "channel": v.get("channel", ""),
+            "published": v.get("published", ""),
+            "url": v.get("url", ""),
+            "keyword": v.get("keyword", ""),
+        })
+    social_out.sort(key=lambda x: x.get("published", ""), reverse=True)
+    social_out = social_out[:200]
+
     merged_trends = old.get("trends", [])
     merged_news = old.get("news", [])
     merged_events = old.get("events", [])
@@ -147,7 +171,7 @@ def main():
         "as_of": DATE_ISO,
         "trends": merged_trends,
         "news": merged_news,
-        "social": old.get("social", []),
+        "social": social_out,
         "events": merged_events,
         "holidays": holidays,
     }
