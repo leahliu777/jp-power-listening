@@ -22,13 +22,13 @@ def main():
     except:
         h = raw.decode("utf-8", errors="ignore")
     # 每个 rkgBox
-    boxes = re.findall(r'<div class="rkgBox[^"]*">(.*?)(?=<div class="rkgBox|$)', h, re.S)
+    boxes = re.findall(r'<div class="rkgBox[ "][^"]*">(.*?)(?=<div class="rkgBox[ "]|$)', h, re.S)
     items = []
     for b in boxes[:20]:
         m_rank = re.search(r'class="num">(\d+)</span>位', b)
         m_maker = re.search(r'rkgBoxNameMaker">(.*?)</span>', b)
         m_item = re.search(r'rkgBoxNameItem">(.*?)</span>', b)
-        m_price = re.search(r'([\d,]+)円', b)
+        m_price = re.search(r'(?:&#165;|¥)(?:&nbsp;)?\s*([\d,]+)', b)
         m_trend = re.search(r'rkgTrans"><span class="(same|up|down)[^"]*">([^<]*)</span>', b)
         if not (m_rank and m_maker and m_item):
             continue
