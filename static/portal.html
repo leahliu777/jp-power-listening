@@ -67,7 +67,8 @@
     <a class="nav-item active" data-page="overview">概览</a>
     <a class="nav-item" data-page="trends">趋势留档</a>
     <a class="nav-item" data-page="news">新闻归档</a>
-    <a class="nav-item" data-page="social">社媒归档</a>
+    <a class="nav-item" data-page="social">电商口碑</a>
+    <a class="nav-item" data-page="weather">气象与灾害</a>
     <a class="nav-item" data-page="calendar">节点日历</a>
     <div class="foot" id="foot">数据更新中…</div>
   </aside>
@@ -110,9 +111,9 @@
       <div class="card" id="newslist"></div>
     </section>
 
-    <!-- 社媒归档 -->
+    <!-- 电商口碑 -->
     <section class="page" id="page-social">
-      <div class="page-head"><h1>社媒归档</h1><span class="badge">YouTube / X</span></div>
+      <div class="page-head"><h1>电商口碑</h1><span class="badge">YouTube / 価格.com</span></div>
       <div class="card filters">
         <select id="ytfilter">
           <option value="">全部关键词</option>
@@ -126,10 +127,18 @@
         <label style="font-size:13px;color:#4e5969"><input type="checkbox" id="ytonly" style="vertical-align:-1px"> 只看品牌官方频道</label>
         <span class="note" style="margin-left:10px">★ = 品牌官方频道</span>
       </div>
-      <div class="grid2">
-        <div class="card"><h3 style="margin-bottom:10px">YouTube 新视频</h3><div id="ytlist"></div></div>
-        <div class="card"><h3 style="margin-bottom:10px">X / Twitter</h3><div id="xlist"><p class="note">X 平台暂未接入（API 成本高），后续视需要开通。</p></div></div>
+      <div class="card"><h3 style="margin-bottom:10px">価格.com ポータブル電源 売れ筋ランキング（今日）</h3>
+        <table><thead><tr><th>#</th><th>品牌</th><th>商品</th><th>最安値</th></tr></thead><tbody id="kakakutbl"></tbody></table>
+        <div class="note">来源：kakaku.com 人気売れ筋ランキング（推定販売数集計）</div>
       </div>
+      <div class="card"><h3 style="margin-bottom:10px">YouTube 新视频（48h）</h3><div id="ytlist"></div></div>
+    </section>
+
+    <!-- 气象与灾害 -->
+    <section class="page" id="page-weather">
+      <div class="page-head"><h1>气象与灾害情报</h1><span class="badge">台风 / 地震 / 停电关联</span></div>
+      <div class="conclusion" id="weathernote">台风/地震等灾害直接带动便携电源搜索与销量，下方为近 48h 日本气象灾害新闻。</div>
+      <div class="card" id="weatherlist"></div>
     </section>
 
     <!-- 节点日历 -->
@@ -156,6 +165,7 @@ document.querySelectorAll('.nav-item').forEach(n => n.addEventListener('click', 
   document.getElementById('page-' + n.dataset.page).classList.add('active');
   if (n.dataset.page === 'trends') renderTrendChart();
   if (n.dataset.page === 'calendar') renderCalendar();
+  if (n.dataset.page === 'weather') renderWeather();
 }));
 
 async function load() {
@@ -179,7 +189,6 @@ async function load() {
 
 function renderSocial() {
   const all = (DATA.social||[]).filter(s=>s.platform==='youtube').slice(0,60);
-  const x = (DATA.social||[]).filter(s=>s.platform==='x').slice(0,20);
   const f = document.getElementById('ytfilter').value;
   const tf = document.getElementById('yttype').value;
   const only = document.getElementById('ytonly').checked;
@@ -196,9 +205,20 @@ function renderSocial() {
      <div class="meta">${tags}</div></div>`;
   }).join('')
     : '<p class="note">暂无符合条件的 YouTube 视频。</p>';
-  document.getElementById('xlist').innerHTML = x.length ? x.map(v=>
-    `<div class="news-item"><div class="title"><a href="${v.url}" target="_blank">${v.title}</a></div><div class="meta">${v.published} · ${v.channel}</div></div>`).join('')
-    : '<p class="note">X 平台暂未接入（API 成本高），后续视需要开通。</p>';
+  // 価格.com 排名
+  const kk = DATA.kakaku || [];
+  document.getElementById('kakakutbl').innerHTML = kk.length ? kk.map(k=>
+    `<tr><td>#${k.rank}</td><td><span class="tag impact">${k.brand}</span></td><td>${k.product}</td><td>¥${k.price||'—'}</td></tr>`).join('')
+    : '<tr><td colspan="4" class="note">今日暂无価格.com 数据</td></tr>';
+}
+
+function renderWeather() {
+  const al = DATA.weather || [];
+  document.getElementById('weatherlist').innerHTML = al.length ? al.map(a=>
+    `<div class="news-item"><div class="title"><a href="${a.url}" target="_blank" style="color:#1f2329;text-decoration:none">${a.title}</a></div>
+     <div class="meta">${(a.date||'').slice(0,16)} <span class="tag">${a.category}</span></div>
+     <div class="meta">${a.summary||''}</div></div>`).join('')
+    : '<p class="note">近 48h 无台风/地震/停电等重大灾害情报。</p>';
 }
 document.getElementById('ytfilter').addEventListener('change', renderSocial);
 document.getElementById('yttype').addEventListener('change', renderSocial);

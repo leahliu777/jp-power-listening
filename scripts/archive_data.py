@@ -147,6 +147,19 @@ def main():
     social_out.sort(key=lambda x: x.get("published", ""), reverse=True)
     social_out = social_out[:200]
 
+    # 価格.com 排名（每日快照，保留最近30天）
+    kakaku = load_json(OUT / f"kakaku_{DATE}.json", {"items": []})
+    kakaku_history = old.get("kakaku_history", [])
+    kakaku_history = [k for k in kakaku_history if k.get("date") != DATE_ISO]
+    if kakaku.get("items"):
+        kakaku_history.append({"date": DATE_ISO, "items": kakaku["items"]})
+    kakaku_history = kakaku_history[-30:]
+    kakaku_today = kakaku.get("items", [])
+
+    # 气象/灾害情报
+    weather = load_json(OUT / f"weather_{DATE}.json", {"alerts": []})
+    weather_out = weather.get("alerts", [])[:15]
+
     merged_trends = old.get("trends", [])
     merged_news = old.get("news", [])
     merged_events = old.get("events", [])
@@ -178,6 +191,9 @@ def main():
         "social": social_out,
         "events": merged_events,
         "holidays": holidays,
+        "kakaku": kakaku_today,
+        "kakaku_history": kakaku_history,
+        "weather": weather_out,
     }
     (DATA / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
 

@@ -1,0 +1,61 @@
+{
+ "date": "20261010",
+ "items": [
+  {
+   "rank": 1,
+   "brand": "Jackery",
+   "maker": "Jackery Japan",
+   "product": "Jackery ポータブル電源 2000 New",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 2,
+   "brand": "Jackery",
+   "maker": "Jackery Japan",
+   "product": "Jackery ポータブル電源 1000 New",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 3,
+   "brand": "Anker",
+   "maker": "ANKER",
+   "product": "Solix C1000 Gen 2 Portable Power Station",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 4,
+   "brand": "Anker",
+   "maker": "ANKER",
+   "product": "Solix S2000 Portable Power Station AS220511 [ダークグレー]",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 5,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 3 Plus",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 6,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 3 Max Plus",
+   "price": "",
+   "trend": ""
+  },
+  {
+   "rank": 7,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 3 Max",
+   "price": "",
+   "trend": ""
+  }
+ ]
+}

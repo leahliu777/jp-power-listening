@@ -66,6 +66,14 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python scripts/youtube_fetch.py $(date +%Y%m%d)
 
+      - name: Fetch Kakaku ranking
+        if: steps.idem.outputs.exists != 'true'
+        run: python scripts/kakaku_fetch.py $(date +%Y%m%d)
+
+      - name: Fetch weather alerts
+        if: steps.idem.outputs.exists != 'true'
+        run: python scripts/weather_fetch.py $(date +%Y%m%d)
+
       - name: Build brief HTML
         if: steps.idem.outputs.exists != 'true'
         run: python scripts/make_brief.py $(date +%Y%m%d)
