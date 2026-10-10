@@ -43,8 +43,10 @@ def build_markdown(summary, dates):
         for d, n, desc in summary["nodes14"][:3]:
             lines.append(f"- {d[5:]} {n}" + (f"：{desc}" if desc and len(desc) < 30 else ""))
         lines.append("")
+    PORTAL_URL = "https://ecn06cp5x9ws.doubaoapps.com/app/app_17fs3dd4fw6"
+    lines.append(f"[📊 打开监听中台（趋势留档/新闻归档/节点日历）]({PORTAL_URL})")
     if BRIEF_BASE:
-        lines.append(f"[查看完整简报（含趋势图与明细）]({BRIEF_BASE}/brief-{DATE}.html)")
+        lines.append(f"[今日简报全文（含趋势明细）]({BRIEF_BASE}/brief-{DATE}.html)")
     lines.append("")
     lines.append("> 数据口径：Google Trends 相对指数、按窗口归一化；环比为最后完整日 vs 前一日。")
     return "\n".join(lines)
