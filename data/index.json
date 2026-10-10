@@ -2,6 +2,188 @@
  "as_of": "2026-10-10",
  "trends": [
   {
+   "date": "2026-09-26",
+   "brands": {
+    "Anker": 1530,
+    "Anker Solix": 20,
+    "Bluetti": 4,
+    "EcoFlow": 29,
+    "Jackery": 50
+   },
+   "categories": {
+    "ポータブルバッテリー": 32,
+    "ポータブル電源": 450
+   }
+  },
+  {
+   "date": "2026-09-27",
+   "brands": {
+    "Anker": 1522,
+    "Anker Solix": 20,
+    "Bluetti": 18,
+    "EcoFlow": 16,
+    "Jackery": 36
+   },
+   "categories": {
+    "ポータブルバッテリー": 15,
+    "ポータブル電源": 338
+   }
+  },
+  {
+   "date": "2026-09-28",
+   "brands": {
+    "Anker": 1646,
+    "Anker Solix": 12,
+    "Bluetti": 0,
+    "EcoFlow": 48,
+    "Jackery": 36
+   },
+   "categories": {
+    "ポータブルバッテリー": 120,
+    "ポータブル電源": 1388
+   }
+  },
+  {
+   "date": "2026-09-29",
+   "brands": {
+    "Anker": 1430,
+    "Anker Solix": 0,
+    "Bluetti": 0,
+    "EcoFlow": 30,
+    "Jackery": 47
+   },
+   "categories": {
+    "ポータブルバッテリー": 130,
+    "ポータブル電源": 1272
+   }
+  },
+  {
+   "date": "2026-09-30",
+   "brands": {
+    "Anker": 1511,
+    "Anker Solix": 13,
+    "Bluetti": 3,
+    "EcoFlow": 40,
+    "Jackery": 71
+   },
+   "categories": {
+    "ポータブルバッテリー": 78,
+    "ポータブル電源": 1117
+   }
+  },
+  {
+   "date": "2026-10-01",
+   "brands": {
+    "Anker": 1469,
+    "Anker Solix": 0,
+    "Bluetti": 0,
+    "EcoFlow": 43,
+    "Jackery": 79
+   },
+   "categories": {
+    "ポータブルバッテリー": 141,
+    "ポータブル電源": 1094
+   }
+  },
+  {
+   "date": "2026-10-02",
+   "brands": {
+    "Anker": 1532,
+    "Anker Solix": 4,
+    "Bluetti": 0,
+    "EcoFlow": 25,
+    "Jackery": 60
+   },
+   "categories": {
+    "ポータブルバッテリー": 147,
+    "ポータブル電源": 1425
+   }
+  },
+  {
+   "date": "2026-10-03",
+   "brands": {
+    "Anker": 1505,
+    "Anker Solix": 0,
+    "Bluetti": 5,
+    "EcoFlow": 38,
+    "Jackery": 41
+   },
+   "categories": {
+    "ポータブルバッテリー": 56,
+    "ポータブル電源": 1448
+   }
+  },
+  {
+   "date": "2026-10-04",
+   "brands": {
+    "Anker": 1461,
+    "Anker Solix": 9,
+    "Bluetti": 3,
+    "EcoFlow": 56,
+    "Jackery": 34
+   },
+   "categories": {
+    "ポータブルバッテリー": 106,
+    "ポータブル電源": 1341
+   }
+  },
+  {
+   "date": "2026-10-05",
+   "brands": {
+    "Anker": 1475,
+    "Anker Solix": 0,
+    "Bluetti": 0,
+    "EcoFlow": 49,
+    "Jackery": 63
+   },
+   "categories": {
+    "ポータブルバッテリー": 123,
+    "ポータブル電源": 1415
+   }
+  },
+  {
+   "date": "2026-10-06",
+   "brands": {
+    "Anker": 1491,
+    "Anker Solix": 7,
+    "Bluetti": 5,
+    "EcoFlow": 54,
+    "Jackery": 69
+   },
+   "categories": {
+    "ポータブルバッテリー": 131,
+    "ポータブル電源": 1451
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "brands": {
+    "Anker": 1525,
+    "Anker Solix": 0,
+    "Bluetti": 30,
+    "EcoFlow": 38,
+    "Jackery": 60
+   },
+   "categories": {
+    "ポータブルバッテリー": 80,
+    "ポータブル電源": 1469
+   }
+  },
+  {
+   "date": "2026-10-08",
+   "brands": {
+    "Anker": 1468,
+    "Anker Solix": 3,
+    "Bluetti": 0,
+    "EcoFlow": 30,
+    "Jackery": 58
+   },
+   "categories": {
+    "ポータブルバッテリー": 130,
+    "ポータブル電源": 1191
+   }
+  },
+  {
    "date": "2026-10-09",
    "brands": {
     "Jackery": 40,
