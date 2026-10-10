@@ -64,6 +64,10 @@ jobs:
         if: steps.idem.outputs.exists != 'true'
         run: python scripts/make_brief.py $(date +%Y%m%d)
 
+      - name: Archive data to portal index
+        if: steps.idem.outputs.exists != 'true'
+        run: python scripts/archive_data.py $(date +%Y%m%d)
+
       - name: Push to DingTalk
         if: steps.idem.outputs.exists != 'true'
         run: python scripts/dingtalk_push.py $(date +%Y%m%d)
