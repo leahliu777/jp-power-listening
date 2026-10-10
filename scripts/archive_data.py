@@ -140,6 +140,9 @@ def main():
             "url": v.get("url", ""),
             "keyword": v.get("keyword", ""),
             "hashtags": v.get("hashtags", []),
+            "content_type": v.get("content_type", "其他"),
+            "official": v.get("official", False),
+            "channel_label": v.get("channel_label", ""),
         })
     social_out.sort(key=lambda x: x.get("published", ""), reverse=True)
     social_out = social_out[:200]

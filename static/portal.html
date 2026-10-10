@@ -119,7 +119,12 @@
           <option>Jackery</option><option>EcoFlow</option><option>Anker</option><option>Anker Solix</option><option>Bluetti</option>
           <option>ポータブル電源</option><option>ポータブルバッテリー</option>
         </select>
-        <span class="note" style="margin-left:10px">按搜索关键词筛选 YouTube 视频</span>
+        <select id="yttype">
+          <option value="">全部类型</option>
+          <option>评测</option><option>促销</option><option>新品</option><option>教程</option><option>官方内容</option><option>其他</option>
+        </select>
+        <label style="font-size:13px;color:#4e5969"><input type="checkbox" id="ytonly" style="vertical-align:-1px"> 只看品牌官方频道</label>
+        <span class="note" style="margin-left:10px">★ = 品牌官方频道</span>
       </div>
       <div class="grid2">
         <div class="card"><h3 style="margin-bottom:10px">YouTube 新视频</h3><div id="ytlist"></div></div>
@@ -173,22 +178,31 @@ async function load() {
 }
 
 function renderSocial() {
-  const all = (DATA.social||[]).filter(s=>s.platform==='youtube').slice(0,40);
+  const all = (DATA.social||[]).filter(s=>s.platform==='youtube').slice(0,60);
   const x = (DATA.social||[]).filter(s=>s.platform==='x').slice(0,20);
   const f = document.getElementById('ytfilter').value;
-  const yt = f ? all.filter(v=>v.keyword===f) : all;
+  const tf = document.getElementById('yttype').value;
+  const only = document.getElementById('ytonly').checked;
+  let yt = all;
+  if (f) yt = yt.filter(v=>v.keyword===f);
+  if (tf) yt = yt.filter(v=>v.content_type===tf);
+  if (only) yt = yt.filter(v=>v.official);
   document.getElementById('ytlist').innerHTML = yt.length ? yt.map(v=>{
     const tags = (v.hashtags||[]).map(t=>`<span class="tag">#${t}</span>`).join(' ');
-    return `<div class="news-item"><div class="title"><a href="${v.url}" target="_blank" style="color:#1f2329;text-decoration:none">▶ ${v.title}</a></div>
-     <div class="meta">${(v.published||'').slice(0,10)} · ${v.channel} <span class="tag impact">${v.keyword||''}</span></div>
+    const star = v.official ? '★ ' : '';
+    const chan = v.official ? (v.channel_label||v.channel) : v.channel;
+    return `<div class="news-item"><div class="title"><a href="${v.url}" target="_blank" style="color:#1f2329;text-decoration:none">▶ ${star}${v.title}</a></div>
+     <div class="meta">${(v.published||'').slice(0,10)} · ${chan} <span class="tag impact">${v.keyword||''}</span> <span class="tag" style="background:#eef3ff;color:#1a56db">${v.content_type||'其他'}</span></div>
      <div class="meta">${tags}</div></div>`;
   }).join('')
-    : '<p class="note">暂无该关键词的 YouTube 视频（或采集未运行）。</p>';
+    : '<p class="note">暂无符合条件的 YouTube 视频。</p>';
   document.getElementById('xlist').innerHTML = x.length ? x.map(v=>
     `<div class="news-item"><div class="title"><a href="${v.url}" target="_blank">${v.title}</a></div><div class="meta">${v.published} · ${v.channel}</div></div>`).join('')
     : '<p class="note">X 平台暂未接入（API 成本高），后续视需要开通。</p>';
 }
 document.getElementById('ytfilter').addEventListener('change', renderSocial);
+document.getElementById('yttype').addEventListener('change', renderSocial);
+document.getElementById('ytonly').addEventListener('change', renderSocial);
 
 function latestTrend() { return DATA.trends[DATA.trends.length - 1] || {}; }
 
