@@ -1,1 +1,260 @@
-<h1>jp-power-listening</h1><p>简报将发布于此目录。</p>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本便携电源监听中台</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background:#f5f6f8; color:#1f2329; }
+  .layout { display:flex; min-height:100vh; }
+  .sidebar { width:220px; background:#fff; border-right:1px solid #dee3e8; padding:20px 0; flex-shrink:0; position:fixed; top:0; bottom:0; left:0; overflow-y:auto; }
+  .sidebar .brand { padding:0 20px 20px; font-size:15px; font-weight:700; color:#1a56db; border-bottom:1px solid #f0f1f3; }
+  .sidebar .brand small { display:block; font-size:11px; color:#8f959e; font-weight:400; margin-top:4px; }
+  .nav-item { display:block; padding:11px 20px; cursor:pointer; font-size:14px; color:#4e5969; border-left:3px solid transparent; }
+  .nav-item:hover { background:#f5f6f8; }
+  .nav-item.active { color:#1a56db; background:#eef3ff; border-left-color:#1a56db; font-weight:600; }
+  .sidebar .foot { padding:16px 20px; font-size:11px; color:#8f959e; position:absolute; bottom:0; }
+  .main { margin-left:220px; flex:1; padding:24px 32px; }
+  .page-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:20px; }
+  .page-head h1 { font-size:22px; }
+  .badge { font-size:12px; padding:3px 10px; border-radius:10px; }
+  .badge-ok { background:#e6f7e9; color:#0a8a3c; }
+  .badge-demo { background:#fff7e6; color:#d46b08; }
+  .card { background:#fff; border-radius:8px; padding:20px; margin-bottom:16px; box-shadow:0 1px 2px rgba(0,0,0,.04); }
+  .kpi-row { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:16px; }
+  .kpi { background:#fff; border-radius:8px; padding:16px 18px; border-left:4px solid #1a56db; }
+  .kpi .label { font-size:12px; color:#8f959e; }
+  .kpi .val { font-size:22px; font-weight:700; margin-top:6px; }
+  .kpi .sub { font-size:12px; margin-top:4px; color:#0a8a3c; }
+  .kpi .sub.down { color:#d4380d; }
+  .conclusion { background:#eef3ff; border-left:4px solid #1a56db; padding:12px 16px; border-radius:6px; margin-bottom:16px; font-size:14px; }
+  ul.bullets { list-style:none; }
+  ul.bullets li { padding:8px 0 8px 18px; position:relative; font-size:14px; border-bottom:1px solid #f5f6f8; }
+  ul.bullets li::before { content:""; position:absolute; left:0; top:14px; width:8px; height:8px; border-radius:50%; background:#8f959e; }
+  ul.bullets li.rise::before { background:#d4380d; }
+  ul.bullets li.info::before { background:#1a56db; }
+  ul.bullets li.warn::before { background:#d46b08; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .chart { width:100%; height:300px; }
+  .news-item { padding:12px 0; border-bottom:1px solid #f0f1f3; }
+  .news-item .title { font-size:14px; font-weight:600; }
+  .news-item .meta { font-size:12px; color:#8f959e; margin-top:4px; }
+  .tag { display:inline-block; font-size:11px; padding:1px 8px; border-radius:4px; background:#f0f1f3; color:#4e5969; margin-right:6px; }
+  .tag.impact { background:#eef3ff; color:#1a56db; }
+  .cal { display:grid; grid-template-columns:repeat(7,1fr); gap:4px; }
+  .cal .dow { text-align:center; font-size:12px; color:#8f959e; padding:6px 0; }
+  .cal .cell { min-height:64px; border:1px solid #f0f1f3; border-radius:4px; padding:4px; font-size:11px; position:relative; }
+  .cal .cell.holiday { background:#fff3f0; }
+  .cal .cell.today { border:2px solid #1a56db; }
+  .cal .cell .d { font-weight:600; }
+  .cal .cell .n { color:#d4380d; margin-top:2px; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th,td { text-align:left; padding:8px 10px; border-bottom:1px solid #f0f1f3; }
+  th { color:#8f959e; font-weight:500; }
+  .page { display:none; }
+  .page.active { display:block; }
+  .filters { margin-bottom:12px; }
+  select { padding:6px 10px; border:1px solid #dee3e8; border-radius:6px; font-size:13px; }
+  .note { font-size:12px; color:#8f959e; margin-top:8px; }
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand">日本便携电源监听中台<small>JP Portable Power Monitoring</small></div>
+    <a class="nav-item active" data-page="overview">概览</a>
+    <a class="nav-item" data-page="trends">趋势留档</a>
+    <a class="nav-item" data-page="news">新闻归档</a>
+    <a class="nav-item" data-page="social">社媒归档</a>
+    <a class="nav-item" data-page="calendar">节点日历</a>
+    <div class="foot" id="foot">数据更新中…</div>
+  </aside>
+  <main class="main">
+
+    <!-- 概览 -->
+    <section class="page active" id="page-overview">
+      <div class="page-head"><h1>今日速览</h1><span class="badge" id="badge">…</span></div>
+      <div class="conclusion" id="conclusion">加载中…</div>
+      <div class="card"><div id="spark" class="chart" style="height:240px"></div></div>
+      <div class="kpi-row" id="kpis"></div>
+      <div class="card"><h3 style="margin-bottom:8px">今日要点</h3><ul class="bullets" id="bullets"></ul></div>
+      <div class="card"><h3 style="margin-bottom:8px">今日要闻 Top 3</h3><div id="topnews"></div></div>
+    </section>
+
+    <!-- 趋势留档 -->
+    <section class="page" id="page-trends">
+      <div class="page-head"><h1>Google Trends 历史留档</h1><span class="badge badge-ok">组内归一化</span></div>
+      <div class="card"><div id="trendchart" class="chart" style="height:420px"></div>
+        <div class="note">相对指数（组内最高=100）；品牌组与品类组为两个独立归一化集合，跨组不可比；窗口首日与当日为部分数据。</div>
+      </div>
+      <div class="card"><h3 style="margin-bottom:10px">事件-趋势归因</h3>
+        <table><thead><tr><th>日期</th><th>类型</th><th>事件</th><th>关联品牌</th><th>方向</th></tr></thead><tbody id="eventtbl"></tbody></table>
+      </div>
+      <div class="card"><h3 style="margin-bottom:10px">逐日明细</h3>
+        <table><thead><tr><th>日期</th><th>Jackery</th><th>EcoFlow</th><th>Anker</th><th>Anker Solix</th><th>Bluetti</th><th>ポータブル電源</th><th>ポータブルバッテリー</th></tr></thead><tbody id="trendtbl"></tbody></table>
+      </div>
+    </section>
+
+    <!-- 新闻归档 -->
+    <section class="page" id="page-news">
+      <div class="page-head"><h1>新闻归档</h1><span class="badge" id="newscount"></span></div>
+      <div class="card filters">
+        <select id="brandfilter"><option value="">全部品牌</option><option>Jackery</option><option>EcoFlow</option><option>Anker</option><option>Anker Solix</option><option>BLUETTI</option></select>
+      </div>
+      <div class="card" id="newslist"></div>
+    </section>
+
+    <!-- 社媒归档 -->
+    <section class="page" id="page-social">
+      <div class="page-head"><h1>社媒归档</h1><span class="badge">YouTube / X</span></div>
+      <div class="grid2">
+        <div class="card"><h3 style="margin-bottom:10px">YouTube</h3><div id="ytlist"><p class="note">云端版暂未采集 YouTube（无公开关键词 API），后续接入。</p></div></div>
+        <div class="card"><h3 style="margin-bottom:10px">X / Twitter</h3><div id="xlist"><p class="note">云端版暂未采集 X，后续接入。</p></div></div>
+      </div>
+    </section>
+
+    <!-- 节点日历 -->
+    <section class="page" id="page-calendar">
+      <div class="page-head"><h1>节点与假日日历</h1><span class="badge">日本 2026-2027</span></div>
+      <div class="grid2">
+        <div class="card"><div id="caltitle" style="font-size:16px;font-weight:600;margin-bottom:10px"></div><div class="cal" id="calgrid"></div></div>
+        <div class="card"><h3 style="margin-bottom:10px">未来 30 天节点</h3><div id="fwdnodes"></div></div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+const BASE = "https://leahliu777.github.io/jp-power-listening";
+let DATA = null;
+
+// 导航切换
+document.querySelectorAll('.nav-item').forEach(n => n.addEventListener('click', () => {
+  document.querySelectorAll('.nav-item').forEach(x => x.classList.remove('active'));
+  document.querySelectorAll('.page').forEach(x => x.classList.remove('active'));
+  n.classList.add('active');
+  document.getElementById('page-' + n.dataset.page).classList.add('active');
+  if (n.dataset.page === 'trends') renderTrendChart();
+  if (n.dataset.page === 'calendar') renderCalendar();
+}));
+
+async function load() {
+  try {
+    const r = await fetch(BASE + '/data/index.json?t=' + Date.now());
+    DATA = await r.json();
+    document.getElementById('badge').className = 'badge badge-ok';
+    document.getElementById('badge').textContent = '数据已留档 · ' + (DATA.as_of || '');
+    document.getElementById('foot').textContent = '数据更新于 ' + (DATA.as_of || '—');
+  } catch (e) {
+    document.getElementById('badge').className = 'badge badge-demo';
+    document.getElementById('badge').textContent = '演示数据（留档管线部署中）';
+    return;
+  }
+  renderOverview();
+}
+
+function latestTrend() { return DATA.trends[DATA.trends.length - 1] || {}; }
+
+function renderOverview() {
+  const t = latestTrend();
+  const b = t.brands || {}, c = t.categories || {};
+  const anker = b['Anker'], eco = b['EcoFlow'];
+  // 结论
+  document.getElementById('conclusion').textContent =
+    '今日重点：' + (ANKER_NOTE(anker)) + (c['ポータブル電源'] ? '；品类大词 ポータブル電源 日活 ' + c['ポータブル電源'] : '');
+  function ANKER_NOTE(a) { return a ? 'Anker 以 ' + a + ' 居品牌热度首位' : '趋势数据加载中'; }
+  // KPI
+  const topBrand = Object.entries(b).sort((x,y)=>y[1]-x[1])[0];
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi"><div class="label">热度最高品牌</div><div class="val">${topBrand?topBrand[0]:'—'}</div><div class="sub">指数 ${topBrand?topBrand[1]:'—'}</div></div>
+    <div class="kpi"><div class="label">EcoFlow</div><div class="val">${eco??'—'}</div><div class="sub">监测中</div></div>
+    <div class="kpi"><div class="label">ポータブル電源</div><div class="val">${c['ポータブル電源']??'—'}</div><div class="sub">品类大词</div></div>
+    <div class="kpi"><div class="label">临近节点</div><div class="val" style="font-size:16px">スポーツの日</div><div class="sub">10/12</div></div>`;
+  // bullets
+  const bl = document.getElementById('bullets');
+  bl.innerHTML = DATA.news.slice(0,5).map(n =>
+    `<li class="${n.trend_impact && n.trend_impact.includes('↑') ? 'rise' : 'info'}">[${n.date}] ${n.title}（${n.source}）<br><span class="tag impact">${n.trend_impact||''}</span></li>`).join('');
+  // top news
+  document.getElementById('topnews').innerHTML = DATA.news.slice(0,3).map((n,i) =>
+    `<div class="news-item"><b>${i+1}. ${n.title}</b><div class="meta">${n.date} · ${n.source} <span class="tag impact">${n.trend_impact||''}</span></div></div>`).join('');
+  renderSpark();
+  renderNews();
+}
+
+function renderSpark() {
+  const dates = DATA.trends.map(t=>t.date);
+  const brands = ['Jackery','EcoFlow','Anker','Anker Solix','Bluetti'];
+  const chart = echarts.init(document.getElementById('spark'));
+  chart.setOption({
+    tooltip:{trigger:'axis'}, legend:{data:brands, bottom:0},
+    grid:{left:40,right:20,top:20,bottom:40},
+    xAxis:{type:'category',data:dates}, yAxis:{type:'value'},
+    series: brands.map(k=>({name:k,type:'line',showSymbol:false,data:DATA.trends.map(t=>t.brands?t.brands[k]:null)}))
+  });
+}
+
+function renderTrendChart() {
+  const el = document.getElementById('trendchart');
+  if (!el || !DATA || !DATA.trends.length) { if(el) el.innerHTML='<p class="note">暂无趋势数据</p>'; return; }
+  const dates = DATA.trends.map(t=>t.date);
+  const brands = ['Jackery','EcoFlow','Anker','Anker Solix','Bluetti'];
+  const chart = echarts.init(el);
+  chart.setOption({
+    tooltip:{trigger:'axis'}, legend:{data:brands, top:0},
+    grid:{left:50,right:30,top:40,bottom:40},
+    xAxis:{type:'category',data:dates}, yAxis:{type:'value', name:'相对指数'},
+    series: brands.map(k=>({name:k,type:'line',smooth:true,data:DATA.trends.map(t=>t.brands?t.brands[k]:null)}))
+  });
+  // 归因表
+  document.getElementById('eventtbl').innerHTML = DATA.events.slice(0,10).map(e=>
+    `<tr><td>${e.date}</td><td>${e.type||''}</td><td>${e.title}</td><td>${e.brand||''}</td><td>${e.direction||'—'}</td></tr>`).join('');
+  // 明细表
+  document.getElementById('trendtbl').innerHTML = DATA.trends.map(t=>
+    `<tr><td>${t.date}</td><td>${t.brands?.Jackery??''}</td><td>${t.brands?.EcoFlow??''}</td><td>${t.brands?.Anker??''}</td><td>${t.brands?.['Anker Solix']??''}</td><td>${t.brands?.Bluetti??''}</td><td>${t.categories?.['ポータブル電源']??''}</td><td>${t.categories?.['ポータブルバッテリー']??''}</td></tr>`).join('');
+}
+
+function renderNews() {
+  const list = DATA.news || [];
+  document.getElementById('newscount').textContent = list.length + ' 条';
+  document.getElementById('newslist').innerHTML = list.slice(0,30).map(n =>
+    `<div class="news-item"><div class="title"><a href="${n.url}" target="_blank" style="color:#1f2329;text-decoration:none">${n.title}</a></div>
+     <div class="meta">${n.date} · ${n.source||''} <span class="tag">${n.brand||''}</span> <span class="tag impact">${n.trend_impact||''}</span></div></div>`).join('') || '<p class="note">暂无新闻</p>';
+}
+document.getElementById('brandfilter').addEventListener('change', e => {
+  const f = e.target.value;
+  document.querySelectorAll('#newslist .news-item').forEach((el,i)=>{
+    el.style.display = (!f || DATA.news[i].brand === f) ? '' : 'none';
+  });
+});
+
+function renderCalendar() {
+  const now = new Date();
+  const y = now.getFullYear(), m = now.getMonth();
+  document.getElementById('caltitle').textContent = y + '年 ' + (m+1) + '月';
+  const hol = (DATA.holidays||[]).filter(h=>h.date.startsWith(y+'-'+String(m+1).padStart(2,'0')));
+  const holMap = {}; hol.forEach(h=>{ holMap[h.date.slice(8,10)] = h; });
+  const first = new Date(y,m,1).getDay();
+  const days = new Date(y,m+1,0).getDate();
+  let html = ['日','一','二','三','四','五','六'].map(d=>`<div class="dow">${d}</div>`).join('');
+  for (let i=0;i<first;i++) html += '<div class="cell"></div>';
+  for (let d=1;d<=days;d++) {
+    const key = String(d).padStart(2,'0');
+    const h = holMap[key];
+    const isToday = d === now.getDate();
+    html += `<div class="cell ${h?'holiday':''} ${isToday?'today':''}"><div class="d">${d}</div>${h?`<div class="n">${h.name}</div>`:''}</div>`;
+  }
+  document.getElementById('calgrid').innerHTML = html;
+  // 未来30天
+  const today = now.toISOString().slice(0,10);
+  const fwd = (DATA.holidays||[]).filter(h=>h.date>=today).slice(0,8);
+  document.getElementById('fwdnodes').innerHTML = fwd.map(h=>
+    `<div class="news-item"><div class="title">${h.date} ${h.name}</div><div class="meta"><span class="tag">${h.type}</span>${h.desc?' '+h.desc:''}</div></div>`).join('');
+}
+
+load();
+</script>
+</body>
+</html>
