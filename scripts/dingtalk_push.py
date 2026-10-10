@@ -44,7 +44,7 @@ def build_markdown(summary, dates):
         lines.append(f"**📅 临近节点**：{n}（{d[5:]}{extra}）")
         lines.append("")
     PORTAL_URL = "https://leahliu777.github.io/jp-power-listening/"
-    lines.append(f"[📊 打开监听中台]({PORTAL_URL})（含趋势留档/新闻归档/节点日历/今日简报）")
+    lines.append(f"[📊 打开监听中台]({PORTAL_URL})")
     return "\n".join(lines)
 
 
