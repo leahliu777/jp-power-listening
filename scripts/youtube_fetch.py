@@ -3,8 +3,17 @@
 """YouTube 社媒采集：按品牌/品类关键词搜索最近 48h 新视频，存 output/youtube_YYYYMMDD.json
 环境变量: YOUTUBE_API_KEY
 """
-import datetime, json, os, sys, urllib.parse, urllib.request
+import datetime, json, os, re, sys, urllib.parse, urllib.request
 from pathlib import Path
+
+JP_RE = re.compile(r"[\u3040-\u30ff]")  # 平假名/片假名 = 日文强信号
+
+def is_japanese(title):
+    """标题含假名判定为日文内容（过滤英文/其他语言）"""
+    return bool(JP_RE.search(title))
+
+def is_jp_official(channel_label):
+    return bool(channel_label) and ("Japan" in channel_label or "JAPAN" in channel_label)
 
 API_KEY = os.environ.get("YOUTUBE_API_KEY", "")
 BASE = Path(__file__).resolve().parent.parent
@@ -119,7 +128,7 @@ def main():
         raise SystemExit("YOUTUBE_API_KEY not set")
     items, seen = [], set()
 
-    # 1) 品牌官方频道（含日本本土账号）
+    # 1) 品牌官方频道（日本本土账号全保留，全球账号仅收日文内容）
     for brand, chan_label, chan_id in BRAND_CHANNELS:
         try:
             data = search_channel_videos(chan_id, API_KEY)
@@ -130,11 +139,14 @@ def main():
             vid = it.get("id", {}).get("videoId")
             if not vid or vid in seen:
                 continue
-            seen.add(vid)
             sn = it.get("snippet", {})
+            title = sn.get("title", "")
+            if not is_jp_official(chan_label) and not is_japanese(title):
+                continue
+            seen.add(vid)
             items.append({
                 "video_id": vid,
-                "title": sn.get("title", ""),
+                "title": title,
                 "channel": sn.get("channelTitle", ""),
                 "published": sn.get("publishedAt", ""),
                 "url": f"https://www.youtube.com/watch?v={vid}",
@@ -143,7 +155,7 @@ def main():
                 "channel_label": chan_label,
             })
 
-    # 2) 关键词搜索（第三方/社媒内容）
+    # 2) 关键词搜索（仅日文内容）
     for kw, label in QUERIES:
         try:
             data = search(kw, API_KEY)
@@ -157,7 +169,7 @@ def main():
             sn = it.get("snippet", {})
             title = sn.get("title", "")
             channel = sn.get("channelTitle", "")
-            if not relevant(title, channel, label):
+            if not relevant(title, channel, label) or not is_japanese(title):
                 continue
             seen.add(vid)
             items.append({
