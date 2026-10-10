@@ -68,6 +68,10 @@ jobs:
         if: steps.idem.outputs.exists != 'true'
         run: python scripts/archive_data.py $(date +%Y%m%d)
 
+      - name: Publish portal as gh-pages home
+        if: steps.idem.outputs.exists != 'true'
+        run: cp static/portal.html output/html/index.html
+
       - name: Push to DingTalk
         if: steps.idem.outputs.exists != 'true'
         run: python scripts/dingtalk_push.py $(date +%Y%m%d)

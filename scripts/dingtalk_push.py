@@ -43,7 +43,7 @@ def build_markdown(summary, dates):
         for d, n, desc in summary["nodes14"][:3]:
             lines.append(f"- {d[5:]} {n}" + (f"：{desc}" if desc and len(desc) < 30 else ""))
         lines.append("")
-    PORTAL_URL = "https://ecn06cp5x9ws.doubaoapps.com/app/app_17fs3dd4fw6"
+    PORTAL_URL = "https://leahliu777.github.io/jp-power-listening/"
     lines.append(f"[📊 打开监听中台（趋势留档/新闻归档/节点日历）]({PORTAL_URL})")
     if BRIEF_BASE:
         lines.append(f"[今日简报全文（含趋势明细）]({BRIEF_BASE}/brief-{DATE}.html)")
