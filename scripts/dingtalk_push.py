@@ -25,30 +25,26 @@ def sign_url(webhook, secret):
 
 
 def build_markdown(summary, dates):
-    lines = [f"### 日本便携电源市场监听日报（{summary['date']}）"]
+    import re
+    def clean(s): return re.sub(r"<[^>]+>", "", s).strip()
+    lines = [f"### 📊 监听日报 · {summary['date'][5:]}"]
     lines.append("")
+    lines.append("**🎯 今日重点**")
     for b in summary.get("bullets", []):
-        # 去 HTML 标签
-        import re
-        txt = re.sub(r"<[^>]+>", "", b).strip()
-        lines.append(f"- {txt}")
+        lines.append(f"• {clean(b)}")
     lines.append("")
     if summary.get("news_top"):
-        lines.append("**重点新闻**")
-        for t in summary["news_top"][:3]:
-            lines.append(f"- [{t['date']}] {t['title']}（{t['source']}）")
+        lines.append("**🔔 需要关注**")
+        for t in summary["news_top"][:2]:
+            lines.append(f"• [{clean(t['title'])}]({t['link']})（{t['source']}）")
         lines.append("")
     if summary.get("nodes14"):
-        lines.append("**临近节点**")
-        for d, n, desc in summary["nodes14"][:3]:
-            lines.append(f"- {d[5:]} {n}" + (f"：{desc}" if desc and len(desc) < 30 else ""))
+        d, n, desc = summary["nodes14"][0]
+        extra = f"：{desc}" if desc and desc != "国民の祝日" and len(desc) < 30 else ""
+        lines.append(f"**📅 临近节点**：{n}（{d[5:]}{extra}）")
         lines.append("")
     PORTAL_URL = "https://leahliu777.github.io/jp-power-listening/"
-    lines.append(f"[📊 打开监听中台（趋势留档/新闻归档/节点日历）]({PORTAL_URL})")
-    if BRIEF_BASE:
-        lines.append(f"[今日简报全文（含趋势明细）]({BRIEF_BASE}/brief-{DATE}.html)")
-    lines.append("")
-    lines.append("> 数据口径：Google Trends 相对指数、按窗口归一化；环比为最后完整日 vs 前一日。")
+    lines.append(f"[📊 打开监听中台]({PORTAL_URL})　｜　[今日简报全文]({BRIEF_BASE}/brief-{DATE}.html)")
     return "\n".join(lines)
 
 
