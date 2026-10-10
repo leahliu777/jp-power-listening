@@ -113,9 +113,17 @@
     <!-- 社媒归档 -->
     <section class="page" id="page-social">
       <div class="page-head"><h1>社媒归档</h1><span class="badge">YouTube / X</span></div>
+      <div class="card filters">
+        <select id="ytfilter">
+          <option value="">全部关键词</option>
+          <option>Jackery</option><option>EcoFlow</option><option>Anker</option><option>Anker Solix</option><option>Bluetti</option>
+          <option>ポータブル電源</option><option>ポータブルバッテリー</option>
+        </select>
+        <span class="note" style="margin-left:10px">按搜索关键词筛选 YouTube 视频</span>
+      </div>
       <div class="grid2">
-        <div class="card"><h3 style="margin-bottom:10px">YouTube</h3><div id="ytlist"><p class="note">云端版暂未采集 YouTube（无公开关键词 API），后续接入。</p></div></div>
-        <div class="card"><h3 style="margin-bottom:10px">X / Twitter</h3><div id="xlist"><p class="note">云端版暂未采集 X，后续接入。</p></div></div>
+        <div class="card"><h3 style="margin-bottom:10px">YouTube 新视频</h3><div id="ytlist"></div></div>
+        <div class="card"><h3 style="margin-bottom:10px">X / Twitter</h3><div id="xlist"><p class="note">X 平台暂未接入（API 成本高），后续视需要开通。</p></div></div>
       </div>
     </section>
 
@@ -165,16 +173,22 @@ async function load() {
 }
 
 function renderSocial() {
-  const yt = (DATA.social||[]).filter(s=>s.platform==='youtube').slice(0,20);
+  const all = (DATA.social||[]).filter(s=>s.platform==='youtube').slice(0,40);
   const x = (DATA.social||[]).filter(s=>s.platform==='x').slice(0,20);
-  document.getElementById('ytlist').innerHTML = yt.length ? yt.map(v=>
-    `<div class="news-item"><div class="title"><a href="${v.url}" target="_blank" style="color:#1f2329;text-decoration:none">▶ ${v.title}</a></div>
-     <div class="meta">${(v.published||'').slice(0,10)} · ${v.channel} <span class="tag">${v.keyword||''}</span></div></div>`).join('')
-    : '<p class="note">今日暂无 YouTube 新视频（或采集未运行）。</p>';
+  const f = document.getElementById('ytfilter').value;
+  const yt = f ? all.filter(v=>v.keyword===f) : all;
+  document.getElementById('ytlist').innerHTML = yt.length ? yt.map(v=>{
+    const tags = (v.hashtags||[]).map(t=>`<span class="tag">#${t}</span>`).join(' ');
+    return `<div class="news-item"><div class="title"><a href="${v.url}" target="_blank" style="color:#1f2329;text-decoration:none">▶ ${v.title}</a></div>
+     <div class="meta">${(v.published||'').slice(0,10)} · ${v.channel} <span class="tag impact">${v.keyword||''}</span></div>
+     <div class="meta">${tags}</div></div>`;
+  }).join('')
+    : '<p class="note">暂无该关键词的 YouTube 视频（或采集未运行）。</p>';
   document.getElementById('xlist').innerHTML = x.length ? x.map(v=>
     `<div class="news-item"><div class="title"><a href="${v.url}" target="_blank">${v.title}</a></div><div class="meta">${v.published} · ${v.channel}</div></div>`).join('')
     : '<p class="note">X 平台暂未接入（API 成本高），后续视需要开通。</p>';
 }
+document.getElementById('ytfilter').addEventListener('change', renderSocial);
 
 function latestTrend() { return DATA.trends[DATA.trends.length - 1] || {}; }
 

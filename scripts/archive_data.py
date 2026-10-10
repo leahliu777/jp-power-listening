@@ -139,6 +139,7 @@ def main():
             "published": v.get("published", ""),
             "url": v.get("url", ""),
             "keyword": v.get("keyword", ""),
+            "hashtags": v.get("hashtags", []),
         })
     social_out.sort(key=lambda x: x.get("published", ""), reverse=True)
     social_out = social_out[:200]
