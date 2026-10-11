@@ -200,15 +200,15 @@
   {
    "date": "2026-10-10",
    "brands": {
-    "Jackery": 49,
-    "EcoFlow": 10,
-    "Anker": 1458,
+    "Jackery": 52,
+    "EcoFlow": 20,
+    "Anker": 1457,
     "Anker Solix": 3,
-    "Bluetti": 0
+    "Bluetti": 3
    },
    "categories": {
     "ポータブル電源": 1480,
-    "ポータブルバッテリー": 45
+    "ポータブルバッテリー": 54
    }
   }
  ],
@@ -1678,6 +1678,13 @@
   },
   {
    "category": "台风・灾害",
+   "title": "地震が秀吉と家康の運命を変えた？ 天下人を揺さぶった大地震 - テレ朝NEWS",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5lOTdDMG1NTjZSdHM0b0hIUV94ZEY2RUFuLW1fRU9TbUgtN1NTMHNfMUNuNE",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lOTdDMG1NTjZSdHM0b0hIUV94ZEY2RUFuLW1fRU9TbUgtN1NTMHNfMUNuNENLZkpmVEdBcG52MWw5WmtXODNFMlBwNWFXdlRyaDRyUFh6Tmw0UktsTkhEWUZBdlJVck42cmpjWlpEdkxDZw?oc=5",
+   "date": "Sun, 11 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
    "title": "【持ち歩ける防災】大賞は“1本10役”で停電時も安心！日常と災害をシームレスに繋ぐ「防災アウトドア用品」大賞2026 - Yahoo!ニュース",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFB0RDdNT1pDWjhRRjczMFdBaURaajQ3bFQtYXhScmNscTdIcXVCM3FzWE5vYj",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0RDdNT1pDWjhRRjczMFdBaURaajQ3bFQtYXhScmNscTdIcXVCM3FzWE5vYjBuTC1QTFVhdE9BLVRkcFFzSFhRYUpITGFsRWdYb1Y5QlM1eGVDX1doQWktNmlrZ1BUZHNDb285UW40UHJySFhac2t6ZHpwMHJoYmM?oc=5",
@@ -1699,13 +1706,6 @@
   },
   {
    "category": "台风・灾害",
-   "title": "千葉の大雨、浸水家屋などで湿気好むシロアリ増殖の懸念 富里市の公園で探知犬が生息調査 - 産経ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFAyb3Rta1k4RXlEMF9PR0s3NVBQOVNRWWloQ0lXeUxHX2lQaWV1UEMzMS1uZl",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyb3Rta1k4RXlEMF9PR0s3NVBQOVNRWWloQ0lXeUxHX2lQaWV1UEMzMS1uZlktNHRmZ0tuQWllT2dJZk1UTUVTX254WDV3dGxmMDA2Z3lfemppM3Z2V3c0WWlIRmRCSUxGQVBxanoxV1VUcVdXQ3c?oc=5",
-   "date": "Sun, 11 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
    "title": "熊本県、熊本地震被災企業へ新補助制度 10月16日まで申込不要の説明会 - 観光経済新聞",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EMHU5S1dRQS1jaDFEajJ4UlA3MmY0Z2VnSzd2dFJTUWU2eUM4NFNmekpOd1",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EMHU5S1dRQS1jaDFEajJ4UlA3MmY0Z2VnSzd2dFJTUWU2eUM4NFNmekpOd1ZaeldOTUFNRmxOOFhzU2FQeUE3cVZ4ai1qWnN0X001Xw?oc=5",
@@ -1713,9 +1713,23 @@
   },
   {
    "category": "台风・灾害",
+   "title": "千葉の大雨、浸水家屋などで湿気好むシロアリ増殖の懸念 富里市の公園で探知犬が生息調査 - 産経ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFAyb3Rta1k4RXlEMF9PR0s3NVBQOVNRWWloQ0lXeUxHX2lQaWV1UEMzMS1uZl",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyb3Rta1k4RXlEMF9PR0s3NVBQOVNRWWloQ0lXeUxHX2lQaWV1UEMzMS1uZlktNHRmZ0tuQWllT2dJZk1UTUVTX254WDV3dGxmMDA2Z3lfemppM3Z2V3c0WWlIRmRCSUxGQVBxanoxV1VUcVdXQ3c?oc=5",
+   "date": "Sun, 11 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
    "title": "震度＝気象庁発表（１１日１０時１５分）震度順・市区町村別 ：地震 - 京都新聞デジタル",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LdnlQZmpsdzIxcmNRaEhveTEtWk9XM0FMMDZ2cHlzd2FzeHRHVFNMSjlBc3",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LdnlQZmpsdzIxcmNRaEhveTEtWk9XM0FMMDZ2cHlzd2FzeHRHVFNMSjlBc3lyMW1Wc3NJdU51dGp6eGM3ZEVCbkdRZHpMMDhDb0RjSzVnSTA?oc=5",
+   "date": "Sun, 11 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "地震情報（2026年10月11日 10時15分 発表） - 産経ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOV1hjWDdfR0N6RE1pbkR3VUQ5VmN1VUFGSmF3eng5ZndCQVhST0Qta0hFQj",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV1hjWDdfR0N6RE1pbkR3VUQ5VmN1VUFGSmF3eng5ZndCQVhST0Qta0hFQjVmbmVaejJJRU9yLVowNWhCdHVLQUdiUS1oV24zWGZJckdDQUZOcXlyV3p5MVdpdUpWbE5jeU9FQmRPRFBYY3Jvak1jWENZdG8zMlVfMGNB?oc=5",
    "date": "Sun, 11 Oct 2026"
   },
   {
@@ -1730,20 +1744,6 @@
    "title": "【気象情報】“台風のたまご”=熱帯低気圧が新たに発生 南の海上に「TD」の記号 【21日までの雨風シミュレーション】 - Yahoo!ニュース",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBXVHdtTlEycWVuSVZDclo4Qi1FSC1TMzFrRF9jdGI1aHhic05HZ19xaGl6LT",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXVHdtTlEycWVuSVZDclo4Qi1FSC1TMzFrRF9jdGI1aHhic05HZ19xaGl6LTlTTHRlOHlFMm52aDFPNktZSjlVOXdXZnVYbEIxMjdyNC1oZHUyTk95M1E3SnJ6YWNLVmx6N21URzNOWkFCR1ZzLVpoMUR0Um9HeWc?oc=5",
-   "date": "Sat, 10 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "熊本地震で落ちかけた高速、復旧になぜ2年 橋脚が移動→桁架け替え - 朝日新聞",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DSWstejc1cWFKdDhEUnZ2VzQ0bC0tSUxhWllNUjNYUTJMVVdzU2RhSzlBS1",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DSWstejc1cWFKdDhEUnZ2VzQ0bC0tSUxhWllNUjNYUTJMVVdzU2RhSzlBS1VFdW9YanRIaWhlQVI2eVQ0bUJMS1NOVmFpTWZBVmVpbVhFVjBZSkxNQ3J0MEZ4Z3RJV0k?oc=5",
-   "date": "Sat, 10 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "南海トラフ巨大地震への備えについて、少し考えてみませんか？ : ブログ : 愛知県議会議員 (豊田市）加藤たかし - 公明党",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8gJBVV95cUxQenpJYzVxbXNXNGtWTkRuRzhuQjBqaUZTQllDZkhEYUlNNklqcnM4LUdoMG",
-   "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQenpJYzVxbXNXNGtWTkRuRzhuQjBqaUZTQllDZkhEYUlNNklqcnM4LUdoMGVub1gwdzhRRkNzM2Z3UlFRT1ZCOGpCX3ZEWmUtRl9WVEhrTzFMUEtHWk9iZUExaHZFejdCRXh1UFZ4S0pib0hOMjhWaHVHajhNSWZkWVVJb1ZHdjVhWTFDcjFQeTF6SlV2S25vckNrNU81Rm1YMnRMX1Y4YVc1bnMwYlNIbDJUbENjTEhfM0lBMjNtc21fdklGUXRuOG1nTHpfV2h1aGc1bDNPakVyejNPMF9sYjhhWExZQWc1MUNuN01JU3VMT3AyTVRZUDVCeVUwQ3Q4UkV2c3lsUHY3VWJUNUJ3WUhKN1hsdllNZXBvVHNDT0VVUlhPQWxmM01GSjZ2LUtTU3IzcVRFVEJtQnA5QjNvRnNaU01yWk01Y20zVGxNd01CeUJLUkVWdnFud1FHamg0cHlhUWhKZlJ3Tl9lOERDOHlR?oc=5",
    "date": "Sat, 10 Oct 2026"
   }
  ]
