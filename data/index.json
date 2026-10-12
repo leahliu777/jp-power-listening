@@ -214,15 +214,15 @@
   {
    "date": "2026-10-11",
    "brands": {
-    "Jackery": 53,
-    "EcoFlow": 36,
-    "Anker": 1524,
-    "Anker Solix": 0,
-    "Bluetti": 3
+    "Jackery": 47,
+    "EcoFlow": 62,
+    "Anker": 1633,
+    "Anker Solix": 4,
+    "Bluetti": 0
    },
    "categories": {
-    "ポータブル電源": 1426,
-    "ポータブルバッテリー": 90
+    "ポータブル電源": 677,
+    "ポータブルバッテリー": 35
    }
   }
  ],
@@ -580,6 +580,32 @@
   }
  ],
  "social": [
+  {
+   "platform": "youtube",
+   "video_id": "6_uvNvZpGnE",
+   "title": "superポタブル電源の解説と「お客様の設置だより」広がる市民電力を語るまもなく始まる来場ください。「11月22日13時講演会」　＃ポータブル電源　＃売電終了　＃蓄電池　＃プラグインソーラー",
+   "channel": "株式会社関谷",
+   "published": "2026-10-11T22:15:35Z",
+   "url": "https://www.youtube.com/watch?v=6_uvNvZpGnE",
+   "keyword": "ポータブル電源",
+   "hashtags": [],
+   "content_type": "评测",
+   "official": false,
+   "channel_label": ""
+  },
+  {
+   "platform": "youtube",
+   "video_id": "ueQwzmdcOXI",
+   "title": "修理№ 2044-2【全面制御基板のFETとダイオード破損】で充電入りません メーカーに修理を依頼 修理不可との連絡 Jackery 1000 ポータブル電源 視聴者様からの修理依頼",
+   "channel": "高橋ファイル",
+   "published": "2026-10-11T09:30:33Z",
+   "url": "https://www.youtube.com/watch?v=ueQwzmdcOXI",
+   "keyword": "ポータブル電源",
+   "hashtags": [],
+   "content_type": "其他",
+   "official": false,
+   "channel_label": ""
+  },
   {
    "platform": "youtube",
    "video_id": "YlcHtKKVu-Y",
@@ -2039,9 +2065,9 @@
   },
   {
    "category": "台风・灾害",
-   "title": "台風27号 あす（6日）からあさってにかけて日本の東海上を北上する見込み 列島に影響なし きょう午前台風28号・台風29号発生 トリプル台風に - TBS NEWS DIG",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3NWl2Q20wWU9aMGxmWGFaQjgzYjNadXBjeUR0bEZOeWdla1pzY01teVRyNT",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3NWl2Q20wWU9aMGxmWGFaQjgzYjNadXBjeUR0bEZOeWdla1pzY01teVRyNTJEaE92SGR2dzctRUZIV3JncVJmcGF2cmNKMmZ0eHRqTGgxVmlhQjNUa2Fj?oc=5",
+   "title": "【台風のたまご】新たな「熱帯低気圧」発生→13年ぶりの「台風30号」となるか？ 今後の日本への影響は？ 雨と風のシミュレーション（気象庁「実況天気図」11日午後3時時点） - TBS NEWS DIG",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Ja2Yzd0xsMXdUUTVwa0EzRkdjWnlmQnczbTI2WjNiT0V4SHNLNlo0V1lkZ0",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Ja2Yzd0xsMXdUUTVwa0EzRkdjWnlmQnczbTI2WjNiT0V4SHNLNlo0V1lkZ0hESnFqdV94U2M4TXZjSWJOWXZlaW1DRG1ranpiMHVRMkkyQQ?oc=5",
    "date": "Sun, 11 Oct 2026"
   },
   {
@@ -2067,9 +2093,9 @@
   },
   {
    "category": "台风・灾害",
-   "title": "【台風情報】台風29号「コグマ」非常に強い勢力で北上 15日には温帯低気圧に変わる見込み - TBS NEWS DIG",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VMFc1NUd3NkU2NVNIWmdjTW96bUN5WTl6NEhPZHpodUhjdmY0MlVqOWVPbn",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VMFc1NUd3NkU2NVNIWmdjTW96bUN5WTl6NEhPZHpodUhjdmY0MlVqOWVPbnZEbXZVdTFjWldoeDJqQUJlRmJXVmNxN3NNZS1oLWtoNzV0ZjVGdw?oc=5",
+   "title": "台風27号 あす（6日）からあさってにかけて日本の東海上を北上する見込み 列島に影響なし きょう午前台風28号・台風29号発生 トリプル台風に - TBS NEWS DIG",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3NWl2Q20wWU9aMGxmWGFaQjgzYjNadXBjeUR0bEZOeWdla1pzY01teVRyNT",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3NWl2Q20wWU9aMGxmWGFaQjgzYjNadXBjeUR0bEZOeWdla1pzY01teVRyNTJEaE92SGR2dzctRUZIV3JncVJmcGF2cmNKMmZ0eHRqTGgxVmlhQjNUa2Fj?oc=5",
    "date": "Sun, 11 Oct 2026"
   },
   {
@@ -2095,6 +2121,13 @@
   },
   {
    "category": "台风・灾害",
+   "title": "【台風情報】台風29号「コグマ」非常に強い勢力で北上 15日には温帯低気圧に変わる見込み - TBS NEWS DIG",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VMFc1NUd3NkU2NVNIWmdjTW96bUN5WTl6NEhPZHpodUhjdmY0MlVqOWVPbn",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VMFc1NUd3NkU2NVNIWmdjTW96bUN5WTl6NEhPZHpodUhjdmY0MlVqOWVPbnZEbXZVdTFjWldoeDJqQUJlRmJXVmNxN3NNZS1oLWtoNzV0ZjVGdw?oc=5",
+   "date": "Sun, 11 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
    "title": "地震情報 2026年10月12日 05時05分頃発生 最大震度：1 震源地：熊本県天草・芦北地方 - tenki.jp",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQeUhNLUFFdXNQVHRSc3FRYmhuUlYzMTJ4RC1NSE5jRkxBNDQyM3FxS1h4N2",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeUhNLUFFdXNQVHRSc3FRYmhuUlYzMTJ4RC1NSE5jRkxBNDQyM3FxS1h4N25FVW53N3BNMEJRd1JqQkgwVENhNHJhQkJRYVZUczgtUFRQcXMzalRjX1I5WHNRdmNpOXBITldIRFp1RkpIWDhVZUZOYXNjRmVDMG52MEUwUQ?oc=5",
@@ -2112,13 +2145,6 @@
    "title": "強力なハリケーンがメキシコを直撃 動き遅く大雨警戒 - ウェザーニュース",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9IZDhLUGJSZzl2bHYxRDhLckh5SVZXNzhQXy1tcVFncFA1Q3Y3WTlQdFNmZz",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9IZDhLUGJSZzl2bHYxRDhLckh5SVZXNzhQXy1tcVFncFA1Q3Y3WTlQdFNmZzlLd01PYTlXOEJNX2VkTU5qbXMtNFZZcnhMbTQ3dFJsUQ?oc=5",
-   "date": "Sun, 11 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "沖縄は明日12日にかけて大雨注意　13日は西から天気下り坂で14日は全国的に雨(気象予報士 堂本　幸代 2026年10月11日) - tenki.jp",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFA1djl4bGtESzAtNVhYcWgxY3NSSDZwMGNYMlQxdVB1eExITk1vLVRVbDhzeF",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1djl4bGtESzAtNVhYcWgxY3NSSDZwMGNYMlQxdVB1eExITk1vLVRVbDhzeFZ1ckZCdEF4ZkVuNWR6QmNiTXk5MWxpY2p3V2h2aHNMQVZSdmpfQjZBWUpkMFo0d1Z0UGxpWnVFWTFFMlrSAXZBVV95cUxQb05lZ0FVSERGM2tKSk84MEZIeEE4RHV1SnQwOUlGQzdmRFp1eWw2OUw1aFZRUkZBTGdvem1ZRUhja1lQdFgtU0M3ZDNNb2lKYWk2SnliUmYySlpzVXZ5MTB2eEJ0VUxXTlVkdjg0cXVjclcxLTV3?oc=5",
    "date": "Sun, 11 Oct 2026"
   }
  ]
