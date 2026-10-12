@@ -77,6 +77,7 @@ def main():
     trends = load_json(OUT / f"trends_{DATE}.json")
     news = load_json(OUT / f"news_{DATE}.json") if (OUT / f"news_{DATE}.json").exists() else {"items": []}
     holidays = load_json(ASSETS / "jp_holidays_2026_2027.json")
+    youtube = load_json(OUT / f"youtube_{DATE}.json") if (OUT / f"youtube_{DATE}.json").exists() else {"items": []}
 
     svgs = gen_charts.build_svgs(trends)
     dates = svgs["dates"]
@@ -174,8 +175,8 @@ a{{color:{NAVY};}}
 <p class="src">数据来源：Google Trends 日本（geo=JP），{DATE_ISO} 抓取。</p>
 <h2>二、品牌与品类新闻（近 3 天窗口）</h2>
 {''.join(news_html)}
-<h2>三、社媒动态</h2>
-<p>云端版 v1 采用 Google News RSS 与品牌官网新闻聚合；YouTube / X 无公开关键词检索接口，本版暂不采集（后续可接入 YouTube Data API / 第三方舆情服务补全）。</p>
+<h2>三、社媒动态（YouTube）</h2>
+{''.join(f'<p class="news-item">▶ <a href="{v.get("url","#")}" target="_blank">{v.get("title","")}</a><br><span class="src">{(v.get("published","") or "")[:10]} · {v.get("channel","")} · {v.get("keyword","")}</span></p>' for v in youtube.get("items",[])[:8]) or '<p class="src">近 48h 无新视频。</p>'}
 <h2>四、节点与假日提醒</h2>
 {nodes14_html}
 {fwd_html}
