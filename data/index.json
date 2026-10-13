@@ -228,15 +228,15 @@
   {
    "date": "2026-10-12",
    "brands": {
-    "Jackery": 56,
-    "EcoFlow": 41,
-    "Anker": 1397,
+    "Jackery": 61,
+    "EcoFlow": 27,
+    "Anker": 1356,
     "Anker Solix": 0,
-    "Bluetti": 3
+    "Bluetti": 5
    },
    "categories": {
-    "ポータブル電源": 1464,
-    "ポータブルバッテリー": 121
+    "ポータブル電源": 1200,
+    "ポータブルバッテリー": 147
    }
   }
  ],
@@ -294,6 +294,15 @@
    "source": "ゴリミー",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uZzNFdktoS09uanFFS1IwbFFJYU5tb0RQTDZmYTNkcmg5WEpSMmdpMGs3QmJYNTdyYlBVVzkweHNYcmdVWk9ZWmE4X0t6ekY4OEFScUl3?oc=5",
    "trend_impact": "Anker ↓ -3.3%"
+  },
+  {
+   "date": "2026-10-13",
+   "brand": "Jackery",
+   "title": "Jackery（ジャクリ）が、令和8年熊本地震復興イベント「イザ！カエルキャラバン！in熊本」に出展！ - PR TIMES",
+   "summary": "",
+   "source": "PR TIMES",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91dWhuX3JHcTFaS1FfQzNVUFFxQ281RVdJT01OaUZTNm1LYmV3Z0xXVWl5ekhYZ2RtV3AwQXNYQnpPejc1cG0tR3B0Y3BBUlA5RnNaQ2NDaEcyNzJ3UG0xcFE0NFlxTHNDamc?oc=5",
+   "trend_impact": "Jackery ↑ +38.6%"
   },
   {
    "date": "2026-10-12",
@@ -393,6 +402,15 @@
    "source": "PR TIMES",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZTlF5MWliNDc2U3ZCRlFCS2lQLXltSUlYd1FpLUowSUV0NFBPaUJfaEZlWTYta2R4RjI1NjBkemtFX3FlYzI3TThMc1Fzbkx6WWRZdkVWRVFLUDNVVGNmNldkM0lPMnZHZkE?oc=5",
    "trend_impact": "ポータブル電源 ↑ +9.7%"
+  },
+  {
+   "date": "2026-10-12",
+   "brand": "Jackery",
+   "title": "Jackeryと広島県三次市は、「災害時等における連携協定」を締結しました - 山陽新聞",
+   "summary": "",
+   "source": "山陽新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBTM0ZyRkVEM19qRjBsZWZ0N2tjY3hLTFRhaEx5SG5kbUVzMVlzVnZxSkY4Z2g1NThad2p0Rlgyek5iUlRfYjY2TTI0RHVCOHh1VGc?oc=5",
+   "trend_impact": "Jackery ↑ +38.6%"
   },
   {
    "date": "2026-10-11",
@@ -834,6 +852,19 @@
   },
   {
    "platform": "youtube",
+   "video_id": "1nYUdKIl96k",
+   "title": "災害用の蓄電池、本当に据え置き型でいい？ #蓄電池 #災害対策 #ポータブル電源 #家づくり #注文住宅",
+   "channel": "凰建設(株)",
+   "published": "2026-10-11T10:00:16Z",
+   "url": "https://www.youtube.com/watch?v=1nYUdKIl96k",
+   "keyword": "ポータブル電源",
+   "hashtags": [],
+   "content_type": "其他",
+   "official": false,
+   "channel_label": ""
+  },
+  {
+   "platform": "youtube",
    "video_id": "ueQwzmdcOXI",
    "title": "修理№ 2044-2【全面制御基板のFETとダイオード破損】で充電入りません メーカーに修理を依頼 修理不可との連絡 Jackery 1000 ポータブル電源 視聴者様からの修理依頼",
    "channel": "高橋ファイル",
@@ -1135,6 +1166,13 @@
    "direction": "—"
   },
   {
+   "date": "2026-10-13",
+   "type": "新闻",
+   "title": "Jackery（ジャクリ）が、令和8年熊本地震復興イベント「イザ！カエルキャラバン！in熊本」に出展！ - PR TIMES",
+   "brand": "Jackery",
+   "direction": "↑"
+  },
+  {
    "date": "2026-10-12",
    "type": "新闻",
    "title": "【最大52%OFF】Amazonプライム感謝祭でJackery（ジャクリ）を買うべき理由！おすすめモデル4選とお得な攻略法を徹底解説 - note",
@@ -1209,6 +1247,13 @@
    "type": "新闻",
    "title": "DJI 人気製品が「Amazon プライム感謝祭」にて特別価格で登場！ | DJI JAPAN 株式会社のプレスリリース - PR TIMES",
    "brand": "ポータブル電源",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-12",
+   "type": "新闻",
+   "title": "Jackeryと広島県三次市は、「災害時等における連携協定」を締結しました - 山陽新聞",
+   "brand": "Jackery",
    "direction": "↑"
   },
   {
@@ -2623,6 +2668,13 @@
   },
   {
    "category": "台风・灾害",
+   "title": "【ダブル台風のたまご】新たな「熱帯低気圧」が2個発生...進路、日本への影響は？23日までの雨風シミュレーションでは「気がかりな渦」が北上する予測、今後の台風情報に注意【気象庁13日天気図】 | 岡山・香川のニュース | 天気 | RSK山陽放送 - TBS NEWS DIG",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nQmxVXzZTNDhjZmxPcks2VzRpcWg2Wnp6bFhDeUs1bEdZc3BWS1laT0NzY1",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nQmxVXzZTNDhjZmxPcks2VzRpcWg2Wnp6bFhDeUs1bEdZc3BWS1laT0NzY1locWpSeERUcDN5d3BaSzMyYUpIMlpTU2tYVURYNGFpSUZrQnN4Zw?oc=5",
+   "date": "Tue, 13 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
    "title": "台風被害 流れたニシキゴイを救出 - Yahoo!ニュース",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE00ekQtQ3RlS1ZRN1JQQlRhbld6cVRrUzdpcGE1TGE5cXBfazB6Z1NBVExYTj",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00ekQtQ3RlS1ZRN1JQQlRhbld6cVRrUzdpcGE1TGE5cXBfazB6Z1NBVExYTjVTYWFfLXNFUWRFVlBEdXdoYzl2Zll1WFVkNW5m?oc=5",
@@ -2658,13 +2710,6 @@
   },
   {
    "category": "台风・灾害",
-   "title": "【ダブル台風のたまご】新たな「熱帯低気圧」が2個発生...進路、日本への影響は？23日までの雨風シミュレーションでは「気がかりな渦」が北上する予測、今後の台風情報に注意【気象庁13日天気図】 | 岡山・香川のニュース | 天気 | RSK山陽放送 - TBS NEWS DIG",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nQmxVXzZTNDhjZmxPcks2VzRpcWg2Wnp6bFhDeUs1bEdZc3BWS1laT0NzY1",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nQmxVXzZTNDhjZmxPcks2VzRpcWg2Wnp6bFhDeUs1bEdZc3BWS1laT0NzY1locWpSeERUcDN5d3BaSzMyYUpIMlpTU2tYVURYNGFpSUZrQnN4Zw?oc=5",
-   "date": "Tue, 13 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
    "title": "【台風情報】台風29号（コグマ）は日本の東を東北東へ 15日までに温帯低気圧に変わる予想 南海上には2つの熱帯低気圧も 今後の動向に注意（tbc東北放送） - Yahoo!ニュース",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1PeHEtNGJVMEhyQ1ZKYV9iOVVUaWh6ZkJ5SW1rcEVSUUh6MlZlclI1T09JSH",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PeHEtNGJVMEhyQ1ZKYV9iOVVUaWh6ZkJ5SW1rcEVSUUh6MlZlclI1T09JSHRoS3JhXzRmSkVPT3NDMTFBVTNvWk9yVEZFWHRPdFdwajZOM2lEWTFGcm5iV0xfOXRqRUpxZ2E5X1RlNk53QnFiUHV5aDNJUEdRam8?oc=5",
@@ -2672,16 +2717,16 @@
   },
   {
    "category": "台风・灾害",
-   "title": "【台風のたまご】台風29号の次「熱帯低気圧」 西日本にかなり接近する可能性 30号発生なら13年ぶり ※雨と風のシミュレーション（気象庁） (RCC中国放送) - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOYjZjT2FkOGpMckxWS3BGZmZQX2RfRFFzSlJIZGJrRGtGeFJURGtFSlVCMk",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYjZjT2FkOGpMckxWS3BGZmZQX2RfRFFzSlJIZGJrRGtGeFJURGtFSlVCMkhhc0p2YjFiLW5ubWxwS3NuRThocXlsN0d3NU85V2JZWjNSOTRMcnRNRmFSOHNabEZWc2NqNlpNY0ViRS1DOVB4MFBidDdIYnVRcEtsUHpZYmk4Vl9EeW1tejFR?oc=5",
+   "title": "南海トラフだけじゃない！ 今後30年で警戒すべき大型地震（AERA DIGITAL） - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE56LVBiYjJYOFVyUUhsbjU3NHkwbUw1U1ZEX1BGSFJGUHBKX19kQ0JyZlozTm",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56LVBiYjJYOFVyUUhsbjU3NHkwbUw1U1ZEX1BGSFJGUHBKX19kQ0JyZlozTmw4R3hsVUR1bTZSRktHdXJfRkc0bDRGUXBVdlVETVNYSE5MNnpkcHhnQ29vY2Q4c1QzU1RWdzU5SWpRZXdrS1RkaHNPWEtCLUN0NE0?oc=5",
    "date": "Tue, 13 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "金沢大生が令和8年熊本地震被災地支援のための街頭募金を実施しました - 金沢大学",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpRDdUQVpGRlVsS05GVnA1YlBGZHc1cFVFeHBjRHVDbDRpZEhEWktWX1dqbk",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpRDdUQVpGRlVsS05GVnA1YlBGZHc1cFVFeHBjRHVDbDRpZEhEWktWX1dqbkpueldtWDRyc205bFg0TlJ3MGVrcTF4cTlJb0g1cjFF?oc=5",
+   "title": "【台風のたまご】台風29号の次「熱帯低気圧」 西日本にかなり接近する可能性 30号発生なら13年ぶり ※雨と風のシミュレーション（気象庁） (RCC中国放送) - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOYjZjT2FkOGpMckxWS3BGZmZQX2RfRFFzSlJIZGJrRGtGeFJURGtFSlVCMk",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYjZjT2FkOGpMckxWS3BGZmZQX2RfRFFzSlJIZGJrRGtGeFJURGtFSlVCMkhhc0p2YjFiLW5ubWxwS3NuRThocXlsN0d3NU85V2JZWjNSOTRMcnRNRmFSOHNabEZWc2NqNlpNY0ViRS1DOVB4MFBidDdIYnVRcEtsUHpZYmk4Vl9EeW1tejFR?oc=5",
    "date": "Tue, 13 Oct 2026"
   },
   {
