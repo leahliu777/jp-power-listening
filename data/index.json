@@ -242,15 +242,15 @@
   {
    "date": "2026-10-13",
    "brands": {
-    "Jackery": 74,
+    "Jackery": 82,
     "EcoFlow": 56,
     "Anker": 1703,
-    "Anker Solix": 16,
+    "Anker Solix": 18,
     "Bluetti": 9
    },
    "categories": {
-    "ポータブル電源": 400,
-    "ポータブルバッテリー": 34
+    "ポータブル電源": 1243,
+    "ポータブルバッテリー": 124
    }
   }
  ],
@@ -3436,6 +3436,13 @@
   },
   {
    "category": "台风・灾害",
+   "title": "【台風情報】マーシャル諸島で熱帯低気圧が発達中 台風に発達する見込み（14日午前9時現在）（tbc東北放送） - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBFUGNiSV95OG1rb2dqME1iQXpBYWpBcFJxbXJNbDJ0YWNMUDFtdjZIMUVSUF",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFUGNiSV95OG1rb2dqME1iQXpBYWpBcFJxbXJNbDJ0YWNMUDFtdjZIMUVSUFhHZndSY0V6ak1KUFR4LTJMTWZfVXNGUTUtMmtBT1BMUUxYNF9BNkFlN2hrWXgzUTBXMDllM2o0SnFHaVNXNTlzeHp2RWhLUVRacjA?oc=5",
+   "date": "Wed, 14 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
    "title": "【台風情報】台風29号（コグマ）は温帯低気圧に変わりました（14日午前9時）（tbc東北放送） - Yahoo!ニュース",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5fbVdKekdicGZwNGFobUs2UTExenlUQ3dfRW9VVk1ONHE3WUlzSE1MbFgtUm",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fbVdKekdicGZwNGFobUs2UTExenlUQ3dfRW9VVk1ONHE3WUlzSE1MbFgtUmEzazRFM3F5Q01abUxHdXB3Qmg4enJHV3BZeExHdm93Y1loQTFUM3NDQkI5U2htell0ZGdKMDVScVpET2RZM0J4S3Itb0lFbno5TEk?oc=5",
@@ -3502,13 +3509,6 @@
    "title": "東日本台風7年、犠牲の職員へ南相馬市長ら黙とう:地域ニュース - 福島民友新聞社",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aY0xTdlJ6NjNjTU9qYWQ0NTZlWmRaOXhkX0ZicHZyX3RoZE5LbXd2ZjFFS0",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aY0xTdlJ6NjNjTU9qYWQ0NTZlWmRaOXhkX0ZicHZyX3RoZE5LbXd2ZjFFS0lMME41eXpIbmpKV1VTR2kwSjRScnh6eG12Ylo3RTlXRVhDdDg2VzRVUHhqVG5YaXRRRzEt?oc=5",
-   "date": "Wed, 14 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "【台風情報】マーシャル諸島で熱帯低気圧が発達中　台風に発達する見込み（14日午前9時現在） - ｄメニューニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBSX2ViSms4cWIxUXRsMjNFWVhGWjZrOUUxdTNkbHoxNzdweGtJR0tlaXg2bn",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSX2ViSms4cWIxUXRsMjNFWVhGWjZrOUUxdTNkbHoxNzdweGtJR0tlaXg2bnlZaUowNzJDTEFQbUdhd3pWNFhzUUpTZmhfQ1laQTVkZG5heDAzX0ZlT19hOUtJbGlwSUdJSS12UUVfSE9zM0FXUDVsOVBZaDZVTTDSAYQBQVVfeXFMT2U0QzI0SDRHQS1mS3NHRHE2ek1JQXhpa1ptNUdyTHNGenhHSHZFdWFQWk5SbDJTbk1ZTzFUZFV4dGVxdXpuNkZiZ19zWmQwbVZCU2J5ZlplMjFNczlBSGFvN00ydkE5TjltV3pZcE5sQWlRN2s4WnJCOVozaDBoczRDbS16?oc=5",
    "date": "Wed, 14 Oct 2026"
   }
  ]
