@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-26",
+ "as_of": "2026-10-27",
  "trends": [
   {
    "date": "2026-09-26",
@@ -420,6 +420,20 @@
     "ポータブル電源": 1308,
     "ポータブルバッテリー": 107
    }
+  },
+  {
+   "date": "2026-10-26",
+   "brands": {
+    "Jackery": 58,
+    "EcoFlow": 53,
+    "Anker": 1533,
+    "Anker Solix": 0,
+    "Bluetti": 0
+   },
+   "categories": {
+    "ポータブル電源": 563,
+    "ポータブルバッテリー": 58
+   }
   }
  ],
  "news": [
@@ -431,6 +445,60 @@
    "source": "Jetstream",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPakdhWGhvZk9XSHdhaENFRjVhSV9wX2NCMWkxYjNKN3VOeXVXNVZyeHR3VnZZUXByTGVpZW44bnlxbWFRREtyLW1OMldXMW9XZkJuSDMwamQ3b2d2X3NreGRreDU3UWx4cHFVQVhqZWJvdXVJajNvNV9FUXgyWFBxaDl2ZnJQUDIzdWQ1NkpscWdCdFVXUHI1dGx1T1dNY0E?oc=5",
    "trend_impact": "EcoFlow ↓ -74.4%"
+  },
+  {
+   "date": "2026-10-26",
+   "brand": "EcoFlow",
+   "title": "42%引き&15%pt還元！Amazon、走行充電器「EcoFlow Alternator Charger 600」 - jetstream.blog",
+   "summary": "",
+   "source": "jetstream.blog",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX3Q2LTZYLUhXZUY0a09IUHY2NVhuZnNPZkpPQmNLcExZY084aW4yczRRVjNzTFZ2MnFqcU85LW9zdnZFc1pjZ1lKZ2VKUDJuc1JUWEdyOURrY05meldDNkg0ejgyakVNZE1Hak1YMzJLbXdaODMtNk55bE45blRMZUZvbktvTzZpdHpnd3hGcFRYdFJVM0hoTEljaU5qalE?oc=5",
+   "trend_impact": "EcoFlow ↓ -1.9%"
+  },
+  {
+   "date": "2026-10-26",
+   "brand": "EcoFlow",
+   "title": "EcoFlow、3000Wh超の大容量なのにコンパクト設計、ポータブル電源「DELTA 3000 Gen4」「DELTA 3800 Gen4」を発売 - BCN Retail",
+   "summary": "",
+   "source": "BCN Retail",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sSkZWT3FETDZObk5rZURaYlVNTDNPeXhjQzlNS29oYzcycE10NGZfSjNPbVhOeHNVdnZwMzlucXN4NzVXRGlmcnlWMjZCX29OWEtVdXJFTWdfMzIteEpJTGN2Tkd4NzFiRVE?oc=5",
+   "trend_impact": "EcoFlow ↓ -1.9%"
+  },
+  {
+   "date": "2026-10-26",
+   "brand": "BLUETTI",
+   "title": "クラファンで2.3億円以上集まる BLUETTIのポタ電が好調 国内調査をもとに開発した超薄型モデル - BCN Retail",
+   "summary": "",
+   "source": "BCN Retail",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zQm5iYVFQR2VQbFZST0x2UWJ6YldRbUY2NVowMXhUOVN0SWJXaVBNMkt1MVZTSjB5YW81eGVycVEwSm1WNmxZMC1WTXltS21HX1ZvZTJZTDA1aDVLR1NXQzYzSURzOEp4NWc?oc=5",
+   "trend_impact": "Bluetti ↓ -100.0%"
+  },
+  {
+   "date": "2026-10-26",
+   "brand": "BLUETTI",
+   "title": "クラファンで2.3億円以上集まる BLUETTIのポタ電が好調 国内調査をもとに開発した超薄型モデル (BCN) - Yahoo!ニュース",
+   "summary": "",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSEI0M3dVQUEwTXV2TDBSTVlGdHk0Ri15TTNMMi1TWEFHOGVIQnVqX25kNlJZMV9oZ01PZTYxV2NfX2pKbW9id3BSTmRjSVJOUFd5TVBPNFdUX3Q5cGFtWVpBTWtUT2xyNEF1bjdVeGQwVkt2S1NodjhXXzdTU0xjU09vVDZKckxaZDgxemhB?oc=5",
+   "trend_impact": "Bluetti ↓ -100.0%"
+  },
+  {
+   "date": "2026-10-26",
+   "brand": "BLUETTI",
+   "title": "クラファンで2.3億円以上集まる BLUETTIのポタ電が好調 国内調査をもとに開発した超薄型モデル - 千葉テレビ放送",
+   "summary": "",
+   "source": "千葉テレビ放送",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9COXFkTGNkY1Y3UDZQOEFPN0l6b01Lc3p0dEJMOHI3ZmRpd3k4ekFqRDM2aWtGV0ltaHVrTDl2em1ReTZJQkI0SmN3Vk5BLW9saTliTlY5OXBFQXkySk4w?oc=5",
+   "trend_impact": "Bluetti ↓ -100.0%"
+  },
+  {
+   "date": "2026-10-26",
+   "brand": "BLUETTI",
+   "title": "クラファンで2.3億円以上集まる BLUETTIのポタ電が好調 国内調査をもとに開発した超薄型モデル - ｄメニューニュース",
+   "summary": "",
+   "source": "ｄメニューニュース",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ2ZqUHIyemhoTEU0T3Fjckh5WFJYV1J6Yy1CTU1hUHVTbExFLVJrdVQ1bGJmOE9YQUpCQjJoZW5WSWEtUnFLeE1uOTNDSEVZaHdlSjZVb1doOThvSnpnV1pPUmFZbnFERkNtNjFjU1VxZVBsdHBKd2NmeWtjM1lsbVB1clN0UdIBggFBVV95cUxQZVprd0ItbG5mLU9kVDhoMV8zTTZwc2RiTFIya3pzeDFFek9nOU5vOW5naW13NWZ6aE9RYkFyWnFnLVpyODUwZjVJSDVwNWF6Ukp5aTZWbFVrTG0xSGhLTEFOSWltMG1qZEg4cW1WQmlJRlRTYnU0WEhScnNXRGYtSTRR?oc=5",
+   "trend_impact": "Bluetti ↓ -100.0%"
   },
   {
    "date": "2026-10-25",
@@ -647,6 +715,15 @@
    "source": "ITmedia",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE55YXI2b0MxWXJNaVFGY1owM2NHLVhrTzZCeUtfRURKYkxpMENJczlGczVEX25DODZFeHJqZnZQZ0k1NHdwYzNXWjROdU1aV05vQVNZc212Mm4tcy1JX3JjU05jdUJNQ3dfc042bzBjWdIBaEFVX3lxTE5qVmhzbWp4ZUc5enN1VHJNT3VJUnFHdnRhOFdQTlEzT3NvWE51TnloNVlCMS1pTlZGTjlxRk9YaHBpamY1UHFfVWpzT296d0d5aTlsT2gyUzRLeFpQd0U4S3gwLTRVRHkx?oc=5",
    "trend_impact": "EcoFlow ↑ +78.6%"
+  },
+  {
+   "date": "2026-10-23",
+   "brand": "EcoFlow",
+   "title": "“置き場所に困る”大容量ポタ電の壁を打破！ 冷蔵庫を3日動かすEcoFlow「DELTA Gen4」シリーズが日本上陸 - ITmedia",
+   "summary": "",
+   "source": "ITmedia",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE55YXI2b0MxWXJNaVFGY1owM2NHLVhrTzZCeUtfRURKYkxpMENJczlGczVEX25DODZFeHJqZnZQZ0k1NHdwYzNXWjROdU1aV05vQVNZc212Mm4tcy1JX3JjU05jdUJNQ3dfc042bzBjWQ?oc=5",
+   "trend_impact": "EcoFlow ↓ -1.9%"
   },
   {
    "date": "2026-10-22",
@@ -2560,6 +2637,32 @@
  "social": [
   {
    "platform": "youtube",
+   "video_id": "T-46HsDKK1Y",
+   "title": "売るな買うを減らすと減る電気これがゼロ円プラグインシステム史上最強の３５万プラグイン工事不要のポータブル電源システム展示会・講演会ご案内・　＃ポータブル電源　＃売電終了　＃蓄電池　＃プラグインソーラー",
+   "channel": "株式会社関谷",
+   "published": "2026-10-26T22:07:47Z",
+   "url": "https://www.youtube.com/watch?v=T-46HsDKK1Y",
+   "keyword": "ポータブル電源",
+   "hashtags": [],
+   "content_type": "评测",
+   "official": false,
+   "channel_label": ""
+  },
+  {
+   "platform": "youtube",
+   "video_id": "-A3QHbzgDHM",
+   "title": "損し続けない過去の補助金の現在とこれからの対策・蓄電池「史上最強の３５万プラグイン工事不要のポータブル電源システム　＃ポータブル電源　＃売電終了　＃蓄電池　＃プラグインソーラー",
+   "channel": "株式会社関谷",
+   "published": "2026-10-25T22:40:19Z",
+   "url": "https://www.youtube.com/watch?v=-A3QHbzgDHM",
+   "keyword": "ポータブル電源",
+   "hashtags": [],
+   "content_type": "评测",
+   "official": false,
+   "channel_label": ""
+  },
+  {
+   "platform": "youtube",
    "video_id": "5sfnfJxvXWc",
    "title": "プロジェクターを買うなら、あなたはどっち派？",
    "channel": "Anker Japan (アンカー・ジャパン公式)",
@@ -2576,6 +2679,19 @@
    "content_type": "官方内容",
    "official": true,
    "channel_label": "Anker Japan"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "0OyD-6WOliY",
+   "title": "ポータブル電源 P5000 帰ってきた主力発電機！！ EENOUR 修理対応 レビュー",
+   "channel": "SadとHappy",
+   "published": "2026-10-25T10:58:21Z",
+   "url": "https://www.youtube.com/watch?v=0OyD-6WOliY",
+   "keyword": "ポータブル電源",
+   "hashtags": [],
+   "content_type": "评测",
+   "official": false,
+   "channel_label": ""
   },
   {
    "platform": "youtube",
@@ -2606,6 +2722,25 @@
    "keyword": "EcoFlow",
    "hashtags": [],
    "content_type": "其他",
+   "official": false,
+   "channel_label": ""
+  },
+  {
+   "platform": "youtube",
+   "video_id": "7tW6kr6ane0",
+   "title": "備蓄庫のポタ電は停電の日に動く？置きっぱなしの落とし穴と3か月点検｜EcoFlow・Anker公式で確認",
+   "channel": "Voltworks ボルトワークス〜元自動車メーカーが運営するポータブル電源専門店〜",
+   "published": "2026-10-25T09:00:37Z",
+   "url": "https://www.youtube.com/watch?v=7tW6kr6ane0",
+   "keyword": "ポータブル電源",
+   "hashtags": [
+    "ボルトワークス",
+    "ポータブル電源",
+    "BCP",
+    "防災",
+    "備蓄"
+   ],
+   "content_type": "评测",
    "official": false,
    "channel_label": ""
   },
@@ -3950,6 +4085,48 @@
    "direction": "—"
   },
   {
+   "date": "2026-10-26",
+   "type": "新闻",
+   "title": "42%引き&15%pt還元！Amazon、走行充電器「EcoFlow Alternator Charger 600」 - jetstream.blog",
+   "brand": "EcoFlow",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "新闻",
+   "title": "EcoFlow、3000Wh超の大容量なのにコンパクト設計、ポータブル電源「DELTA 3000 Gen4」「DELTA 3800 Gen4」を発売 - BCN Retail",
+   "brand": "EcoFlow",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "新闻",
+   "title": "クラファンで2.3億円以上集まる BLUETTIのポタ電が好調 国内調査をもとに開発した超薄型モデル - BCN Retail",
+   "brand": "BLUETTI",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "新闻",
+   "title": "クラファンで2.3億円以上集まる BLUETTIのポタ電が好調 国内調査をもとに開発した超薄型モデル (BCN) - Yahoo!ニュース",
+   "brand": "BLUETTI",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "新闻",
+   "title": "クラファンで2.3億円以上集まる BLUETTIのポタ電が好調 国内調査をもとに開発した超薄型モデル - 千葉テレビ放送",
+   "brand": "BLUETTI",
+   "direction": "—"
+  },
+  {
+   "date": "2026-10-26",
+   "type": "新闻",
+   "title": "クラファンで2.3億円以上集まる BLUETTIのポタ電が好調 国内調査をもとに開発した超薄型モデル - ｄメニューニュース",
+   "brand": "BLUETTI",
+   "direction": "—"
+  },
+  {
    "date": "2026-10-25",
    "type": "新闻",
    "title": "42%引き&15%pt還元！Amazon、走行充電器「EcoFlow Alternator Charger 600」 - Jetstream",
@@ -4116,6 +4293,13 @@
    "title": "“置き場所に困る”大容量ポタ電の壁を打破！　冷蔵庫を3日動かすEcoFlow「DELTA Gen4」シリーズが日本上陸（1/4 ページ） - ITmedia PC USER - ITmedia",
    "brand": "EcoFlow",
    "direction": "↑"
+  },
+  {
+   "date": "2026-10-23",
+   "type": "新闻",
+   "title": "“置き場所に困る”大容量ポタ電の壁を打破！ 冷蔵庫を3日動かすEcoFlow「DELTA Gen4」シリーズが日本上陸 - ITmedia",
+   "brand": "EcoFlow",
+   "direction": "—"
   },
   {
    "date": "2026-10-22",
@@ -5871,7 +6055,7 @@
    "brand": "Jackery",
    "maker": "Jackery Japan",
    "product": "Jackery ポータブル電源 2000 New",
-   "price": "113,499",
+   "price": "119,880",
    "trend": ""
   },
   {
@@ -5879,7 +6063,7 @@
    "brand": "Jackery",
    "maker": "Jackery Japan",
    "product": "Jackery ポータブル電源 1000 New",
-   "price": "69,484",
+   "price": "77,000",
    "trend": ""
   },
   {
@@ -5907,15 +6091,7 @@
    "trend": ""
   },
   {
-   "rank": 7,
-   "brand": "EcoFlow",
-   "maker": "EcoFlow Technology",
-   "product": "EcoFlow DELTA 3 2000 Air",
-   "price": "74,800",
-   "trend": ""
-  },
-  {
-   "rank": 8,
+   "rank": 6,
    "brand": "EcoFlow",
    "maker": "EcoFlow Technology",
    "product": "EcoFlow RIVER 2 Pro",
@@ -5923,11 +6099,19 @@
    "trend": ""
   },
   {
+   "rank": 8,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 3 2000 Air",
+   "price": "74,800",
+   "trend": ""
+  },
+  {
    "rank": 9,
-   "brand": "其他",
-   "maker": "DJI",
-   "product": "DJI Power 1000 Mini Plus",
-   "price": "49,800",
+   "brand": "BLUETTI",
+   "maker": "BLUETTI",
+   "product": "AORA 30 V2",
+   "price": "25,870",
    "trend": ""
   },
   {
@@ -5940,18 +6124,18 @@
   },
   {
    "rank": 11,
-   "brand": "EcoFlow",
-   "maker": "EcoFlow Technology",
-   "product": "EcoFlow DELTA 3 Max Plus",
-   "price": "154,988",
+   "brand": "其他",
+   "maker": "DJI",
+   "product": "DJI Power 1000 Mini Plus",
+   "price": "49,800",
    "trend": ""
   },
   {
-   "rank": 12,
-   "brand": "BLUETTI",
-   "maker": "BLUETTI",
-   "product": "AORA 30 V2",
-   "price": "25,870",
+   "rank": 11,
+   "brand": "Anker",
+   "maker": "ANKER",
+   "product": "Solix C2000 Gen 2 Portable Power Station",
+   "price": "139,700",
    "trend": ""
   },
   {
@@ -5963,19 +6147,11 @@
    "trend": ""
   },
   {
-   "rank": 14,
-   "brand": "其他",
-   "maker": "DJI",
-   "product": "DJI Power 1000 Mini",
-   "price": "49,200",
-   "trend": ""
-  },
-  {
-   "rank": 15,
+   "rank": 13,
    "brand": "EcoFlow",
    "maker": "EcoFlow Technology",
-   "product": "EcoFlow DELTA 2",
-   "price": "59,800",
+   "product": "EcoFlow DELTA 3 Max Plus",
+   "price": "154,988",
    "trend": ""
   },
   {
@@ -5987,15 +6163,31 @@
    "trend": ""
   },
   {
-   "rank": 15,
-   "brand": "Anker",
-   "maker": "ANKER",
-   "product": "Solix C2000 Gen 2 Portable Power Station",
-   "price": "139,700",
+   "rank": 16,
+   "brand": "其他",
+   "maker": "DJI",
+   "product": "DJI Power 1000 Mini",
+   "price": "49,200",
+   "trend": ""
+  },
+  {
+   "rank": 16,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 2 Max",
+   "price": "94,017",
    "trend": ""
   },
   {
    "rank": 18,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 2",
+   "price": "59,800",
+   "trend": ""
+  },
+  {
+   "rank": 19,
    "brand": "其他",
    "maker": "DJI",
    "product": "DJI Power 1000 V2 DYM1000V2L",
@@ -6003,19 +6195,11 @@
    "trend": ""
   },
   {
-   "rank": 18,
-   "brand": "Jackery",
-   "maker": "Jackery Japan",
-   "product": "Jackery ポータブル電源 1500 New",
-   "price": "149,800",
-   "trend": ""
-  },
-  {
    "rank": 20,
    "brand": "EcoFlow",
    "maker": "EcoFlow Technology",
-   "product": "EcoFlow DELTA 2 Max",
-   "price": "94,017",
+   "product": "EcoFlow DELTA Pro 3",
+   "price": "279,800",
    "trend": ""
   }
  ],
@@ -8824,113 +9008,278 @@
      "trend": ""
     }
    ]
+  },
+  {
+   "date": "2026-10-27",
+   "items": [
+    {
+     "rank": 1,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C1000 Gen 2 Portable Power Station",
+     "price": "68,800",
+     "trend": ""
+    },
+    {
+     "rank": 2,
+     "brand": "Jackery",
+     "maker": "Jackery Japan",
+     "product": "Jackery ポータブル電源 2000 New",
+     "price": "119,880",
+     "trend": ""
+    },
+    {
+     "rank": 3,
+     "brand": "Jackery",
+     "maker": "Jackery Japan",
+     "product": "Jackery ポータブル電源 1000 New",
+     "price": "77,000",
+     "trend": ""
+    },
+    {
+     "rank": 4,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix S2000 Portable Power Station AS220511 [ダークグレー]",
+     "price": "174,610",
+     "trend": ""
+    },
+    {
+     "rank": 5,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 Max",
+     "price": "96,739",
+     "trend": ""
+    },
+    {
+     "rank": 6,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 Plus",
+     "price": "74,800",
+     "trend": ""
+    },
+    {
+     "rank": 6,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow RIVER 2 Pro",
+     "price": "39,800",
+     "trend": ""
+    },
+    {
+     "rank": 8,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 2000 Air",
+     "price": "74,800",
+     "trend": ""
+    },
+    {
+     "rank": 9,
+     "brand": "BLUETTI",
+     "maker": "BLUETTI",
+     "product": "AORA 30 V2",
+     "price": "25,870",
+     "trend": ""
+    },
+    {
+     "rank": 10,
+     "brand": "Jackery",
+     "maker": "Jackery Japan",
+     "product": "Jackery ポータブル電源 3000 New JE-3000B",
+     "price": "159,800",
+     "trend": ""
+    },
+    {
+     "rank": 11,
+     "brand": "其他",
+     "maker": "DJI",
+     "product": "DJI Power 1000 Mini Plus",
+     "price": "49,800",
+     "trend": ""
+    },
+    {
+     "rank": 11,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C2000 Gen 2 Portable Power Station",
+     "price": "139,700",
+     "trend": ""
+    },
+    {
+     "rank": 13,
+     "brand": "BLUETTI",
+     "maker": "BLUETTI",
+     "product": "AC70 [グレー]",
+     "price": "39,600",
+     "trend": ""
+    },
+    {
+     "rank": 13,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 Max Plus",
+     "price": "154,988",
+     "trend": ""
+    },
+    {
+     "rank": 15,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C2000 Gen 2 Plus Portable Power Station A1785521 [ホワイト]",
+     "price": "229,900",
+     "trend": ""
+    },
+    {
+     "rank": 16,
+     "brand": "其他",
+     "maker": "DJI",
+     "product": "DJI Power 1000 Mini",
+     "price": "49,200",
+     "trend": ""
+    },
+    {
+     "rank": 16,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 2 Max",
+     "price": "94,017",
+     "trend": ""
+    },
+    {
+     "rank": 18,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 2",
+     "price": "59,800",
+     "trend": ""
+    },
+    {
+     "rank": 19,
+     "brand": "其他",
+     "maker": "DJI",
+     "product": "DJI Power 1000 V2 DYM1000V2L",
+     "price": "59,980",
+     "trend": ""
+    },
+    {
+     "rank": 20,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA Pro 3",
+     "price": "279,800",
+     "trend": ""
+    }
+   ]
   }
  ],
  "weather": [
   {
    "category": "台风・灾害",
-   "title": "令和8年 台風第30号に関する情報について - 石垣市",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9BeXhaRG0tYUlKeUVRY2I0TVQycS1XX1BxaWpxTW84Q09QYmxvVDNRYkM3Y0",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9BeXhaRG0tYUlKeUVRY2I0TVQycS1XX1BxaWpxTW84Q09QYmxvVDNRYkM3Y0xlbGlKTHdrUXBpQXdKZHltWW9XZVRCTlZDU0o1Wk9vZmV6U0lRaVdNOG9McUVrS1pkcnRDS2hqR2hfSnp2d1NRUzI3MUxn?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "非常に強い台風31号(インファ) 小笠原近海に接近か - ウェザーニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FTU9Rb1R4R1BuRHN0Ry1LVWNOQWRoeVQtVmQwbFc4ZExsVWNsM1Z4aE1wLT",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FTU9Rb1R4R1BuRHN0Ry1LVWNOQWRoeVQtVmQwbFc4ZExsVWNsM1Z4aE1wLTJscEJtWmRVMG5jRUd2MVB3eFhNSFJhVlFaNS1hcFIycw?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "【台風情報】台風30号（チャンパー）は温帯低気圧となり九州〜四国南へ \"警報級の大雨\"に注意 台風31号（インファ）は発達続く【30日までの雨と風のシミュレーション】（静岡放送（SBS）） - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5ER2NlU1ZCUGxPZ0lBMGRLRk8tWURCdjFKemUwSE9Mb3BWZE9DTUJQclNzMT",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ER2NlU1ZCUGxPZ0lBMGRLRk8tWURCdjFKemUwSE9Mb3BWZE9DTUJQclNzMTFqN3c5WG5NVVhEQU54TVV4X1lZZGpFSTNfa2dfd181MFUxd1JVaGpnanVHaFhKUW4zbHR2Ymc0aGdQRURDR2Y0LUs1ZEhrTjVHZEE?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "台風31号(2026年) / 最新位置・進路予想 - tenki.jp",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IVXJYUzNpS3BDa0RZZnBncWtTakFmU2dXZGZsLUZqcjlmZ0l5amkxRUs2NV",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IVXJYUzNpS3BDa0RZZnBncWtTakFmU2dXZGZsLUZqcjlmZ0l5amkxRUs2NVhqRzZtUUI3TnZPVWY5ZzV4NVNWek1kUDV1QQ?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "台風31号の予想進路、気象庁・米軍・ヨーロッパの見方 日本への影響は - 福井新聞社",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE92c3BMbWRxV2tTbW8zdmhMZlJsckpKNlhNUlY1VnFXT19JRDlhNWU1UUJYZH",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92c3BMbWRxV2tTbW8zdmhMZlJsckpKNlhNUlY1VnFXT19JRDlhNWU1UUJYZHd3RTFnel9PbVRDd0ZxaHl4bTl1U3hvMktiMzZhTHFPVzdCVWZRNi15S2c?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "【地震情報】宮城 福島で震度3 津波の心配なし - NHKニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rZ1FVYl80Ymo4UTVaRUlOQzk2ajY3SmVJbVIzSjVzZDF6U01Qc0paSVlCak",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rZ1FVYl80Ymo4UTVaRUlOQzk2ajY3SmVJbVIzSjVzZDF6U01Qc0paSVlCakQ5T2JIUkF2YWZvWmc1N3dqOWlFWERxdFBYdk80Z3pYVFYybTdXVUFLU2Nr?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "元台風30号が西日本へ 今日26日は関東～九州で激しい雨 夕方から夜に雨ピークも(気象予報士 中川 裕美子) - tenki.jp",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5YdmQzWHVmcTRjYUV3OUU4NjdiNDdzN0pSbHgtckZyVzl1Wk9veTZHeXRLcW",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YdmQzWHVmcTRjYUV3OUU4NjdiNDdzN0pSbHgtckZyVzl1Wk9veTZHeXRLcWNhcERVWmotXzlEajhoOTZUWFlQTkF1R0l4VTdUM0loRHhlYkFYRmhQTUZ4dmw5N18yQUlnbkREag?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "【台風情報】非常に強い台風31号（インファ）今後の進路予想は?中心気圧は935hPa・最大瞬間風速は70m/sに発達する予想 31日には勢力維持したまま小笠原近海へ進む見込み（27日午前9時45分・気象庁発表）※11月6日までの雨風シミュレーション（ＳＢＣ信越放送） - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE44Mk9tRVdsdlNobmJLQVI1V0NUTmdvRDl1VFZNQ1doUWhpc1pVWWV3a1dHb1",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44Mk9tRVdsdlNobmJLQVI1V0NUTmdvRDl1VFZNQ1doUWhpc1pVWWV3a1dHb1pILUI2NGYxS1lKbVRHWTZUTU9Nc2phdTREUnRrZGVqbGh3bzlkbXVnLXo4c2s1REp0WjZrdlZmdHhqd3BnZDVjYk1xX0c3Yl9IODQ?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "元台風30号の影響で九州から関東で大雨のおそれ 最高気温は前日より10℃低い所も 今週は季節進みコートが必要な寒さに - TBS NEWS DIG",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5EOTdPaFZLZk5sT296TnJ0VTZtdzZ2OExBUFF4ZnMwNDJnODJlUzg4NENrUV",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5EOTdPaFZLZk5sT296TnJ0VTZtdzZ2OExBUFF4ZnMwNDJnODJlUzg4NENrUVJQcFV0NHJmQ3FBQ2RnQlV2R09WOHRSbFdJV1dQeDhucjBXNA?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "【台風情報】非常に強い台風31号（インファ）今後の進路予想は？中心気圧は935hPa・最大瞬間風速は70m/sに発達する予想 31日には勢力維持したまま小笠原近海へ進む見込み（27日午前9時45分・気象庁発表）※11月6日までの雨風シミュレーション | SBC NEWS | 長野の - TBS NEWS DIG",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wZ3JlUnJVVzVlVnh0T2JHdWNIUUdySlNxTGJSaHVwSlY2TnJsZ2s2dXNZdU",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wZ3JlUnJVVzVlVnh0T2JHdWNIUUdySlNxTGJSaHVwSlY2TnJsZ2s2dXNZdUl0RFZMb09KcDBWU1NWTHpCdlU4RGNCRlhrTXgzWnFVR3B5N2g3Z2ItYThQbG95N01nRlE?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "【台風情報】元台風30号「温帯低気圧」 四国の南に進む予想 九州から関東の広い範囲で「警報級大雨」おそれ ※雨と風のシミュレーション（気象庁）（RCC中国放送） - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE84WmNQaU1QX0tOWkFBZjNtYWRfUU5pZVI3LTZxX1BmaEgzOGJkZ19TUVVRMm",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84WmNQaU1QX0tOWkFBZjNtYWRfUU5pZVI3LTZxX1BmaEgzOGJkZ19TUVVRMmJNck1IVEJQR0dLQ0JiTXFRZEVJa0hRbVNKdHl1VWJPbzlQbVU3blVPckFvLW9HamtLNUF4R3FYbkptNFljUmxWRDdwSXJneDhwN3M?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "台風31号は「非常に強い勢力」で週末 小笠原近海へ その後の進路は？（2026年10月26日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE51UE95Qm1oc19nMWRIQmtTU0dlQjJqU2lna2ZfbC04d09XNlo5UTlySi1pdW",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51UE95Qm1oc19nMWRIQmtTU0dlQjJqU2lna2ZfbC04d09XNlo5UTlySi1pdWI1RVZJUlNBdWVyVi15S3pkYnRjVUl0ZDFLNDRJakpqTDlBMjZFS2ZEZkFqX0s0eE4tUXZnaFNMRnowQUxWZ2F5WDQ5U2EyOWs?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "【台風情報】台風31号（インファ）“非常に強い”勢力に発達へ 中心気圧950hPa予想 気になる進路は？日本への影響は？【雨と風のシミュレーション】 - TBS NEWS DIG",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fS3pPWUlMNU12cGFxS2RtamU1VndVTXlyb19Fb0JsMTZEMEs1dHFiN3lKMU",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fS3pPWUlMNU12cGFxS2RtamU1VndVTXlyb19Fb0JsMTZEMEs1dHFiN3lKMUdhRGJoVG1IYlJVUGY5d05oNXNTVEY3WV9ESEJtSmlGZUFXSUVCbGJpbHJMUkdSS21MSmM?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "福島県沖でM4.6の地震 福島・宮城で震度3 津波の心配なし - ウェザーニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3bjI3S2FSRVpTZDUtQzJkYXRTdzNCb1YzSHhHenVhNGhRY1JxckpCSndCbm",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3bjI3S2FSRVpTZDUtQzJkYXRTdzNCb1YzSHhHenVhNGhRY1JxckpCSndCbmJtQUpRbHJJa0RKcmlEV2Y1ZUlSTzlqLWNSOGx1eldNVjdNLUItUms?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "【大雨情報】温帯低気圧となった元台風30号や前線の影響→西日本〜東日本で大雨の予報 24時間予想降水量は関東甲信150ミリ・四国200ミリ 九州北部は土砂災害に厳重に警戒を 雨と風のシミュレーションも掲載（気象庁「全般気象解説情報」）（ｔｙｓテレビ山口） - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE00UEZ6N3g2NXdhMUxicmZGVkdyblRxcE9HVWxjT0JvcUNLRHNqMFVKM2p2cX",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00UEZ6N3g2NXdhMUxicmZGVkdyblRxcE9HVWxjT0JvcUNLRHNqMFVKM2p2cXYxN04tMS00alVUYWpuZEw1c2ZtbFp3SlJmSmRDMl9zUE5QSDUzS0xiVWlRTnE1SUpNWE0wRDloNmFhdkNOdGlOSWJwRzBmQ1VONk0?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "【速報】関東・東北で地震 M4．6 最大震度3 震源は福島県沖（千葉日報オンライン） - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBsOHgzYTF4Y2xrS0Q3X1VZZG9YX20wUmVHWFdFWVkxTkFSc3dPZHFseWVPZm",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsOHgzYTF4Y2xrS0Q3X1VZZG9YX20wUmVHWFdFWVkxTkFSc3dPZHFseWVPZm5zWU5oNzkwTjZYTloyUklJSWpOZmM3U2Q0SEc1SHV2S3FKakFjbElVSWdqU2M0ekh4ejJ1SkR3MjZ1Y1A3VmZqdE1FN1JlUi15NjA?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "【台風情報】台風31号（インファ）｢非常に強い｣勢力へ スピードを上げ西進する見込み 今後の予想進路は?（気象庁） - TBS NEWS DIG",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3YVQzaUdoSTk5ekt3dXRwSGhoUXF6Z0tVeG5PNlJkSE9DblJQRTdWX2kyX2",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3YVQzaUdoSTk5ekt3dXRwSGhoUXF6Z0tVeG5PNlJkSE9DblJQRTdWX2kyX2JoYUJuM2VPYjVqdVFKdFB5NHJDU2x5SFpuekZuc3ZObmNUcU56V1JCc1NPcGw3OWNPcFU?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "災害情報：地震 - FNNプライムオンライン",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tWUFsOGVUb1lGVHh0YUhtZk9jVU9RSzNoVzROTVVpczYycHlNRm8tS2ZHbX",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tWUFsOGVUb1lGVHh0YUhtZk9jVU9RSzNoVzROTVVpczYycHlNRm8tS2ZHbXFaN1lFZGZGaDByYVcyajdheWlJNzF1ZVpTMUxGVEZHWFRJTWNrYWZyODZiT1gyUWFua0V5?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "【台風情報】台風31号（インファ）「非常に強い」勢力へ スピードを上げ西進する見込み 今後の予想進路は?（気象庁） - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE94T3ZtR3hwZEYzbF9SUThZbmhuZThZSzJrVmxoYTlMdzRZT2JibzlJWGxNWm",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94T3ZtR3hwZEYzbF9SUThZbmhuZThZSzJrVmxoYTlMdzRZT2JibzlJWGxNWmN5WE93ZDJFa2hpSEZxekZ5S2haVUJmQ0FqOEpCc3dVTkJ6ckcyREphQVBtZnNtZ3VWekIxOGZvWi1pQlZpVUNzaUw4cmpTTjJOQzA?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "【台風情報】最大瞬間風速70m/s“非常に強い”勢力に…31号（インファ）進路は西→北寄りに 予想進路・雨と風のシミュレーション（気象庁）（ｔｙｓテレビ山口） - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE84aVpDelo1bUtSOGhydmpQVmtrNF9iaDJrVlV3S1R1d2tXZ1UycHdaWEFMQ1",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84aVpDelo1bUtSOGhydmpQVmtrNF9iaDJrVlV3S1R1d2tXZ1UycHdaWEFMQ1QzeFZSTU9Ec1ZNSVpoQ1lSS3F4R3pQcXBiMENwb1owamhRdTdwSHFzOUNNUXMtQlpTZjY0eG5NM0E1bjRCbWNzSFdTeUZITU1qNHc?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "【大雨情報】温帯低気圧となった元台風30号や前線の影響→西日本～東日本で大雨の予報 24時間予想降水量は関東甲信150ミリ・四国200ミリ 九州北部は土砂災害に厳重に警戒を 雨と風のシミュレーションも掲載（気象庁「全般気象解説情報」） | 山口のニュース・天気・防災｜t - TBS NEWS DIG",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByR0NKVko4MUw2SVdhejNjekthN1Q2YXFxajVvY3hDUVM3a3VpaUdickdJNF",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByR0NKVko4MUw2SVdhejNjekthN1Q2YXFxajVvY3hDUVM3a3VpaUdickdJNFA1RWVQQURPYjFaNVFRUTNzZEw4LWI0SW0tekpxWnhLS0Z6b2M0ZGZkZzVVMUp0Rkh6amc?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "【台風情報】台風31号（インファ）は非常に強い勢力で1日に小笠原諸島へと接近 アンサンブル予報では一部関東に近づく予想も - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBVTUlleS1PcVV6VWZ1WkN3anZ3U2g5a0VWSXNXd1hJN2sydFU0T3ZXTVhHWH",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVTUlleS1PcVV6VWZ1WkN3anZ3U2g5a0VWSXNXd1hJN2sydFU0T3ZXTVhHWHp0RTQ5UkR1N1AxRVVtdk5PTDVqc0NZVGZnWXdGb0hDdXlzbUxkZmIyYkVXekpkNEVpSEtrVzNFanZCY2RoN2tWUTJEbGVISXR0UDA?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "【台風情報】30号は温帯低気圧に九州〜関東で警報級大雨おそれ 31号の日本への影響は?【気象庁の進路予想・アンサンブル予報】全国週間天気予報（MBC南日本放送） - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1hNDNZNnRBR1c0Vk1FNEhpUWw1c0MzQkJWQ2V2dmJOMjFNOE5kNlJ0MDRtUD",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hNDNZNnRBR1c0Vk1FNEhpUWw1c0MzQkJWQ2V2dmJOMjFNOE5kNlJ0MDRtUDJtbDcwcVl6c2xPYlFSbW40VkF3a2VONXlmLWV1NFVVX1A2YmQtZ244Mk9manh3RGNXWTZfWkFYOWRqUmhySzJocUpnUm9XRnFMTVE?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "熊本地震の復興計画案公表（共同通信） - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFA0SWdnVHV1M1dTYmVQaGl6OGNFUzhVYlBKbFJwQTE0S2ZWY0lGd1BkYVQtY0",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0SWdnVHV1M1dTYmVQaGl6OGNFUzhVYlBKbFJwQTE0S2ZWY0lGd1BkYVQtY0JzV253RC01cDNuYzNKbU1TTTdLOEdBMm5RdXA5c3hUOWJ2elI3b25iWlZ5bkZCZmVFLVNjTG1ubjFvSXpXRGowNWR6X0o1bWFsY1E?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "台風30号から変わった温帯低気圧と秋雨前線 週明けの各地の天気は（饒村曜） - エキスパート - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdktaODUxaXU0RFlUNVczZ3J4ZTYyNlkzS0VuMmlSUk93VzM4cWF6dmxWVF",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdktaODUxaXU0RFlUNVczZ3J4ZTYyNlkzS0VuMmlSUk93VzM4cWF6dmxWVFBIcGc3RGh3STVUTDJZRjN0TWFmdUFZeGpZa0JDLW15dzVoc1EyandYYzI5NW5nbDFQSUtLcDlkZ3liTXRBTGp1N2xfUnR3ZTJyTzEtMlB0ZTQ5UlNk?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "ゆめマート熊本、７月の地震では発生２日後に半数超で営業再開…「社会インフラとして一日でも早く」（読売新聞オンライン） - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5BeS1WaDBHM28yVF9UUnhTQVhlU3ZJSWxCc2V4dlduSFBHamdfMHNpcWJjNH",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BeS1WaDBHM28yVF9UUnhTQVhlU3ZJSWxCc2V4dlduSFBHamdfMHNpcWJjNHFHZkx0UGI3Nnk2UHoxLWQ4eUFNMEktN3pQZm5td0dyYTVQbk5GMXRjTmd4UWtEMnNaQnZRVmVyVGJETjVkVkN3Wl8tci01NDRBSmM?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "交通機関は始発から通常通り運行 台風の接近予想で臨時休校も - TBS NEWS DIG",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9FUTFkNDA4UlI4VXZXTHUxekxabjRnNHRTaWFTalR1b2VReWVNZmJXOVA3c1",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9FUTFkNDA4UlI4VXZXTHUxekxabjRnNHRTaWFTalR1b2VReWVNZmJXOVA3c1hKeFVURm9hSUg2d3BzbGtGdzVsTXFBbG14RXAzdTE4bm83cw?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "【台風情報】台風31号（インファ）非常に強い勢力、中心気圧935hPaまで発達へ 最大瞬間風速70m/sで31日（土）から小笠原近海に接近、影響長期化のおそれ【雨と風のシミュレーション】 - TBS NEWS DIG",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxWmlhdk1PTFBmbmtzT0VkRkw3UTd1ZTUzYjF6aFJaZHBCX2dqTHc0M3U1N1",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxWmlhdk1PTFBmbmtzT0VkRkw3UTd1ZTUzYjF6aFJaZHBCX2dqTHc0M3U1N1ZkUVVWQzk5WkxYNHhzVDNCZThmdUg5X29RNE8zQXlIai1RRnYxeUl1NVBISmpuWVE?oc=5",
+   "date": "Tue, 27 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "【速報】台風30号は温帯低気圧に変わりました 九州から関東は27日にかけ大雨警戒(気象予報士 日直主任) - tenki.jp",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFA4Y0NEZEdsRm1JdjROT3hyWndJQmFtc25LbkxpYVRuQ0UyWmk3SVZtYjdFV3",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4Y0NEZEdsRm1JdjROT3hyWndJQmFtc25LbkxpYVRuQ0UyWmk3SVZtYjdFV3hsMVY1M0VWUFVrLV9DVEpqeXFrazR6MXk5N0VmRm43RjQzR00wYVpyOS10WkZMRFA1aTEtbWc?oc=5",
-   "date": "Sun, 25 Oct 2026"
+   "title": "宮城県、福島県で震度3の地震 各市町村の震度一覧、10月27日午前9時25分ごろ発生 - 福井新聞社",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfTG9xbkVNN0VYbF9wWEQtOGlsX3dfX0RrVmtkRE1DMVgyMXJZbHFTZG5qSH",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfTG9xbkVNN0VYbF9wWEQtOGlsX3dfX0RrVmtkRE1DMVgyMXJZbHFTZG5qSHlpOVhMbDZ4WkhqM0d6ekl0RUVNREVGUDUtSmFkTUJEY09NcHhvYzloY0E?oc=5",
+   "date": "Tue, 27 Oct 2026"
   }
  ]
 }
