@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-29",
+ "as_of": "2026-10-30",
  "trends": [
   {
    "date": "2026-09-26",
@@ -462,9 +462,50 @@
     "ポータブル電源": 1129,
     "ポータブルバッテリー": 94
    }
+  },
+  {
+   "date": "2026-10-29",
+   "brands": {
+    "Jackery": 193,
+    "EcoFlow": 65,
+    "Anker": 1525,
+    "Anker Solix": 24,
+    "Bluetti": 26
+   },
+   "categories": {
+    "ポータブル電源": 1284,
+    "ポータブルバッテリー": 161
+   }
   }
  ],
  "news": [
+  {
+   "date": "2026-10-30",
+   "brand": "Anker Solix",
+   "title": "Anker Prime Power Bankが過去最安値。最大140W出力、置けば充電できるベース付き - ゴリミー",
+   "summary": "",
+   "source": "ゴリミー",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WVzZjSEQwZWJRRkxybUdFaTNfZGtYSldPRUFFaWpVSWljOEQwanNMcWNoZDl6LXhfOHVRSmdfdjFLRndYWnlKcDF4X29Jd2hPX0JGdFVB?oc=5",
+   "trend_impact": "Anker ↑ +0.5%"
+  },
+  {
+   "date": "2026-10-30",
+   "brand": "Anker Solix",
+   "title": "【Anker Store】岡山県に初出店！「Anker Store 岡山一番街」を2026年11月26日にオープン - PR TIMES",
+   "summary": "",
+   "source": "PR TIMES",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1senJreTJndTFvcmNxUFRYeVRTSGpKWTlsR1BGR2FVcDBkSU5kR3p4QzlFMFJBWGk3aWtRZmQyVHFoLXhDeVFFQWRDSXZlVmF1WXJXNTVvc09UX1puaGZ6ZUQ2S0tUQlZoV1E?oc=5",
+   "trend_impact": "Anker ↑ +0.5%"
+  },
+  {
+   "date": "2026-10-30",
+   "brand": "ポータブル電源",
+   "title": "55%オフも！Amazonタイムセールで「ポータブル電源」や「ソーラーライト」が今ならお買い得ですよ - ROOMIE（ルーミー）",
+   "summary": "",
+   "source": "ROOMIE（ルーミー）",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RalhpaXM4WWdvd3JUYkNiM2tJZVJvTlZ3LWRLWExyek1TNVFXWE5pVXY5VkVqS2xJekNzcks5ZTlRU1pJLWNMYy1Vd0tSS2s?oc=5",
+   "trend_impact": "ポータブル電源 ↑ +9.1%"
+  },
   {
    "date": "2026-10-29",
    "brand": "EcoFlow",
@@ -500,6 +541,123 @@
    "source": "VIDEO SALON",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfcWVLTVdkMWJOU1J2V2RZb0lXR09nMTlyd2R4YkNmTmR1T1pXclc4WldTZHB4dnBBY0xNTWdsTTVxdzJtLUxweDFiSk9HVnZGcFdsY2ZqdXJfOGdxLU1BXw?oc=5",
    "trend_impact": "ポータブル電源 ↑ +24.5%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "Jackery",
+   "title": "40%引き！楽天市場「Jackery SolarSaga 100 Prime」 - Jetstream",
+   "summary": "",
+   "source": "Jetstream",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX3RCdzA1SEcweEZaN2V6d0NCbmUzZ3lYNE9PZEpjdm5pMFo5cFpKQ1lYSW5ZN0hUOFpITDJpWHRmZGkyZE1xUmlXaTJSOV9xWWRYNGg1dDA4dzlyYWk4ODdWT2xsSnFjaDhaNU9hMmRtV2UtNGRNYUlpUHNXQ3V6UEpGdlBIa2xNZW81NlE4WVpmcnJhbWtqd0ZEWQ?oc=5",
+   "trend_impact": "Jackery ↑ +63.6%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "EcoFlow",
+   "title": "36,225円引き！楽天市場「EcoFlow Alternator Charger 600」 - Jetstream",
+   "summary": "",
+   "source": "Jetstream",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaW5zeHFfeV9NSF9TU1Etc2pqYV9FYkFhR1RoTFhnc3NkVzJHUk8tS0ZlZlhiVGl3RFYxV1JGdUx6M2VKSFpyU3lzaHkycXQ3cnVZcEJNdEgzSDN2aGVmWGZVR1psaXNhYkRnd2VOcWYzS0pOYi1jenc0aEN1cnQzWjZPaHZHZGViTUlLNGtlMEZhTmZuamc?oc=5",
+   "trend_impact": "EcoFlow ↑ +4.8%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "EcoFlow",
+   "title": "【Amazonタイムセール】EcoFlow RAPID モバイルバッテリー 10000mAh 35W ホワイトが4,590円 - AppBank",
+   "summary": "",
+   "source": "AppBank",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hTzR4UnpPZzNaeFNySjRfaHJaZUd1UzBQWlB2bFZ5UjVUTG80WFNvVklzVlZtVF82SzJ5WXRVREdTRlJXemx1ODh6Ykd1TlpyVEtEQ3ZkRUNZbEV5MWMtaHlUbGZEYXZ0MHc?oc=5",
+   "trend_impact": "EcoFlow ↑ +4.8%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "EcoFlow",
+   "title": "消費電力2,600W超えも余裕！EcoFlow「DELTA 3800 Gen4」をギズモード自慢のデスクで試す1日 - Gizmodo",
+   "summary": "",
+   "source": "Gizmodo",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ObzV5U3hScHN2ZGYtUGtqVTh5bUxubGRPX1E1Vm5weGlyRHhUYi0zZkl6Y0ViY0VmR2FLeTNRb3JYUy1zdFB0MEZlaXdXRDI4bzhqbmI3QzFfdWpFTmJMazFONnBxXzQxaUpDaA?oc=5",
+   "trend_impact": "EcoFlow ↑ +4.8%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "Anker Solix",
+   "title": "Anker、片耳約4.7gの完全ワイヤレスイヤホン「Liberty Buds 2」発売。価格は2万1,990円 - CoRRiENTE",
+   "summary": "",
+   "source": "CoRRiENTE",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpX0N1MDMyYVpzRHZvbEY0NGR2Z1ZuMURzYXRVY0Z3bjZzSjRWOVdxTDJ5QjZUV3AwUnR2VFk1eXhDaDVnU1NDMGJIMm12RFFSMGZRVVoydW1leEEwR21KMmpEbXpMV2_SAWdBVV95cUxQaV9DdTAzMmFac0R2b2xGNDRkdmdWbjFEc2F0VWNGd242c0o0VjlXcUwyeUI2VFdwMFJ0dlRZNXl4Q2g1Z1NTQzBiSDJtdkRRUjBmUVVaMnVtZXhBMEdtSjJqRG16TFdv?oc=5",
+   "trend_impact": "Anker ↑ +0.5%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "Anker Solix",
+   "title": "【Anker】Libertyシリーズ最小・最軽量ながら、ワンランク上の静寂を実現 完全ワイヤレスイヤホン「Anker Liberty Buds 2」を販売開始 - PR TIMES",
+   "summary": "",
+   "source": "PR TIMES",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MZjdPME9tSDUyY3FJR3dsMW1fYnNEUVE1ZldhNmQxZnBvQzlJTUJDWXhRSWQ1MDUxTkZaOHRwbWNYYnpCUFpxSnV1Q3dhUk5MZXFQMExFcHpodlJiZGxMTGtpQjNMRmZEZmc?oc=5",
+   "trend_impact": "Anker ↑ +0.5%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "BLUETTI",
+   "title": "BLUETTIのポータブル電源がAmazonでセール中。130Wソーラーパネル付きで57％オフ - CoRRiENTE",
+   "summary": "",
+   "source": "CoRRiENTE",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UQXd2a04zaFBIZ1NMUURSdEZSOC1kX1IyLUFnWExXSEgzTktvMmg5WXZ2LUozbEpReDV5N25zQ09ZQjM2WG5DY09fQTBIWE9yNElfdFNsNWI0V1NyTlNsTGswOEhVWk96UEFF0gFwQVVfeXFMTlE1a3FYMmxiRy03Mk9uQXBZUFplODEybFRNV2ZGRkZkWkJFVlAxdHBnUUxZSWYtc1kyOVU4UVdMUFNTUzJDOVdmb0dpN1Jscm45dEJSSC0wd1JUdXRoS3JqWE4wSFllUWNwLVR4VXBZZA?oc=5",
+   "trend_impact": "Bluetti ↑ +225.0%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "ポータブル電源",
+   "title": "DJI、大容量でもコンパクト化した2kWhポータブル電源（家電 Watch） - Yahoo!ニュース",
+   "summary": "",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZYWdHOEFReDhRLXZLQTNERUFZNWVUMGF1c1dqa1d2c3RSdHJHTVF0M20zNS1sSS1YZnhlbWdOTVA1UTkwak5GRFptMUFnSWdoZUdsQ0ZfS05za29KYmk3ejZjOGtGWGZENnNITmk3alZaUTAzVEpJaVRLQ2hBWWs?oc=5",
+   "trend_impact": "ポータブル電源 ↑ +9.1%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "ポータブル電源",
+   "title": "「停電したら、見守りも止まる」を解決。高齢者の一人暮らしを支える新しいポータブル電源「ソラリッチ見守りプラス」発売 - PR TIMES",
+   "summary": "",
+   "source": "PR TIMES",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PMTl0Tmw2LTg1Q3FzV3JsYXB2MVl3aHlXTUxfWnNya0FGUUtFdjUtZXZXSVZhZ3U4dllqUjQybDA2cXF2NkRndUktc1ZKYlJlTk1mbFBIU2NwanpSY1ZXZnlJekg0VnVjYUE?oc=5",
+   "trend_impact": "ポータブル電源 ↑ +9.1%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "ポータブル電源",
+   "title": "DJI、大容量でもコンパクト化した2kWhポータブル電源 - 家電 Watch",
+   "summary": "",
+   "source": "家電 Watch",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wM3QyNk1mOVl6blFhUUQ1NXp5OXpzTHNMbjlsR0xyX096SnJLbk9tcEpRelh1Q0I4enhLSnBjVDM5YzdJcWpyS3UzaEU2cklYYkc5aVhzUVpnUTRaSGJ1S0JaZC13UWM?oc=5",
+   "trend_impact": "ポータブル電源 ↑ +9.1%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "ポータブル電源",
+   "title": "約2kWhの大容量と2,000Wの高出力を備えたポータブル電源「DJI Power Auro 2000 Elite」登場 - https://sekidocorp.com/",
+   "summary": "",
+   "source": "https://sekidocorp.com/",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BaVMyUGRmbnZ2QXpqY1U1WEJ5OEt3Mm9XYWhiMDcwWksyVkF5c0JPV1JwLVJ3azdQcG4zTFNvVnNIcUI4c1BieVdYVnpwQm8?oc=5",
+   "trend_impact": "ポータブル電源 ↑ +9.1%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "ポータブル電源",
+   "title": "DJI、コンパクトな2kWh ポータブル電源「DJI Power Auro2000 Elite」を発売〜車内充電機能とソーラー給電の利点を1台に集約 - VIDEO SALON.web",
+   "summary": "",
+   "source": "VIDEO SALON.web",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfcWVLTVdkMWJOU1J2V2RZb0lXR09nMTlyd2R4YkNmTmR1T1pXclc4WldTZHB4dnBBY0xNTWdsTTVxdzJtLUxweDFiSk9HVnZGcFdsY2ZqdXJfOGdxLU1BXw?oc=5",
+   "trend_impact": "ポータブル電源 ↑ +9.1%"
+  },
+  {
+   "date": "2026-10-29",
+   "brand": "ポータブル電源",
+   "title": "DJI、大容量でもコンパクト化した2kWhポータブル電源 (家電 Watch) - Yahoo!ニュース",
+   "summary": "",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZjlJNkFXVDBkMXdBbGhfSWdSMGRXNGZaenhHdXBfTS16OTVna1JrQlE4dGZaLVBmVnhLVDNDT3EwY3VOUXZqaXg3dFVyaFAySDFnbFdGcXMybV9OYlJXTkFRZDJaSzFIQzI3a1FtTlplOWtoSXdwNXBTaE52RDVxQzNTNF9qU1VvUTZZOVpn?oc=5",
+   "trend_impact": "ポータブル電源 ↑ +9.1%"
   },
   {
    "date": "2026-10-28",
@@ -646,6 +804,24 @@
    "trend_impact": "ポータブル電源 ↑ +24.5%"
   },
   {
+   "date": "2026-10-28",
+   "brand": "Anker Solix",
+   "title": "後悔先に立たず。Ankerの旧型ポタ電が41％オフ、新型より5万円近く安い - ゴリミー",
+   "summary": "",
+   "source": "ゴリミー",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05bm9kRUtSYkFuMjZCT1RxLUp4cGZLOEM4UzI2VU83ODN1NzMxVGlWRUxpY3BZaUpkUjhVaEt5WmtyeUxySEFraVhhUHVpWm1pNm12U0R3?oc=5",
+   "trend_impact": "Anker ↑ +0.5%"
+  },
+  {
+   "date": "2026-10-28",
+   "brand": "ポータブル電源",
+   "title": "DJI、2kWhのポータブル電源「Power Auro 2000 Elite」。最大12kWhまで拡張可能 - マイナビニュース",
+   "summary": "",
+   "source": "マイナビニュース",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3bHl3S1hlTTkzWGwyV1l0eDVoNEtRSHFHaFNDZVg5elpMUlBDc1Nyc29DdXlWbGs5bmpacWdPQWljd1h0TFNUeExHWG5aWjU3cG40SGR5VVNJZlNu?oc=5",
+   "trend_impact": "ポータブル電源 ↑ +9.1%"
+  },
+  {
    "date": "2026-10-27",
    "brand": "Jackery",
    "title": "【45%還元】ポータブル電源「Jackery 1000 New」がAmazonでセール中〜実質65,890円 - Touch Lab",
@@ -689,6 +865,15 @@
    "source": "ゴリミー",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05bm9kRUtSYkFuMjZCT1RxLUp4cGZLOEM4UzI2VU83ODN1NzMxVGlWRUxpY3BZaUpkUjhVaEt5WmtyeUxySEFraVhhUHVpWm1pNm12U0R3?oc=5",
    "trend_impact": "Anker ↓ -12.4%"
+  },
+  {
+   "date": "2026-10-27",
+   "brand": "Anker Solix",
+   "title": "Anker Prime 67W充電器が過去最安級。ほぼ半額、帰省や旅行の1台に - ゴリミー",
+   "summary": "",
+   "source": "ゴリミー",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85by1fOF91VzloSjZTSnY5U0x3UnJtWXJGbUdBNDJrVGlwMFo0X3UzMXhCbXE3MV9VQlZ4NDctN2JpTjlXS2lVZDVqVDVNaEJwSTN3RGhR?oc=5",
+   "trend_impact": "Anker ↑ +0.5%"
   },
   {
    "date": "2026-10-26",
@@ -2908,6 +3093,156 @@
  "social": [
   {
    "platform": "youtube",
+   "video_id": "5zMizBlE-qU",
+   "title": "Anker Liberty Buds 2 | ペアリング・リセット方法",
+   "channel": "Anker Japan (アンカー・ジャパン公式)",
+   "published": "2026-10-30T01:37:55Z",
+   "url": "https://www.youtube.com/watch?v=5zMizBlE-qU",
+   "keyword": "Anker",
+   "hashtags": [],
+   "content_type": "官方内容",
+   "official": true,
+   "channel_label": "Anker Japan"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "khUPBTdaOj8",
+   "title": "Anker Liberty Buds 2 | お手入れ方法",
+   "channel": "Anker Japan (アンカー・ジャパン公式)",
+   "published": "2026-10-30T01:37:21Z",
+   "url": "https://www.youtube.com/watch?v=khUPBTdaOj8",
+   "keyword": "Anker",
+   "hashtags": [],
+   "content_type": "官方内容",
+   "official": true,
+   "channel_label": "Anker Japan"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "4AHsN0q0qzk",
+   "title": "Anker Liberty Buds 2 | 操作方法",
+   "channel": "Anker Japan (アンカー・ジャパン公式)",
+   "published": "2026-10-30T01:36:55Z",
+   "url": "https://www.youtube.com/watch?v=4AHsN0q0qzk",
+   "keyword": "Anker",
+   "hashtags": [],
+   "content_type": "官方内容",
+   "official": true,
+   "channel_label": "Anker Japan"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "d1hMUwSX-FM",
+   "title": "Anker Liberty Buds 2 | 装着方法",
+   "channel": "Anker Japan (アンカー・ジャパン公式)",
+   "published": "2026-10-30T01:36:27Z",
+   "url": "https://www.youtube.com/watch?v=d1hMUwSX-FM",
+   "keyword": "Anker",
+   "hashtags": [],
+   "content_type": "官方内容",
+   "official": true,
+   "channel_label": "Anker Japan"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "yTq0dIlEIck",
+   "title": "Anker Liberty Buds 2 | ワンランク上の静寂を、この小ささで。",
+   "channel": "Anker Japan (アンカー・ジャパン公式)",
+   "published": "2026-10-30T01:35:38Z",
+   "url": "https://www.youtube.com/watch?v=yTq0dIlEIck",
+   "keyword": "Anker",
+   "hashtags": [],
+   "content_type": "官方内容",
+   "official": true,
+   "channel_label": "Anker Japan"
+  },
+  {
+   "platform": "youtube",
+   "video_id": "zIGOZCSrdEY",
+   "title": "【新型】Liberty史上最小・最軽量の「Anker LibertyBuds 2」をレビュー！",
+   "channel": "きすけ / ガジェットの本音",
+   "published": "2026-10-29T10:00:15Z",
+   "url": "https://www.youtube.com/watch?v=zIGOZCSrdEY",
+   "keyword": "Anker",
+   "hashtags": [
+    "イヤホン",
+    "ノイキャン",
+    "Anker",
+    "PR"
+   ],
+   "content_type": "评测",
+   "official": false,
+   "channel_label": ""
+  },
+  {
+   "platform": "youtube",
+   "video_id": "l_YGlJp2aq4",
+   "title": "Ankerから超コンパクトなのに、ノイキャンまで強力なワイヤレスイヤホンが出た「Liberty Buds 2 」　｜Liberty 5 / 5 Proとの違いも解説",
+   "channel": "ららまろ ちゃんねる",
+   "published": "2026-10-29T09:30:19Z",
+   "url": "https://www.youtube.com/watch?v=l_YGlJp2aq4",
+   "keyword": "Anker",
+   "hashtags": [
+    "イヤホン",
+    "ノイキャン",
+    "Anker",
+    "PR"
+   ],
+   "content_type": "评测",
+   "official": false,
+   "channel_label": ""
+  },
+  {
+   "platform": "youtube",
+   "video_id": "AV-Qg_7UBOc",
+   "title": "Jackery ポータブル電源 全21モデルの値段　公式と量販店どっちが安い？【メーカー別　2026年10月29日時点】",
+   "channel": "損しない価格データ - KIMERUCA / キメルカ -",
+   "published": "2026-10-29T09:00:25Z",
+   "url": "https://www.youtube.com/watch?v=AV-Qg_7UBOc",
+   "keyword": "ポータブル電源",
+   "hashtags": [],
+   "content_type": "评测",
+   "official": false,
+   "channel_label": ""
+  },
+  {
+   "platform": "youtube",
+   "video_id": "3rYkG3RJTFc",
+   "title": "【知っておいて欲しい】会社の発電機は3日分の燃料を持つ？72時間でガソリン約62L必要【ELSONA GD1600SR】",
+   "channel": "Voltworks ボルトワークス〜元自動車メーカーが運営するポータブル電源専門店〜",
+   "published": "2026-10-29T09:00:22Z",
+   "url": "https://www.youtube.com/watch?v=3rYkG3RJTFc",
+   "keyword": "ポータブル電源",
+   "hashtags": [
+    "ボルトワークス",
+    "ポータブル電源",
+    "BCP",
+    "発電機",
+    "防災"
+   ],
+   "content_type": "评测",
+   "official": false,
+   "channel_label": ""
+  },
+  {
+   "platform": "youtube",
+   "video_id": "oYJwxT8b4KI",
+   "title": "【備蓄の落とし穴】ポータブル電源は使わなくても減っていく #shorts",
+   "channel": "Voltworks ボルトワークス〜元自動車メーカーが運営するポータブル電源専門店〜",
+   "published": "2026-10-29T09:00:14Z",
+   "url": "https://www.youtube.com/watch?v=oYJwxT8b4KI",
+   "keyword": "ポータブル電源",
+   "hashtags": [
+    "ボルトワークス",
+    "BCP",
+    "ポータブル電源"
+   ],
+   "content_type": "其他",
+   "official": false,
+   "channel_label": ""
+  },
+  {
+   "platform": "youtube",
    "video_id": "6rT_oz0OZM0",
    "title": "愛猫と過ごす秘密基地。大容量ポータブル電源で楽しむ車中泊",
    "channel": "僕と うみ のスローライフ‪🎣‬",
@@ -4547,6 +4882,27 @@
  ],
  "events": [
   {
+   "date": "2026-10-30",
+   "type": "新闻",
+   "title": "Anker Prime Power Bankが過去最安値。最大140W出力、置けば充電できるベース付き - ゴリミー",
+   "brand": "Anker Solix",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-30",
+   "type": "新闻",
+   "title": "【Anker Store】岡山県に初出店！「Anker Store 岡山一番街」を2026年11月26日にオープン - PR TIMES",
+   "brand": "Anker Solix",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-30",
+   "type": "新闻",
+   "title": "55%オフも！Amazonタイムセールで「ポータブル電源」や「ソーラーライト」が今ならお買い得ですよ - ROOMIE（ルーミー）",
+   "brand": "ポータブル電源",
+   "direction": "↑"
+  },
+  {
    "date": "2026-10-29",
    "type": "新闻",
    "title": "停電でも僕の作業は止まらない。冷凍庫・レンジ付き「超効率デスク」を最強ポタ電1台で動かしてみた - Gizmodo",
@@ -4571,6 +4927,97 @@
    "date": "2026-10-29",
    "type": "新闻",
    "title": "DJI、コンパクトな2kWh ポータブル電源「DJI Power Auro2000 Elite」を発売〜車内充電機能とソーラー給電の利点を1台に集約 - VIDEO SALON",
+   "brand": "ポータブル電源",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "40%引き！楽天市場「Jackery SolarSaga 100 Prime」 - Jetstream",
+   "brand": "Jackery",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "36,225円引き！楽天市場「EcoFlow Alternator Charger 600」 - Jetstream",
+   "brand": "EcoFlow",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "【Amazonタイムセール】EcoFlow RAPID モバイルバッテリー 10000mAh 35W ホワイトが4,590円 - AppBank",
+   "brand": "EcoFlow",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "消費電力2,600W超えも余裕！EcoFlow「DELTA 3800 Gen4」をギズモード自慢のデスクで試す1日 - Gizmodo",
+   "brand": "EcoFlow",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "Anker、片耳約4.7gの完全ワイヤレスイヤホン「Liberty Buds 2」発売。価格は2万1,990円 - CoRRiENTE",
+   "brand": "Anker Solix",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "【Anker】Libertyシリーズ最小・最軽量ながら、ワンランク上の静寂を実現 完全ワイヤレスイヤホン「Anker Liberty Buds 2」を販売開始 - PR TIMES",
+   "brand": "Anker Solix",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "BLUETTIのポータブル電源がAmazonでセール中。130Wソーラーパネル付きで57％オフ - CoRRiENTE",
+   "brand": "BLUETTI",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "DJI、大容量でもコンパクト化した2kWhポータブル電源（家電 Watch） - Yahoo!ニュース",
+   "brand": "ポータブル電源",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "「停電したら、見守りも止まる」を解決。高齢者の一人暮らしを支える新しいポータブル電源「ソラリッチ見守りプラス」発売 - PR TIMES",
+   "brand": "ポータブル電源",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "DJI、大容量でもコンパクト化した2kWhポータブル電源 - 家電 Watch",
+   "brand": "ポータブル電源",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "約2kWhの大容量と2,000Wの高出力を備えたポータブル電源「DJI Power Auro 2000 Elite」登場 - https://sekidocorp.com/",
+   "brand": "ポータブル電源",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "DJI、コンパクトな2kWh ポータブル電源「DJI Power Auro2000 Elite」を発売〜車内充電機能とソーラー給電の利点を1台に集約 - VIDEO SALON.web",
+   "brand": "ポータブル電源",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-29",
+   "type": "新闻",
+   "title": "DJI、大容量でもコンパクト化した2kWhポータブル電源 (家電 Watch) - Yahoo!ニュース",
    "brand": "ポータブル電源",
    "direction": "↑"
   },
@@ -4687,6 +5134,20 @@
    "direction": "↑"
   },
   {
+   "date": "2026-10-28",
+   "type": "新闻",
+   "title": "後悔先に立たず。Ankerの旧型ポタ電が41％オフ、新型より5万円近く安い - ゴリミー",
+   "brand": "Anker Solix",
+   "direction": "↑"
+  },
+  {
+   "date": "2026-10-28",
+   "type": "新闻",
+   "title": "DJI、2kWhのポータブル電源「Power Auro 2000 Elite」。最大12kWhまで拡張可能 - マイナビニュース",
+   "brand": "ポータブル電源",
+   "direction": "↑"
+  },
+  {
    "date": "2026-10-27",
    "type": "新闻",
    "title": "【45%還元】ポータブル電源「Jackery 1000 New」がAmazonでセール中〜実質65,890円 - Touch Lab",
@@ -4720,6 +5181,13 @@
    "title": "後悔先に立たず。Ankerの旧型ポタ電が41％オフ、新型より5万円近く安い - ゴリミー",
    "brand": "Anker Solix",
    "direction": "—"
+  },
+  {
+   "date": "2026-10-27",
+   "type": "新闻",
+   "title": "Anker Prime 67W充電器が過去最安級。ほぼ半額、帰省や旅行の1台に - ゴリミー",
+   "brand": "Anker Solix",
+   "direction": "↑"
   },
   {
    "date": "2026-10-26",
@@ -6713,7 +7181,7 @@
    "brand": "Jackery",
    "maker": "Jackery Japan",
    "product": "Jackery ポータブル電源 1000 New",
-   "price": "75,474",
+   "price": "75,300",
    "trend": ""
   },
   {
@@ -6728,36 +7196,20 @@
    "rank": 4,
    "brand": "Anker",
    "maker": "ANKER",
-   "product": "Solix S2000 Portable Power Station AS220511 [ダークグレー]",
-   "price": "174,610",
+   "product": "Solix C800 Plus Portable Power Station",
+   "price": "55,000",
    "trend": ""
   },
   {
    "rank": 5,
    "brand": "Anker",
    "maker": "ANKER",
-   "product": "Solix C800 Plus Portable Power Station",
-   "price": "55,000",
+   "product": "Solix S2000 Portable Power Station AS220511 [ダークグレー]",
+   "price": "174,610",
    "trend": ""
   },
   {
    "rank": 6,
-   "brand": "EcoFlow",
-   "maker": "EcoFlow Technology",
-   "product": "EcoFlow DELTA 3 Max",
-   "price": "96,734",
-   "trend": ""
-  },
-  {
-   "rank": 7,
-   "brand": "EcoFlow",
-   "maker": "EcoFlow Technology",
-   "product": "EcoFlow DELTA 3 Plus",
-   "price": "74,800",
-   "trend": ""
-  },
-  {
-   "rank": 8,
    "brand": "EcoFlow",
    "maker": "EcoFlow Technology",
    "product": "EcoFlow RIVER 2 Pro",
@@ -6765,7 +7217,15 @@
    "trend": ""
   },
   {
-   "rank": 9,
+   "rank": 7,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 3 Max",
+   "price": "96,734",
+   "trend": ""
+  },
+  {
+   "rank": 8,
    "brand": "Jackery",
    "maker": "Jackery Japan",
    "product": "Jackery ポータブル電源 3000 New JE-3000B",
@@ -6773,7 +7233,23 @@
    "trend": ""
   },
   {
-   "rank": 10,
+   "rank": 9,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 3 Plus",
+   "price": "74,800",
+   "trend": ""
+  },
+  {
+   "rank": 9,
+   "brand": "Anker",
+   "maker": "ANKER",
+   "product": "Solix C2000 Gen 2 Portable Power Station",
+   "price": "159,211",
+   "trend": ""
+  },
+  {
+   "rank": 11,
    "brand": "Anker",
    "maker": "ANKER",
    "product": "Solix C1000 Portable Power Station",
@@ -6784,20 +7260,12 @@
    "rank": 11,
    "brand": "Anker",
    "maker": "ANKER",
-   "product": "Solix C2000 Gen 2 Portable Power Station",
-   "price": "139,700",
+   "product": "Solix C300 Portable Power Station",
+   "price": "29,800",
    "trend": ""
   },
   {
-   "rank": 12,
-   "brand": "BLUETTI",
-   "maker": "BLUETTI",
-   "product": "AC70 [グレー]",
-   "price": "39,600",
-   "trend": ""
-  },
-  {
-   "rank": 12,
+   "rank": 13,
    "brand": "BLUETTI",
    "maker": "BLUETTI",
    "product": "AORA 30 V2",
@@ -6806,6 +7274,14 @@
   },
   {
    "rank": 14,
+   "brand": "BLUETTI",
+   "maker": "BLUETTI",
+   "product": "AC70 [グレー]",
+   "price": "39,600",
+   "trend": ""
+  },
+  {
+   "rank": 15,
    "brand": "EcoFlow",
    "maker": "EcoFlow Technology",
    "product": "EcoFlow DELTA 3 2000 Air",
@@ -6813,23 +7289,7 @@
    "trend": ""
   },
   {
-   "rank": 15,
-   "brand": "Anker",
-   "maker": "ANKER",
-   "product": "Solix C300 Portable Power Station",
-   "price": "29,800",
-   "trend": ""
-  },
-  {
    "rank": 16,
-   "brand": "EcoFlow",
-   "maker": "EcoFlow Technology",
-   "product": "EcoFlow DELTA 3 Max Plus",
-   "price": "154,988",
-   "trend": ""
-  },
-  {
-   "rank": 17,
    "brand": "其他",
    "maker": "DJI",
    "product": "DJI Power 1000 Mini Plus",
@@ -6838,6 +7298,14 @@
   },
   {
    "rank": 17,
+   "brand": "EcoFlow",
+   "maker": "EcoFlow Technology",
+   "product": "EcoFlow DELTA 3 Max Plus",
+   "price": "154,988",
+   "trend": ""
+  },
+  {
+   "rank": 18,
    "brand": "Anker",
    "maker": "ANKER",
    "product": "Solix C800 Portable Power Station A17535Z1 [ダークグレー]",
@@ -6846,18 +7314,18 @@
   },
   {
    "rank": 19,
-   "brand": "EcoFlow",
-   "maker": "EcoFlow Technology",
-   "product": "EcoFlow DELTA 2",
-   "price": "59,800",
+   "brand": "其他",
+   "maker": "DJI",
+   "product": "DJI Power 1000 V2 DYM1000V2L",
+   "price": "69,850",
    "trend": ""
   },
   {
    "rank": 20,
    "brand": "EcoFlow",
    "maker": "EcoFlow Technology",
-   "product": "EcoFlow DELTA Pro 3",
-   "price": "279,800",
+   "product": "EcoFlow DELTA 2",
+   "price": "59,800",
    "trend": ""
   }
  ],
@@ -10161,77 +10629,179 @@
      "trend": ""
     }
    ]
+  },
+  {
+   "date": "2026-10-30",
+   "items": [
+    {
+     "rank": 1,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C1000 Gen 2 Portable Power Station",
+     "price": "71,800",
+     "trend": ""
+    },
+    {
+     "rank": 2,
+     "brand": "Jackery",
+     "maker": "Jackery Japan",
+     "product": "Jackery ポータブル電源 1000 New",
+     "price": "75,300",
+     "trend": ""
+    },
+    {
+     "rank": 3,
+     "brand": "Jackery",
+     "maker": "Jackery Japan",
+     "product": "Jackery ポータブル電源 2000 New",
+     "price": "119,880",
+     "trend": ""
+    },
+    {
+     "rank": 4,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C800 Plus Portable Power Station",
+     "price": "55,000",
+     "trend": ""
+    },
+    {
+     "rank": 5,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix S2000 Portable Power Station AS220511 [ダークグレー]",
+     "price": "174,610",
+     "trend": ""
+    },
+    {
+     "rank": 6,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow RIVER 2 Pro",
+     "price": "39,800",
+     "trend": ""
+    },
+    {
+     "rank": 7,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 Max",
+     "price": "96,734",
+     "trend": ""
+    },
+    {
+     "rank": 8,
+     "brand": "Jackery",
+     "maker": "Jackery Japan",
+     "product": "Jackery ポータブル電源 3000 New JE-3000B",
+     "price": "159,800",
+     "trend": ""
+    },
+    {
+     "rank": 9,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 Plus",
+     "price": "74,800",
+     "trend": ""
+    },
+    {
+     "rank": 9,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C2000 Gen 2 Portable Power Station",
+     "price": "159,211",
+     "trend": ""
+    },
+    {
+     "rank": 11,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C1000 Portable Power Station",
+     "price": "63,470",
+     "trend": ""
+    },
+    {
+     "rank": 11,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C300 Portable Power Station",
+     "price": "29,800",
+     "trend": ""
+    },
+    {
+     "rank": 13,
+     "brand": "BLUETTI",
+     "maker": "BLUETTI",
+     "product": "AORA 30 V2",
+     "price": "25,870",
+     "trend": ""
+    },
+    {
+     "rank": 14,
+     "brand": "BLUETTI",
+     "maker": "BLUETTI",
+     "product": "AC70 [グレー]",
+     "price": "39,600",
+     "trend": ""
+    },
+    {
+     "rank": 15,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 2000 Air",
+     "price": "74,800",
+     "trend": ""
+    },
+    {
+     "rank": 16,
+     "brand": "其他",
+     "maker": "DJI",
+     "product": "DJI Power 1000 Mini Plus",
+     "price": "49,800",
+     "trend": ""
+    },
+    {
+     "rank": 17,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 3 Max Plus",
+     "price": "154,988",
+     "trend": ""
+    },
+    {
+     "rank": 18,
+     "brand": "Anker",
+     "maker": "ANKER",
+     "product": "Solix C800 Portable Power Station A17535Z1 [ダークグレー]",
+     "price": "54,480",
+     "trend": ""
+    },
+    {
+     "rank": 19,
+     "brand": "其他",
+     "maker": "DJI",
+     "product": "DJI Power 1000 V2 DYM1000V2L",
+     "price": "69,850",
+     "trend": ""
+    },
+    {
+     "rank": 20,
+     "brand": "EcoFlow",
+     "maker": "EcoFlow Technology",
+     "product": "EcoFlow DELTA 2",
+     "price": "59,800",
+     "trend": ""
+    }
+   ]
   }
  ],
  "weather": [
   {
    "category": "台风・灾害",
-   "title": "非常に強い台風31号は11月1日頃から小笠原近海へ 今後の動向に注意(気象予報士 吉田 友海 2026年10月29日) - tenki.jp",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1xLXlXZlI1enpQQmpkSGZQZWRKdjAxZ2l1UXNjNklfVFBHMHFEaWR0dl9VM1",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xLXlXZlI1enpQQmpkSGZQZWRKdjAxZ2l1UXNjNklfVFBHMHFEaWR0dl9VM1g1Z3Q1UlVuNDYxZVBURkZDeDZoaHpQN2dSZUpjYjlGc1dsU3c1dVFYcGpwc0JybkVSQVoxNG5V?oc=5",
-   "date": "Wed, 28 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "千葉県で最大震度5弱の地震、東京都心でも震度2 津波の心配なし (朝日新聞) - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQOVhUd3VrcWZ5TTIxZHZNMVBXak0yZnBZckUzdk85NW9FWFh3T3Bwa3p1bH",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOVhUd3VrcWZ5TTIxZHZNMVBXak0yZnBZckUzdk85NW9FWFh3T3Bwa3p1bHVtU1gyZ3dDSzV1S0kya2lva1Ata1F2X0x2b0VLSUIyVmNXQTduQnhpLXI2QmR3SElLNW53aDVhSVNhNlRQM0U5NXNiVl9tZG9MNXRMNllQUWNERE1pX0tKcVNR?oc=5",
-   "date": "Wed, 28 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "気象庁「今後1週間程度は同程度の地震に注意」 千葉・横芝光町で震度5弱（2026年10月28日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBjOThaaVR4UmppWVRacHd3eGVPOGJ1dWhiQV9xMW5DOW5aRHZLdWd1Z3JnRC",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjOThaaVR4UmppWVRacHd3eGVPOGJ1dWhiQV9xMW5DOW5aRHZLdWd1Z3JnRC1aX19kXzFSQlNINFlkLVB4N0owWEJQWjAwZmZDcTd4UFJBQUxkUlczSk4xeUJYUzlpOGpNdGdmT1hoOEo5Z3RNZmRGOGY2NzI?oc=5",
-   "date": "Wed, 28 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "千葉県で最大震度5弱の地震、東京都心でも震度2 津波の心配なし - 朝日新聞",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DbTZfb0tyendRWWhqNkwwRll4eHlubWZnSngtcTBHQm5ZeWQxOTd2eHJXRG",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DbTZfb0tyendRWWhqNkwwRll4eHlubWZnSngtcTBHQm5ZeWQxOTd2eHJXRGdLbWU5MENKVnUwNFhfSDNUU0x5YTBIa3ZieDRqVmZJb2lOc0JDUGlhMlN1bHR3eWFSXzA?oc=5",
-   "date": "Wed, 28 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "台風31号(2026年) / 最新位置・進路予想 - tenki.jp",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IVXJYUzNpS3BDa0RZZnBncWtTakFmU2dXZGZsLUZqcjlmZ0l5amkxRUs2NV",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IVXJYUzNpS3BDa0RZZnBncWtTakFmU2dXZGZsLUZqcjlmZ0l5amkxRUs2NVhqRzZtUUI3TnZPVWY5ZzV4NVNWek1kUDV1QQ?oc=5",
-   "date": "Wed, 28 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "【台風情報】非常に強い台風31号（インファ）日本の南へ移動予想 最大瞬間風速70m/sへ 今後の予想進路は? ※雨と風のシミュレーション（気象庁） （RCC中国放送） - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9Vemt6bGZRSzN6aDZpZjVjeHpSdXI2SG44OHdHMFVPX08xVGsyRF9IYW1BVj",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Vemt6bGZRSzN6aDZpZjVjeHpSdXI2SG44OHdHMFVPX08xVGsyRF9IYW1BVjVSNl9PX1BOdjdfR3FpMGpPaGx3enZTYzNLTFktcVpsX0FEbWFNZTdEMjVIR0czT2hIRTJ1V29UMVZpb1ZvTFV2UkRvN2JuWkpFUjQ?oc=5",
-   "date": "Wed, 28 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "千葉県で震度5弱の地震 津波の心配なし(気象予報士 日直主任 2026年10月29日) - tenki.jp",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE41QWE1MG4xX1NwTWc3MjBWUEN0QzFlTEhwVVRyc0NiekIwWXZpVnRPNERTY0",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41QWE1MG4xX1NwTWc3MjBWUEN0QzFlTEhwVVRyc0NiekIwWXZpVnRPNERTY09tV3psQ1VhVGxCd3lXVExYRWFMVWhqNk1NNHFPVlZscUVyeU8tY3dIRmhMeU9GZlpmRUhPeEE?oc=5",
-   "date": "Wed, 28 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "千葉県横芝光町で最大震度5弱の地震 県警に被害の情報これまでになし（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE10S1p5OV90c2JMNHpEWk1ON3M3V2x3NmN0M09JeHM3TlcwLVk5OUVEc2dfX1",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10S1p5OV90c2JMNHpEWk1ON3M3V2x3NmN0M09JeHM3TlcwLVk5OUVEc2dfX1YyamtzWVdVTFRtd3kydDUtS3d0MDBkRWVMdFBQcXhrZ0ZnZnVYRV9DYVh6Ul9ySXRJLWhWbmR1aW9MVkx1ck1jeHlYTGZZdklIVWM?oc=5",
-   "date": "Wed, 28 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "【台風情報】非常に強い台風31号（インファ）日本の南へ移動予想 最大瞬間風速70m/sへ 今後の予想進路は? ※雨と風のシミュレーション（気象庁） - TBS NEWS DIG",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE80bFhvM0RUZGJvSlBVX1BBbHgtbU1VMXRjR2lRR0c1MmVjWk1IX19hSW0zSG",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE80bFhvM0RUZGJvSlBVX1BBbHgtbU1VMXRjR2lRR0c1MmVjWk1IX19hSW0zSGhxamNzMEcwSWlldk1RZUJqcHFjZlZCT1hWNllfMk9uQXpZaw?oc=5",
-   "date": "Wed, 28 Oct 2026"
-  },
-  {
-   "category": "台风・灾害",
-   "title": "千葉県北東部でM5.5の地震 最大震度5弱 津波の心配なし - ウェザーニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ub2NtWUpkQmNzTVFIMGZxeDRnU1E1a1VmLV9OeE04YWxFWGhxRTU1THlxOV",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ub2NtWUpkQmNzTVFIMGZxeDRnU1E1a1VmLV9OeE04YWxFWGhxRTU1THlxOVFPQUZwaGtmTXZkSllENXp1RnlJQ2JtNmFwS19wZURlQXAtWjh6Tjg?oc=5",
+   "title": "台風31号(インファ) 勢力を維持して小笠原近海へ 接近タイミングに不確実性 - ウェザーニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kdHZla19WM1N0bTg0ZHpwNHpjYjZPTU51UVNFVnVOTl9uZl84dGtLYkpIdV",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kdHZla19WM1N0bTg0ZHpwNHpjYjZPTU51UVNFVnVOTl9uZl84dGtLYkpIdV80UUJGckltLWd0NXRrcy1mcG1WRzhhWDJubXYyd2xrcQ?oc=5",
    "date": "Wed, 28 Oct 2026"
   },
   {
@@ -10243,9 +10813,16 @@
   },
   {
    "category": "台风・灾害",
-   "title": "ここ1週間の地震回数 29日未明に千葉県で最大震度5弱 1週間程度は注意 (tenki.jp) - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNbUpidTFFNThDaHdaOXZrYjUyTzB4c0hlWXBsNlVpUVZkLVRVSUljTGVuND",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbUpidTFFNThDaHdaOXZrYjUyTzB4c0hlWXBsNlVpUVZkLVRVSUljTGVuNDBGZjhwcklyakNiekxhcDQ4b2R5ZzhsRFFCc05FS0tDNTVLaEZZWE41dktpdXRUakpaNUNvVGhBYnhxM0ZTRGRXQ1JfRUtLVV9xQjJ4b3dfR3o2R2ExVFVBMmxB?oc=5",
+   "title": "非常に強い台風31号は11月1日頃から小笠原近海へ 今後の動向に注意(気象予報士 吉田 友海 2026年10月29日) - tenki.jp",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1xLXlXZlI1enpQQmpkSGZQZWRKdjAxZ2l1UXNjNklfVFBHMHFEaWR0dl9VM1",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xLXlXZlI1enpQQmpkSGZQZWRKdjAxZ2l1UXNjNklfVFBHMHFEaWR0dl9VM1g1Z3Q1UlVuNDYxZVBURkZDeDZoaHpQN2dSZUpjYjlGc1dsU3c1dVFYcGpwc0JybkVSQVoxNG5V?oc=5",
+   "date": "Wed, 28 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "千葉県北東部でM5.5の地震 最大震度5弱 津波の心配なし - ウェザーニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ub2NtWUpkQmNzTVFIMGZxeDRnU1E1a1VmLV9OeE04YWxFWGhxRTU1THlxOV",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ub2NtWUpkQmNzTVFIMGZxeDRnU1E1a1VmLV9OeE04YWxFWGhxRTU1THlxOVFPQUZwaGtmTXZkSllENXp1RnlJQ2JtNmFwS19wZURlQXAtWjh6Tjg?oc=5",
    "date": "Wed, 28 Oct 2026"
   },
   {
@@ -10257,17 +10834,73 @@
   },
   {
    "category": "台风・灾害",
-   "title": "【台風情報】台風31号（インファ） 非常に強い勢力を維持して日本の南へ 最大瞬間風速70m/s・中心気圧935hPa予想 今後の進路は?【気象庁・台風情報・雨風の予想シミュレーション】（あいテレビ） - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1IdzZIbERRajlSdEQySnh5RXJHRjVpdEdkUG9pSlE3VWRRLVEzblhaWmZMNW",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IdzZIbERRajlSdEQySnh5RXJHRjVpdEdkUG9pSlE3VWRRLVEzblhaWmZMNWFhWUtCbk5QczdwWFhobGZ2SkFlWlVtRXZIY3pJLS0xdkZJMWFhaXFkT2F5YTZ3YUdzS3pxdmU3blF5RlZxS25JSE5ndGVqMngxbDA?oc=5",
+   "title": "台風31号(インファ) 明日は猛烈な勢力に 週末以降の進路に注意 - ウェザーニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Fell1eFFyTDhPYmQtNFZQZkxMRXVhTGEzRlNraEVtOGkzM2hyQWJFeUFCal",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Fell1eFFyTDhPYmQtNFZQZkxMRXVhTGEzRlNraEVtOGkzM2hyQWJFeUFCalF3eEVjaE5VbzdtUnd3UWx2ZGw2a21LLTB2ZGdYaVN6dw?oc=5",
    "date": "Wed, 28 Oct 2026"
   },
   {
    "category": "台风・灾害",
-   "title": "【台風情報】非常に強い「台風31号（インファ）」勢力を保ち日本の南へ 離れていても前線刺激で大雨のおそれ【11月3日までの雨と風のシミュレーション】（29日午前3時45分発表）（静岡放送（SBS）） - Yahoo!ニュース",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE53Q3hPbFBpbzVWZmpZWWQ0dnBaX2NyNWtiV2poTGVlM3lKRUlBU3FzQzFOWl",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53Q3hPbFBpbzVWZmpZWWQ0dnBaX2NyNWtiV2poTGVlM3lKRUlBU3FzQzFOWlRnVjdTN2pvYnZHYjdRTUlZX0JENTMya0o0c3pFbjJBTGktaTA4VkJlR094UWM2aEZtSmxFRGZPaGFxTFZfUDUyNGY2aXR3amxRMlU?oc=5",
+   "title": "千葉県で最大震度5弱の地震、東京都心でも震度2 津波の心配なし - 朝日新聞",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DbTZfb0tyendRWWhqNkwwRll4eHlubWZnSngtcTBHQm5ZeWQxOTd2eHJXRG",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DbTZfb0tyendRWWhqNkwwRll4eHlubWZnSngtcTBHQm5ZeWQxOTd2eHJXRGdLbWU5MENKVnUwNFhfSDNUU0x5YTBIa3ZieDRqVmZJb2lOc0JDUGlhMlN1bHR3eWFSXzA?oc=5",
    "date": "Wed, 28 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "気象庁「今後1週間程度は同程度の地震に注意」 千葉・横芝光町で震度5弱（2026年10月28日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBjOThaaVR4UmppWVRacHd3eGVPOGJ1dWhiQV9xMW5DOW5aRHZLdWd1Z3JnRC",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjOThaaVR4UmppWVRacHd3eGVPOGJ1dWhiQV9xMW5DOW5aRHZLdWd1Z3JnRC1aX19kXzFSQlNINFlkLVB4N0owWEJQWjAwZmZDcTd4UFJBQUxkUlczSk4xeUJYUzlpOGpNdGdmT1hoOEo5Z3RNZmRGOGY2NzI?oc=5",
+   "date": "Wed, 28 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "【地震情報】関東で最大震度5弱の地震発生、マグニチュードは5・4 埼玉、千葉、神奈川など強く揺れる その後も関東で地震が相次ぐ（埼玉新聞） - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE0zQmpldTVXY2haOU9aV0NXTkF6WXdLRUs0TUFpVVVPTF9PekxNdUozQnpfRF",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zQmpldTVXY2haOU9aV0NXTkF6WXdLRUs0TUFpVVVPTF9PekxNdUozQnpfRFlIN1FjeHlqbWJFN2s1Z01WR0prVTByMWU5aWx4S1RQSzF6Y2psU3ZFY21jbDlfbFJ6YzdyekxjYXZjX1lWNXI2ZzN0U0VxcFdSUTA?oc=5",
+   "date": "Wed, 28 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "非常に強い台風31号(インファ) 小笠原諸島の南で動きが鈍る 進路に注目 - ウェザーニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE93R3ppUGhFdWRINnFFZncxVHNMVllDMWRIbUptcVlyVUM1SjdQQi1ObHU1Rj",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93R3ppUGhFdWRINnFFZncxVHNMVllDMWRIbUptcVlyVUM1SjdQQi1ObHU1RjFTRnlCS0lDSlJDcFBicUxrckRlZHlxTmZQUGhsdkdBYQ?oc=5",
+   "date": "Thu, 29 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "台風31号は非常に強い勢力で西進中 小笠原諸島は影響が長引くおそれ 高波に注意(気象予報士 青山 亜紀子) - tenki.jp",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9NZ1ZYeldheXVpaHJHSFF4RzRmSFdDckFrNTZfZjcyYU9xOWdfX3VfRFBPN0",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NZ1ZYeldheXVpaHJHSFF4RzRmSFdDckFrNTZfZjcyYU9xOWdfX3VfRFBPN0EzZVBJYWFSZ09UVnN2T1k3SV9CTDNEb1IzSmlsMXR0UW1nMVJ3R1E3RXJIcHVIQjBmVmJCdFE?oc=5",
+   "date": "Thu, 29 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "【台風情報】最大瞬間風速65m/s・中心気圧940hPa…非常に強い「台風31号（インファ）」勢力を保ち、週明けに日本の南へ 今後の進路予想は?日本への影響は? 11月9日にかけての降水シミュレーション【気象庁30日6時45分発表】（BSS山陰放送） - Yahoo!ニュース",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFAzZk5BY2VnWEpiX3VHUEFxSExrVFl4bUh0d1hReThtMkVRMUxwaVhMR0dXMF",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzZk5BY2VnWEpiX3VHUEFxSExrVFl4bUh0d1hReThtMkVRMUxwaVhMR0dXMFNnUF93Y2Zjc0xMQnJ1YmRmZmExYlhPSGpkM2pvMUM1UERUbFNvUUp3LXgtTVRQZEthZXJUU2E0aWRfa25xRWVaaFEtWmFzQUlILU0?oc=5",
+   "date": "Thu, 29 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "台風31号に注意 沖縄気象台「台風の進路に幅」 11月3日ごろ影響も - 琉球新報デジタル",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE90TnFwQ0lFVjl1MkZMSy1fUmlnYTdHTU95Szh2cTFjU3cxdVlqLTBYRWlnc2",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90TnFwQ0lFVjl1MkZMSy1fUmlnYTdHTU95Szh2cTFjU3cxdVlqLTBYRWlnc2wxRGR2Y3Zlby0yYnhvT004a3kyZThiTGlpbXdwWUMtdEh4bjI5Mm5pbzhsVw?oc=5",
+   "date": "Thu, 29 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "[藤岡雅宣の「モバイル技術百景」] ドコモだけ配信できなかった「緊急地震速報」、そのしくみとほかの手段を考える - ケータイ Watch",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFA0dTBJa1NHTzhfcFlCcFVUZFhyWFUyVkZpMlFFYThBQUtzODZIemo3aWk4SD",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0dTBJa1NHTzhfcFlCcFVUZFhyWFUyVkZpMlFFYThBQUtzODZIemo3aWk4SDMzSEpBSDZTS0puQ3Nuc044VTVSS1lxYjdMcnRrTG5XNXBjc3FWM1Y4MU9iSlQ0Z1JUMVk2QUV2aFg1bUtsSTAx?oc=5",
+   "date": "Thu, 29 Oct 2026"
+  },
+  {
+   "category": "台风・灾害",
+   "title": "【台風情報】台風31号 中心気圧940hPa,最大瞬間風速65m予想【全国47都道府県の週間天気予報11月6日まで】気象庁の進路予想 - TBS NEWS DIG",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TcVBUM2hGbS1zOWZVejZibHpkOVdpTGMyS0Y5enVFSHQtbUlhVFVtT3BDMj",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TcVBUM2hGbS1zOWZVejZibHpkOVdpTGMyS0Y5enVFSHQtbUlhVFVtT3BDMjV1UGF4Nk5HWUxsMVY5akF4TFFtMUl2MUlTOFFmRnZpeGxEaw?oc=5",
+   "date": "Thu, 29 Oct 2026"
   }
  ]
 }
