@@ -1,0 +1,14 @@
+{
+ "date": "2026-11-23",
+ "brands": {
+  "Jackery": 52,
+  "EcoFlow": 43,
+  "Anker": 1265,
+  "Anker Solix": 6,
+  "Bluetti": 12
+ },
+ "categories": {
+  "ポータブル電源": 1450,
+  "ポータブルバッテリー": 117
+ }
+}
